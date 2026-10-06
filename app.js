@@ -56,7 +56,7 @@ window.recalc = async () => {
 const COLS = [
   ['name', 'Recipe', false], ['ml', 'ml', true], ['ppm', 'kina/min', true], ['profit', 'profit/craft', true], ['roi', 'ROI', true],
   ['cost', 'cost', true], ['ev', 'EV', true], ['mins', 'min', true], ['crafts', 'crafts @budget', true],
-  ['plain', 'plain ask', true], ['plainL', 'L', true], ['green', 'green ask', true], ['greenL', 'gL', true], ['maxTrade', 'max trade', true], ['band', 'cleared band', false], ['breakEvenGreen', 'break-even green', true],
+  ['plain', 'plain ask', true], ['plainL', 'L', true], ['green', 'Splendent ask', true], ['greenL', 'sL', true], ['maxTrade', 'max trade', true], ['band', 'cleared band', false], ['breakEvenGreen', 'break-even Splendent', true],
 ];
 window.sortBy = k => { if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = -1; } renderOpps(); };
 
@@ -115,7 +115,7 @@ function renderRecipe(rid) {
       <div>expected value</div><div>${fmt(r.ev)} <span class="dim">at ${pct(s)} success, tax ${pct(P.tax)}</span></div>
       <div>profit per craft</div><div class="${cls(r.profit)}">${fmt(r.profit)} <span class="dim">(${pct(r.roi)} ROI)</span></div>
       <div>profit per minute</div><div class="${cls(r.ppm)}">${fmt(r.ppm)} <span class="dim">(${r.mins.toFixed(1)} min incl. own-crafted inputs)</span></div>
-      ${combo ? `<div>break-even green</div><div>${fmt(r.breakEvenGreen)}</div>` : ''}
+      ${combo ? `<div>break-even Splendent</div><div>${fmt(r.breakEvenGreen)}</div>` : ''}
       <div>crafts with budget</div><div>${r.crafts} <span class="dim">(${fmt(r.crafts * r.profit)} expected)</span></div>
     </div>` : '<div class="bad">Output not priced on this server.</div>'}
     <h2>Inputs (cheapest route)</h2><div class="tree">${treeHtml(t)}</div>`;
