@@ -12,8 +12,17 @@ export const DEFAULTS = {
   minPerCraft: 1,
   budget: 5000000,
   succLow: 96, succMid: 80, succHigh: 70, succTop: 60,  // percent, by mastery tier
+  askCap: 20,         // percent: ignore the ask when it sits more than this above the highest known trade
   minListings: 1,
 };
+
+// Highest price we have evidence actually traded: 28d max sale (where the game publishes it)
+// or the highest ask that ever vanished from the book. Null when nothing is known.
+export function maxTrade(k, ctx) {
+  const row = ctx.prices[k] || {}, h = ctx.history && ctx.history[k];
+  const cands = [row.smax, h && h.tmax_ever, h && h.tmax].filter(x => x);
+  return cands.length ? Math.max(...cands) : null;
+}
 
 export function successFor(ml, P) {
   if (ml <= 50) return P.succLow;
@@ -37,8 +46,16 @@ export function saleValue(k, ctx) {
   const h = history && history[k];
   if (P.priceBasis === 'low' && h && h.lo) v = Math.min(v, h.lo);
   if (P.priceBasis === 'high' && h && h.hi) v = h.hi;
+  // ask-cap rule: an ask more than askCap% above the highest known trade is not a price, use the trade
+  const mt = maxTrade(k, ctx);
+  if (mt && row.p > mt * (1 + P.askCap)) v = Math.min(v, mt);
   if (isGreen(itemName(graph, prices, k))) v *= P.greenMult;
   return v;
+}
+
+export function isCapped(k, ctx) {
+  const row = ctx.prices[k]; const mt = maxTrade(k, ctx);
+  return !!(row && row.p != null && mt && row.p > mt * (1 + ctx.P.askCap));
 }
 
 export function buyPrice(k, ctx) {
@@ -147,6 +164,7 @@ export function evaluate(graph, prices, history, P) {
       roi: rc.cost ? (ev - rc.cost) / rc.cost : 0, out, combo, cp, s,
       plain: pr.p ?? null, plainL: pr.n || 0, plainSold: pr.sold || 0, green: pc.p ?? null, greenL: pc.n || 0, greenSold: pc.sold || 0,
       hist: history && (history[combo || out] || null), breakEvenGreen, lines: rc.lines,
+      maxTrade: maxTrade(combo || out, ctx), capped: isCapped(combo || out, ctx) || isCapped(out, ctx),
       crafts: rc.cost > 0 ? Math.floor(P.budget / rc.cost) : 0,
     });
   }

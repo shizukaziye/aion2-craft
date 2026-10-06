@@ -1,4 +1,4 @@
-import { DEFAULTS, evaluate, tree, itemName, makeCtx } from './model/craft.js';
+import { DEFAULTS, evaluate, tree, itemName, maxTrade, isCapped } from './model/craft.js';
 
 const $ = id => document.getElementById(id);
 let GRAPH = null, SERVERS = null, META = null, PRICES = {}, HISTORY = {}, P = { ...DEFAULTS }, RESULT = null, SELECTED = null;
@@ -29,6 +29,7 @@ function readParams() {
     minPerCraft: Math.max(0.1, num('minPerCraft', 1)),
     budget: Math.max(0, num('budget', 0)),
     succLow: num('succLow', 96) / 100, succMid: num('succMid', 80) / 100, succHigh: num('succHigh', 70) / 100, succTop: num('succTop', 60) / 100,
+    askCap: Math.max(0, num('askCap', 20) / 100),
   };
 }
 window.resetDefaults = () => { setDefaultsToInputs(); recalc(); };
@@ -55,7 +56,7 @@ window.recalc = async () => {
 const COLS = [
   ['name', 'Recipe', false], ['ml', 'ml', true], ['ppm', 'kina/min', true], ['profit', 'profit/craft', true], ['roi', 'ROI', true],
   ['cost', 'cost', true], ['ev', 'EV', true], ['mins', 'min', true], ['crafts', 'crafts @budget', true],
-  ['plain', 'plain ask', true], ['plainL', 'L', true], ['green', 'green ask', true], ['greenL', 'gL', true], ['band', 'cleared band', false], ['breakEvenGreen', 'break-even green', true],
+  ['plain', 'plain ask', true], ['plainL', 'L', true], ['green', 'green ask', true], ['greenL', 'gL', true], ['maxTrade', 'max trade', true], ['band', 'cleared band', false], ['breakEvenGreen', 'break-even green', true],
 ];
 window.sortBy = k => { if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = -1; } renderOpps(); };
 
@@ -76,7 +77,7 @@ window.renderOpps = () => {
       <td><span class="name">${icon(r.out)}${r.name}</span><span class="pill">${r.prof}</span>${r.combo ? `<span class="pill">→ ${nm(r.combo)}</span>` : ''}</td>
       <td class="num">${r.ml}</td><td class="num ${cls(r.ppm)}">${fmt(r.ppm)}</td><td class="num ${cls(r.profit)}">${fmt(r.profit)}</td><td class="num ${cls(r.roi)}">${pct(r.roi)}</td>
       <td class="num">${fmt(r.cost)}</td><td class="num">${fmt(r.ev)}</td><td class="num">${r.mins.toFixed(1)}</td><td class="num">${r.crafts}</td>
-      <td class="num">${fmt(r.plain)}</td><td class="num dim">${r.plainL}</td><td class="num">${fmt(r.green)}</td><td class="num dim">${r.greenL}</td><td>${band}</td><td class="num">${fmt(r.breakEvenGreen)}</td></tr>`;
+      <td class="num">${fmt(r.plain)}</td><td class="num dim">${r.plainL}</td><td class="num">${fmt(r.green)}${r.capped ? ' <span class="pill bad" title="ask is more than the cap above the highest known trade; valued at the trade">capped</span>' : ''}</td><td class="num dim">${r.greenL}</td><td class="num">${fmt(r.maxTrade)}</td><td>${band}</td><td class="num">${fmt(r.breakEvenGreen)}</td></tr>`;
   }).join('');
   $('oppTable').innerHTML = head + body;
 };
@@ -95,6 +96,7 @@ function mktRow(k) {
     <div>ask</div><div>${fmt(v.p)} <span class="dim">(${v.n} listings)</span></div>
     <div>28d sold</div><div>${v.sold ? `${v.sold.toLocaleString()} @ avg ${fmt(v.avg)} (${fmt(v.smin)}–${fmt(v.smax)})` : '<span class="dim">not published for this item</span>'}</div>
     <div>cleared band</div><div>${h ? (h.lo ? `${fmt(h.lo)}–${fmt(h.hi)}` : '<span class="dim">no priced event</span>') + ` <span class="dim">· ${h.gone} listings gone in ${h.hours}h · 24h range ${fmt(h.low24)}–${fmt(h.high24)}</span>` : '<span class="dim">no history baked</span>'}</div>
+    <div>highest trade</div><div>${fmt(maxTrade(k, RESULT.ctx))}${isCapped(k, RESULT.ctx) ? ' <span class="pill bad">ask capped</span>' : ''}</div>
   </div>`;
 }
 

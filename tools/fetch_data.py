@@ -96,8 +96,9 @@ def cleared_band(points):
             if la and lb and lb > la * 1.001:
                 lows.append(la)
                 highs.append(lb)
+    # tmax = highest ask that vanished in this window (best evidence of a real trade price)
     return {"gone": gone, "events": events, "lo": min(lows) if lows else None, "hi": max(highs) if highs else None,
-            "hours": round(len(points) * 10 / 60, 1)}
+            "tmax": max(lows) if lows else None, "hours": round(len(points) * 10 / 60, 1)}
 
 
 def bake_history(server, keys, hours=24):
@@ -132,13 +133,33 @@ def main():
         for i in r["in"]:
             touched.add(str(i[0]))
     meta = {"baked_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "servers": {}}
+    meta_path = os.path.join(DATA, "meta.json")
+    if os.path.exists(meta_path):
+        try:
+            meta["servers"] = json.load(open(meta_path)).get("servers", {})  # keep servers not baked this run
+        except Exception:
+            pass
     for s in servers:
         prices = bake_prices(s)
         hist = {}
+        prev_path = os.path.join(DATA, f"prices_{s}.json")
+        prev_hist = {}
+        if os.path.exists(prev_path):
+            try:
+                prev_hist = json.load(open(prev_path, encoding="utf-8")).get("history", {}) or {}
+            except Exception:
+                prev_hist = {}
         if s in cfg.get("history_servers", []):
             keys = [k for k in prices if k in touched]
             hist = bake_history(s, keys)
             print(f"server {s}: history for {len(hist)} items")
+        # carry the all-time highest vanished ask forward across bakes
+        for k, h in hist.items():
+            ever = (prev_hist.get(k) or {}).get("tmax_ever")
+            h["tmax_ever"] = max(x for x in (ever, h.get("tmax")) if x) if (ever or h.get("tmax")) else None
+        for k, h in prev_hist.items():
+            if k not in hist and h.get("tmax_ever"):
+                hist[k] = {"gone": 0, "events": 0, "lo": None, "hi": None, "tmax": None, "hours": 0, "tmax_ever": h["tmax_ever"]}
         json.dump({"server": s, "prices": prices, "history": hist, "baked_at": meta["baked_at"]},
                   open(os.path.join(DATA, f"prices_{s}.json"), "w"), separators=(",", ":"))
         meta["servers"][str(s)] = {"items": len(prices), "history": len(hist), "has_sales": any(v["sold"] for v in prices.values())}
