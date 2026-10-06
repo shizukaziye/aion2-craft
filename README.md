@@ -1,0 +1,11 @@
+# Aion 2 Craft Market
+
+Which recipes pay, on your server, right now. Live at https://shizukaziye.github.io/aion2-craft/
+
+- Recipes and icons: the gamers4.life crafting graph (1,466 items, 2,442 recipes).
+- Prices: aion2.exchange cheapest listings per server, plus the 28-day sales statistics the game publishes for materials and consumables.
+- Cleared bands: for gear and accessories the game publishes no sales, so the bake infers what cleared from listings that vanished between 10-minute snapshots.
+
+`tools/fetch_data.py` bakes everything into `data/` and runs hourly from GitHub Actions. Add server ids to `data/config.json` to track more servers; `history_servers` gets the cleared-band bake, which costs one request per recipe-relevant item.
+
+Static page, no build step: `index.html`, `styles.css`, `app.js`, `model/craft.js`.
