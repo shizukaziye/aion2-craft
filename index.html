@@ -29,6 +29,7 @@
           <option value="ask">Cheapest ask</option><option value="low">Cleared band low (conservative)</option><option value="high">Cleared band high</option></select></label>
         <label>Splendent price × % <input id="greenMult" type="number" min="1" max="200"></label>
         <label>Sales tax % <input id="tax" type="number" min="0" max="50"></label>
+        <label>Listing fee % (paid per listing, sold or not) <input id="listFee" type="number" min="0" max="50"></label>
         <label>Refining Stone override (0 = market) <input id="rsOverride" type="number" min="0"></label>
         <label>Ignore ask if > % above highest trade <input id="askCap" type="number" min="0" max="500"></label>
         <div class="subh">You</div>
@@ -87,10 +88,10 @@
     <summary>Methodology</summary>
     <p>Recipes and icons come from the gamers4.life crafting graph. Prices are the cheapest current listing on aion2.exchange for the chosen server, refreshed hourly by a GitHub Action. 28-day sales statistics exist only where the game publishes them (materials, consumables, skins), so for gear and accessories the "cleared band" is inferred from listings that disappeared between 10-minute snapshots: the low end is the cheapest ask that vanished, the high end the next ask left standing. Disappearances include cancels and relists.</p>
     <div class="formula">cost   = recipe fee + Σ qty × cheapest(buy, craft, craft-via-combo) for each input
-EV     = success × [ (1 − combo) × plain price × outq + combo × Splendent price ] × (1 − tax)
+EV     = success × [ (1 − combo) × plain price × outq + combo × Splendent price ] × (1 − tax − listing fee)
 profit = EV − cost        profit/min = profit ÷ (own-craft minutes of inputs + minutes per craft)
-Splendent via own crafting = (attempt cost − success × (1−combo) × plain value × (1−tax)) ÷ (success × combo)
-break-even Splendent     = (cost ÷ (success × (1−tax)) − (1−combo) × plain) ÷ combo</div>
+Splendent via own crafting = (attempt cost − success × (1−combo) × plain value × (1−tax−fee)) ÷ (success × combo)
+break-even Splendent     = (cost ÷ (success × (1−tax−fee)) − (1−combo) × plain) ÷ combo</div>
     <p><b>Ask cap.</b> The cheapest ask is only used as a sale price when it sits within the cap (default 20%) of the highest known trade. The highest known trade is the 28-day maximum sale where the game publishes one, otherwise the highest ask that has ever vanished from the book, carried forward across bakes. Above the cap the item is valued at that trade instead, and the row is marked <span class="pill bad">capped</span>.</p>
     <p>Success rate is yours to set per mastery tier; Korean testing found ~95% on beginner recipes and ~65% on Dragon-King-tier recipes at matching mastery. A failed craft loses all materials. Bound NPC consumables (abrasive, catalyst, hardener, bottles) are costed at zero.</p>
   </details>

@@ -25,6 +25,7 @@ function readParams() {
     priceBasis: $('priceBasis').value,
     greenMult: Math.max(0.01, num('greenMult', 100) / 100),
     tax: Math.min(0.9, Math.max(0, num('tax', 10) / 100)),
+    listFee: Math.min(0.5, Math.max(0, num('listFee', 2) / 100)),
     rsOverride: Math.max(0, num('rsOverride', 0)),
     minPerCraft: Math.max(0.1, num('minPerCraft', 1)),
     budget: Math.max(0, num('budget', 0)),
@@ -112,7 +113,7 @@ function renderRecipe(rid) {
     ${combo ? `<div class="small">combo ${(rec.cp / 100).toFixed(0)}% → <span class="name">${icon(combo)}${nm(combo)}</span></div>` : ''}
     ${r ? `<div class="kv">
       <div>cost per craft</div><div>${fmt(r.cost)} <span class="dim">(fee ${fmt(rec.gold || 0)})</span></div>
-      <div>expected value</div><div>${fmt(r.ev)} <span class="dim">at ${pct(s)} success, tax ${pct(P.tax)}</span></div>
+      <div>expected value</div><div>${fmt(r.ev)} <span class="dim">at ${pct(s)} success, tax ${pct(P.tax)} + fee ${pct(P.listFee)}</span></div>
       <div>profit per craft</div><div class="${cls(r.profit)}">${fmt(r.profit)} <span class="dim">(${pct(r.roi)} ROI)</span></div>
       <div>profit per minute</div><div class="${cls(r.ppm)}">${fmt(r.ppm)} <span class="dim">(${r.mins.toFixed(1)} min incl. own-crafted inputs)</span></div>
       ${combo ? `<div>break-even Splendent</div><div>${fmt(r.breakEvenGreen)}</div>` : ''}

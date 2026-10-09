@@ -5,7 +5,8 @@ export const DEFAULTS = {
   server: 11102,
   profession: 'all',
   maxMastery: 55,
-  tax: 10,            // percent
+  tax: 10,            // percent sales tax at settlement
+  listFee: 2,         // percent registration fee, paid per listing whether it sells or not
   greenMult: 100,     // percent of ask applied to Splendent/combo outputs
   priceBasis: 'low',  // ask | low | high  (cleared band from history when available, else ask)
   rsOverride: 0,      // 0 = use market
@@ -132,7 +133,7 @@ export function makeCtx(graph, prices, history, P) {
   }
   let rsKey = null;
   for (const [k, v] of Object.entries(prices)) if (v.name === 'Refining Stone') rsKey = k;
-  return { graph, prices, history, P, byOut, byCombo, rsKey, keep: 1 - P.tax, memo: new Map() };
+  return { graph, prices, history, P, byOut, byCombo, rsKey, keep: 1 - P.tax - P.listFee, memo: new Map() };
 }
 
 // Evaluate every recipe. Returns rows sorted by profit per minute.
