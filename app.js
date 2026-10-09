@@ -1,4 +1,4 @@
-import { DEFAULTS, evaluate, tree, itemName, maxTrade, isCapped } from './model/craft.js?v=3';
+import { DEFAULTS, evaluate, tree, itemName, maxTrade, isCapped } from './model/craft.js?v=4';
 
 const $ = id => document.getElementById(id);
 let GRAPH = null, SERVERS = null, META = null, PRICES = {}, HISTORY = {}, P = { ...DEFAULTS }, RESULT = null, SELECTED = null;
@@ -26,6 +26,7 @@ function readParams() {
     greenMult: Math.max(0.01, num('greenMult', 100) / 100),
     tax: Math.min(0.9, Math.max(0, num('tax', 10) / 100)),
     listFee: Math.min(0.5, Math.max(0, num('listFee', 2) / 100)),
+    npcPrice: Math.max(0, num('npcPrice', 400)),
     rsOverride: Math.max(0, num('rsOverride', 0)),
     minPerCraft: Math.max(0.1, num('minPerCraft', 1)),
     budget: Math.max(0, num('budget', 0)),

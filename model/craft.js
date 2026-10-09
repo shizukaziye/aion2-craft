@@ -7,6 +7,7 @@ export const DEFAULTS = {
   maxMastery: 55,
   tax: 10,            // percent sales tax at settlement
   listFee: 2,         // percent registration fee, paid per listing whether it sells or not
+  npcPrice: 400,      // kina per bound NPC consumable (abrasive, catalyst, sandpaper, hardener, bottles)
   greenMult: 100,     // percent of ask applied to Splendent/combo outputs
   priceBasis: 'low',  // ask | low | high  (cleared band from history when available, else ask)
   rsOverride: 0,      // 0 = use market
@@ -63,8 +64,12 @@ export function buyPrice(k, ctx) {
   const { prices, P } = ctx;
   if (k === ctx.rsKey && P.rsOverride > 0) return P.rsOverride;
   const row = prices[k];
-  if (row && row.p != null) return row.p;
-  if (k.startsWith('630')) return 0; // bound NPC consumables
+  if (row && row.p != null) {
+    // a lone cheap ask is not a buy price: use the higher of ask and the cheapest ask that vanished recently
+    const h = ctx.history && ctx.history[k];
+    return h && h.lo ? Math.max(row.p, h.lo) : row.p;
+  }
+  if (k.startsWith('630')) return P.npcPrice; // bound NPC consumables
   return null;
 }
 
@@ -76,7 +81,7 @@ export function acquire(k, ctx, depth = 0) {
   const { graph, P } = ctx;
   let best = null;
   const bp = buyPrice(k, ctx);
-  if (bp != null) best = { cost: bp, mins: 0, how: bp === 0 && k.startsWith('630') ? 'npc' : 'buy', via: null };
+  if (bp != null) best = { cost: bp, mins: 0, how: k.startsWith('630') ? 'npc' : 'buy', via: null };
   if (depth < 5) {
     const rid = ctx.byOut.get(k);
     if (rid) {
