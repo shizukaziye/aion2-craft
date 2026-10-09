@@ -1,4 +1,4 @@
-import { DEFAULTS, evaluate, tree, itemName, maxTrade, isCapped } from './model/craft.js';
+import { DEFAULTS, evaluate, tree, itemName, maxTrade, isCapped } from './model/craft.js?v=3';
 
 const $ = id => document.getElementById(id);
 let GRAPH = null, SERVERS = null, META = null, PRICES = {}, HISTORY = {}, P = { ...DEFAULTS }, RESULT = null, SELECTED = null;
