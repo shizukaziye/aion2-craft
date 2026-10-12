@@ -32,6 +32,8 @@ export const NPC_PRICES = {
   'Glass Bottle (Bound)': 400, 'Catalyst (Bound)': 400, 'Professional Glass Bottle (Bound)': 1200, 'Professional Ink (Bound)': 1200,
   'Lesser Dragon Scale Hardener (Bound)': 4650, 'Intermediate Dragon Scale Hardener (Bound)': 5600, 'Superior Dragon Scale Hardener (Bound)': 6550,
   'Exceptional Ink (Bound)': 10000,
+  // base scrolls for the Superior scroll recipes (quest/NPC, ~1,000 kina per Shizu, Oct 2026)
+  'Courage Scroll (Bound)': 1000, 'Speed Scroll (Bound)': 1000, 'Benediction Scroll (Bound)': 1000, 'Absorption Scroll (Bound)': 1000,
 };
 
 export function comboFor(r, P) { return Math.min(1, ((r.cp || 0) / 10000) * (P.comboMult || 1)); }
@@ -73,6 +75,8 @@ export function isCapped(k, ctx) {
 export function buyPrice(k, ctx) {
   const { prices, P } = ctx;
   if (k === ctx.rsKey && P.rsOverride > 0) return P.rsOverride;
+  const named = ctx.graph.items[k] && NPC_PRICES[ctx.graph.items[k].n];
+  if (named) return named;
   const row = prices[k];
   if (row && row.p != null) {
     // a lone cheap ask is not a buy price: use the higher of ask and the cheapest ask that vanished recently
