@@ -1,4 +1,4 @@
-import { DEFAULTS, evaluate, tree, itemName, maxTrade, isCapped } from './model/craft.js?v=5';
+import { DEFAULTS, evaluate, tree, itemName, maxTrade, isCapped } from './model/craft.js?v=6';
 
 const $ = id => document.getElementById(id);
 let GRAPH = null, SERVERS = null, META = null, PRICES = {}, HISTORY = {}, P = { ...DEFAULTS }, RESULT = null, SELECTED = null;
@@ -32,6 +32,7 @@ function readParams() {
     budget: Math.max(0, num('budget', 0)),
     succLow: num('succLow', 96) / 100, succMid: num('succMid', 80) / 100, succHigh: num('succHigh', 70) / 100, succTop: num('succTop', 60) / 100,
     askCap: Math.max(0, num('askCap', 20) / 100),
+    comboMult: Math.max(0.01, num('comboMult', 100) / 100),
   };
 }
 window.resetDefaults = () => { setDefaultsToInputs(); recalc(); };
@@ -111,7 +112,7 @@ function renderRecipe(rid) {
   const s = r ? r.s : null;
   $('recipeDetail').innerHTML = `
     <h2 style="margin-top:0"><span class="name">${icon(out).replace('class="ic"', 'class="ic big"')}${nm(out)}</span> <span class="pill">${rec.p} · mastery ${rec.ml}</span></h2>
-    ${combo ? `<div class="small">combo ${(rec.cp / 100).toFixed(0)}% → <span class="name">${icon(combo)}${nm(combo)}</span></div>` : ''}
+    ${combo ? `<div class="small">combo ${(rec.cp / 100).toFixed(0)}%${P.comboMult !== 1 ? ` × ${P.comboMult} = ${Math.min(100, rec.cp / 100 * P.comboMult).toFixed(0)}%` : ''} → <span class="name">${icon(combo)}${nm(combo)}</span></div>` : ''}
     ${r ? `<div class="kv">
       <div>cost per craft</div><div>${fmt(r.cost)} <span class="dim">(fee ${fmt(rec.gold || 0)})</span></div>
       <div>expected value</div><div>${fmt(r.ev)} <span class="dim">at ${pct(s)} success, tax ${pct(P.tax)} + fee ${pct(P.listFee)}</span></div>

@@ -42,6 +42,7 @@
         <label>56–70 <input id="succHigh" type="number" min="1" max="100"></label>
         <label>71+ <input id="succTop" type="number" min="1" max="100"></label>
         <label>Combo (Splendent) chance <input id="comboInfo" disabled value="from recipe (25% typical)"></label>
+        <label>Combo rate multiplier % (200 = 2x event) <input id="comboMult" type="number" min="1" max="400"></label>
       </div>
       <div class="row">
         <button class="primary" onclick="recalc()">Recalculate</button>
@@ -97,6 +98,6 @@ break-even Splendent     = (cost ÷ (success × (1−tax−fee)) − (1−combo)
     <p>Success rate is yours to set per mastery tier; Korean testing found ~95% on beginner recipes and ~65% on Dragon-King-tier recipes at matching mastery. A failed craft loses all materials. Bound NPC consumables use the Alchemy and Handicrafting shop prices where known (catalyst and glass bottle 400, professional ink and bottle 1,200, dragon scale hardeners 4,650 to 6,550, exceptional ink 10,000), otherwise the NPC price input. Inputs bought from the market are priced at the higher of the cheapest ask and the cheapest ask that vanished in the window, so a lone low listing does not set the cost.</p>
   </details>
 </div>
-<script type="module" src="app.js?v=5"></script>
+<script type="module" src="app.js?v=6"></script>
 </body>
 </html>

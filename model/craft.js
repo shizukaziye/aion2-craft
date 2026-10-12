@@ -14,6 +14,7 @@ export const DEFAULTS = {
   minPerCraft: 1,
   budget: 5000000,
   succLow: 96, succMid: 80, succHigh: 70, succTop: 60,  // percent, by mastery tier
+  comboMult: 100,     // percent: 200 = a 2x combo-rate event or aura; combo chance is capped at 100%
   askCap: 20,         // percent: ignore the ask when it sits more than this above the highest known trade
   minListings: 1,
 };
@@ -32,6 +33,8 @@ export const NPC_PRICES = {
   'Lesser Dragon Scale Hardener (Bound)': 4650, 'Intermediate Dragon Scale Hardener (Bound)': 5600, 'Superior Dragon Scale Hardener (Bound)': 6550,
   'Exceptional Ink (Bound)': 10000,
 };
+
+export function comboFor(r, P) { return Math.min(1, ((r.cp || 0) / 10000) * (P.comboMult || 1)); }
 
 export function successFor(ml, P) {
   if (ml <= 50) return P.succLow;
@@ -98,7 +101,7 @@ export function acquire(k, ctx, depth = 0) {
       const r = graph.recipes[rid];
       const rc = recipeCost(r, ctx, depth + 1);
       if (rc) {
-        const s = successFor(r.ml, P), cp = (r.cp || 0) / 10000, outq = r.outq || 1;
+        const s = successFor(r.ml, P), cp = comboFor(r, P), outq = r.outq || 1;
         const comboCredit = r.combo ? cp * (saleValue(String(r.combo), ctx) || 0) * ctx.keep : 0;
         const perUnit = (rc.cost - s * comboCredit) / (s * (1 - cp) * outq);
         const mins = (rc.mins + P.minPerCraft) / (s * (1 - cp) * outq);
@@ -108,7 +111,7 @@ export function acquire(k, ctx, depth = 0) {
     const crid = ctx.byCombo.get(k);
     if (crid) {
       const r = graph.recipes[crid];
-      const cp = (r.cp || 0) / 10000;
+      const cp = comboFor(r, P);
       if (cp > 0) {
         const rc = recipeCost(r, ctx, depth + 1);
         if (rc) {
@@ -169,7 +172,7 @@ export function evaluate(graph, prices, history, P) {
     const rc = recipeCost(r, ctx);
     if (!rc) continue;
     seen.add(dedupe);
-    const s = successFor(r.ml, P), cp = (r.cp || 0) / 10000, outq = r.outq || 1;
+    const s = successFor(r.ml, P), cp = comboFor(r, P), outq = r.outq || 1;
     const plainV = (so || 0) * outq, greenV = sc == null ? plainV : sc;
     const ev = s * ((1 - cp) * plainV + cp * greenV) * ctx.keep;
     const mins = rc.mins + P.minPerCraft;
