@@ -26,6 +26,13 @@ export function maxTrade(k, ctx) {
   return cands.length ? Math.max(...cands) : null;
 }
 
+// Alchemy / Handicrafting NPC shop, kina (metabot, global client, Oct 2026)
+export const NPC_PRICES = {
+  'Glass Bottle (Bound)': 400, 'Catalyst (Bound)': 400, 'Professional Glass Bottle (Bound)': 1200, 'Professional Ink (Bound)': 1200,
+  'Lesser Dragon Scale Hardener (Bound)': 4650, 'Intermediate Dragon Scale Hardener (Bound)': 5600, 'Superior Dragon Scale Hardener (Bound)': 6550,
+  'Exceptional Ink (Bound)': 10000,
+};
+
 export function successFor(ml, P) {
   if (ml <= 50) return P.succLow;
   if (ml <= 55) return P.succMid;
@@ -69,7 +76,10 @@ export function buyPrice(k, ctx) {
     const h = ctx.history && ctx.history[k];
     return h && h.lo ? Math.max(row.p, h.lo) : row.p;
   }
-  if (k.startsWith('630')) return P.npcPrice; // bound NPC consumables
+  if (k.startsWith('630')) { // bound NPC consumables: known Alchemy/Handicraft shop prices, else the NPC price input
+    const n = ctx.graph.items[k] && ctx.graph.items[k].n;
+    return (n && NPC_PRICES[n]) || P.npcPrice;
+  }
   return null;
 }
 
