@@ -13,7 +13,8 @@ export const DEFAULTS = {
   rsOverride: 0,      // 0 = use market
   minPerCraft: 1,
   budget: 5000000,
-  succLow: 96, succMid: 80, succHigh: 70, succTop: 60,  // percent, by mastery tier
+  myMastery: 79,      // your mastery on the combined scale (Novice 1-50, Professional 51-120)
+  succLow: 96, succMid: 88, succHigh: 78, succTop: 65,  // percent, by how far your mastery sits above the recipe: 20+, 10-19, 0-9, below
   comboMult: 100,     // percent: 200 = a 2x combo-rate event or aura; combo chance is capped at 100%
   askCap: 20,         // percent: ignore the ask when it sits more than this above the highest known trade
   minListings: 1,
@@ -39,10 +40,11 @@ export const NPC_PRICES = {
 export function comboFor(r, P) { return Math.min(1, ((r.cp || 0) / 10000) * (P.comboMult || 1)); }
 
 export function successFor(ml, P) {
-  if (ml <= 50) return P.succLow;
-  if (ml <= 55) return P.succMid;
-  if (ml <= 70) return P.succHigh;
-  return P.succTop;
+  const gap = (P.myMastery || 0) - ml;
+  if (gap >= 20) return P.succLow;
+  if (gap >= 10) return P.succMid;
+  if (gap >= 0) return P.succHigh;
+  return P.succTop; // recipe above your mastery: Korean testing had ~65% at matching high-tier mastery
 }
 
 export function itemName(graph, prices, k) {

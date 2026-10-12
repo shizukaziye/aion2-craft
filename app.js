@@ -1,4 +1,4 @@
-import { DEFAULTS, evaluate, tree, itemName, maxTrade, isCapped } from './model/craft.js?v=7';
+import { DEFAULTS, evaluate, tree, itemName, maxTrade, isCapped } from './model/craft.js?v=8';
 
 const $ = id => document.getElementById(id);
 let GRAPH = null, SERVERS = null, META = null, PRICES = {}, HISTORY = {}, P = { ...DEFAULTS }, RESULT = null, SELECTED = null;
@@ -30,7 +30,8 @@ function readParams() {
     rsOverride: Math.max(0, num('rsOverride', 0)),
     minPerCraft: Math.max(0.1, num('minPerCraft', 1)),
     budget: Math.max(0, num('budget', 0)),
-    succLow: num('succLow', 96) / 100, succMid: num('succMid', 80) / 100, succHigh: num('succHigh', 70) / 100, succTop: num('succTop', 60) / 100,
+    myMastery: num('myMastery', 79),
+    succLow: num('succLow', 96) / 100, succMid: num('succMid', 88) / 100, succHigh: num('succHigh', 78) / 100, succTop: num('succTop', 65) / 100,
     askCap: Math.max(0, num('askCap', 20) / 100),
     comboMult: Math.max(0.01, num('comboMult', 100) / 100),
   };
