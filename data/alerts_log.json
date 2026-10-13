@@ -70,5 +70,21 @@
   "title": "Spiritstone",
   "value": -2480,
   "text": "Spiritstone ask 2,480 (73 listed), under your 3,000 line. Cleared 2,650–4,994, 68 gone in 4h."
+ },
+ {
+  "at": "2026-10-13T07:48:51.105Z",
+  "key": "recipe:111025001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Greatsword",
+  "value": 207711.52213333332,
+  "text": "Expert's Orichalcum Greatsword (blacksmithing 15): +207.7k per craft, 50% ROI, cost 412.6k, 9 cleared in 4h, Splendent 2.78M (18 listed), break-even 1.72M"
+ },
+ {
+  "at": "2026-10-13T07:48:51.105Z",
+  "key": "below:610530001",
+  "type": "buy",
+  "title": "Refining Stone",
+  "value": -2000,
+  "text": "Refining Stone ask 2,000 (81 listed), under your 2,200 line. Cleared 2,400–3,999, 107 gone in 4h."
  }
 ]

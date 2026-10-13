@@ -1,80 +1,45 @@
 {
- "at": "2026-10-13T03:59:55.228Z",
+ "at": "2026-10-13T07:48:51.105Z",
  "server": 11102,
  "serverName": "Nezekan",
- "baked_at": "2026-10-13T03:58:14Z",
+ "baked_at": "2026-10-13T07:46:15Z",
  "current": [
-  {
-   "key": "recipe:111024001",
-   "type": "recipe",
-   "title": "Artisan's Orichalcum Greatsword",
-   "value": 848958.2333333334,
-   "text": "Artisan's Orichalcum Greatsword (blacksmithing 30): +849.0k per craft, 21% ROI, cost 4.08M, 5 cleared in 4h, Splendent 27.00M (7 listed), break-even 18.98M"
-  },
   {
    "key": "recipe:111025001",
    "type": "recipe",
    "title": "Expert's Orichalcum Greatsword",
-   "value": 146764.78879999998,
-   "text": "Expert's Orichalcum Greatsword (blacksmithing 15): +146.8k per craft, 32% ROI, cost 455.2k, 9 cleared in 4h, Splendent 2.85M (15 listed), break-even 2.01M"
+   "value": 207711.52213333332,
+   "text": "Expert's Orichalcum Greatsword (blacksmithing 15): +207.7k per craft, 50% ROI, cost 412.6k, 9 cleared in 4h, Splendent 2.78M (18 listed), break-even 1.72M"
   },
   {
-   "key": "recipe:311094001",
-   "type": "recipe",
-   "title": "Artisan's Truth Orb",
-   "value": 1200513.2442666655,
-   "text": "Artisan's Truth Orb (alchemy 30): +1.20M per craft, 27% ROI, cost 4.45M, 5 cleared in 4h, Splendent 25.00M (5 listed), break-even 19.07M"
-  },
-  {
-   "key": "below:610530008",
+   "key": "below:610530001",
    "type": "buy",
-   "title": "Artisan's Refining Stone",
-   "value": -434887,
-   "text": "Artisan's Refining Stone ask 434.9k (175 listed), under your 450.0k line. Cleared 440.0k–600.0k, 143 gone in 4h. 5 per Artisan's craft"
+   "title": "Refining Stone",
+   "value": -2000,
+   "text": "Refining Stone ask 2,000 (81 listed), under your 2,200 line. Cleared 2,400–3,999, 107 gone in 4h."
   },
   {
    "key": "below:610530014",
    "type": "buy",
    "title": "Spiritstone",
-   "value": -2480,
-   "text": "Spiritstone ask 2,480 (73 listed), under your 3,000 line. Cleared 2,650–4,994, 68 gone in 4h."
+   "value": -2299,
+   "text": "Spiritstone ask 2,299 (52 listed), under your 3,000 line. Cleared 2,650–4,994, 83 gone in 4h."
   }
  ],
  "fresh": [
   {
-   "key": "recipe:111024001",
-   "type": "recipe",
-   "title": "Artisan's Orichalcum Greatsword",
-   "value": 848958.2333333334,
-   "text": "Artisan's Orichalcum Greatsword (blacksmithing 30): +849.0k per craft, 21% ROI, cost 4.08M, 5 cleared in 4h, Splendent 27.00M (7 listed), break-even 18.98M"
-  },
-  {
    "key": "recipe:111025001",
    "type": "recipe",
    "title": "Expert's Orichalcum Greatsword",
-   "value": 146764.78879999998,
-   "text": "Expert's Orichalcum Greatsword (blacksmithing 15): +146.8k per craft, 32% ROI, cost 455.2k, 9 cleared in 4h, Splendent 2.85M (15 listed), break-even 2.01M"
+   "value": 207711.52213333332,
+   "text": "Expert's Orichalcum Greatsword (blacksmithing 15): +207.7k per craft, 50% ROI, cost 412.6k, 9 cleared in 4h, Splendent 2.78M (18 listed), break-even 1.72M"
   },
   {
-   "key": "recipe:311094001",
-   "type": "recipe",
-   "title": "Artisan's Truth Orb",
-   "value": 1200513.2442666655,
-   "text": "Artisan's Truth Orb (alchemy 30): +1.20M per craft, 27% ROI, cost 4.45M, 5 cleared in 4h, Splendent 25.00M (5 listed), break-even 19.07M"
-  },
-  {
-   "key": "below:610530008",
+   "key": "below:610530001",
    "type": "buy",
-   "title": "Artisan's Refining Stone",
-   "value": -434887,
-   "text": "Artisan's Refining Stone ask 434.9k (175 listed), under your 450.0k line. Cleared 440.0k–600.0k, 143 gone in 4h. 5 per Artisan's craft"
-  },
-  {
-   "key": "below:610530014",
-   "type": "buy",
-   "title": "Spiritstone",
-   "value": -2480,
-   "text": "Spiritstone ask 2,480 (73 listed), under your 3,000 line. Cleared 2,650–4,994, 68 gone in 4h."
+   "title": "Refining Stone",
+   "value": -2000,
+   "text": "Refining Stone ask 2,000 (81 listed), under your 2,200 line. Cleared 2,400–3,999, 107 gone in 4h."
   }
  ]
 }
