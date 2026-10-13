@@ -1,0 +1,85 @@
+{
+  "server": 11102,
+  "model": {
+    "profession": "all",
+    "maxMastery": 120,
+    "priceBasis": "low",
+    "greenMult": 1.0,
+    "tax": 0.1,
+    "listFee": 0.02,
+    "askCap": 0.2,
+    "comboMult": 1.0,
+    "npcPrice": 400,
+    "myMastery": 79,
+    "minPerCraft": 1,
+    "budget": 5000000,
+    "succLow": 0.96,
+    "succMid": 0.88,
+    "succHigh": 0.78,
+    "succTop": 0.65
+  },
+  "recipe_alerts": {
+    "min_profit": 100000,
+    "min_roi": 0.2,
+    "min_gone": 5,
+    "min_listings_out": 3,
+    "max_cost": 6000000
+  },
+  "watch": [
+    {
+      "item": "Expert's Refining Stone",
+      "below": 55000,
+      "note": "5 per Expert's bow or spellbook"
+    },
+    {
+      "item": "Artisan's Refining Stone",
+      "below": 450000,
+      "note": "5 per Artisan's craft"
+    },
+    {
+      "item": "Refining Stone",
+      "below": 2200
+    },
+    {
+      "item": "Spiritstone",
+      "below": 3000
+    },
+    {
+      "item": "Splendent Truth Spellbook",
+      "below": 150000,
+      "note": "Expert's spellbook input, own cost ~186k"
+    },
+    {
+      "item": "Splendent Yggdrasil Bow",
+      "below": 120000,
+      "note": "Expert's bow input"
+    },
+    {
+      "item": "Amplify Stone (Unique)",
+      "below": 30000,
+      "note": "Amp plan"
+    },
+    {
+      "item": "Expert's Splendent Yggdrasil Bow",
+      "above": 3300000,
+      "note": "sell"
+    },
+    {
+      "item": "Expert's Splendent Truth Spellbook",
+      "above": 3400000,
+      "note": "sell"
+    },
+    {
+      "item": "Enhanced Thick Balaur Scale",
+      "above": 90000,
+      "note": "sell"
+    },
+    {
+      "item": "Artisan's Splendent Sapphire Ring",
+      "above": 12000000,
+      "note": "sell"
+    }
+  ],
+  "cooldown_hours": 6,
+  "improve_pct": 0.15
+}

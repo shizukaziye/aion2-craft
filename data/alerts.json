@@ -1,0 +1,66 @@
+{
+ "at": "2026-10-13T03:57:24.893Z",
+ "server": 11102,
+ "serverName": "Nezekan",
+ "baked_at": "2026-10-12T07:25:00Z",
+ "current": [
+  {
+   "key": "recipe:412036001",
+   "type": "recipe",
+   "title": "Orichalcum Helm",
+   "value": 111269.9,
+   "text": "Orichalcum Helm (tailoring 3): +111.3k per craft, 310% ROI, cost 35.9k, 10 cleared in 4h, Splendent 400.0k (8 listed), break-even -126.8k"
+  },
+  {
+   "key": "recipe:111065001",
+   "type": "recipe",
+   "title": "Expert's Orichalcum Mace",
+   "value": 129363.88800000004,
+   "text": "Expert's Orichalcum Mace (blacksmithing 15): +129.4k per craft, 30% ROI, cost 430.3k, 6 cleared in 4h, Splendent 2.50M (13 listed), break-even 1.89M"
+  },
+  {
+   "key": "recipe:111025001",
+   "type": "recipe",
+   "title": "Expert's Orichalcum Greatsword",
+   "value": 121710,
+   "text": "Expert's Orichalcum Greatsword (blacksmithing 15): +121.7k per craft, 28% ROI, cost 438.0k, 8 cleared in 4h, Splendent 3.00M (7 listed), break-even 1.92M"
+  },
+  {
+   "key": "below:110550014",
+   "type": "buy",
+   "title": "Splendent Truth Spellbook",
+   "value": -90000,
+   "text": "Splendent Truth Spellbook ask 90.0k (1 listed), under your 150.0k line. Cleared 230.0k–285.0k, 26 gone in 3.7h. Expert's spellbook input, own cost ~186k"
+  }
+ ],
+ "fresh": [
+  {
+   "key": "recipe:412036001",
+   "type": "recipe",
+   "title": "Orichalcum Helm",
+   "value": 111269.9,
+   "text": "Orichalcum Helm (tailoring 3): +111.3k per craft, 310% ROI, cost 35.9k, 10 cleared in 4h, Splendent 400.0k (8 listed), break-even -126.8k"
+  },
+  {
+   "key": "recipe:111065001",
+   "type": "recipe",
+   "title": "Expert's Orichalcum Mace",
+   "value": 129363.88800000004,
+   "text": "Expert's Orichalcum Mace (blacksmithing 15): +129.4k per craft, 30% ROI, cost 430.3k, 6 cleared in 4h, Splendent 2.50M (13 listed), break-even 1.89M"
+  },
+  {
+   "key": "recipe:111025001",
+   "type": "recipe",
+   "title": "Expert's Orichalcum Greatsword",
+   "value": 121710,
+   "text": "Expert's Orichalcum Greatsword (blacksmithing 15): +121.7k per craft, 28% ROI, cost 438.0k, 8 cleared in 4h, Splendent 3.00M (7 listed), break-even 1.92M"
+  },
+  {
+   "key": "below:110550014",
+   "type": "buy",
+   "title": "Splendent Truth Spellbook",
+   "value": -90000,
+   "text": "Splendent Truth Spellbook ask 90.0k (1 listed), under your 150.0k line. Cleared 230.0k–285.0k, 26 gone in 3.7h. Expert's spellbook input, own cost ~186k"
+  }
+ ]
+}

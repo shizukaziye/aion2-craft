@@ -57,6 +57,7 @@
     <button class="mbtn on" id="tab-opps" onclick="setTab('opps')">Opportunities</button>
     <button class="mbtn" id="tab-recipe" onclick="setTab('recipe')">Recipe</button>
     <button class="mbtn" id="tab-market" onclick="setTab('market')">Market</button>
+    <button class="mbtn" id="tab-alerts" onclick="setTab('alerts')">Alerts</button>
   </div>
 
   <section class="tab on" id="opps">
@@ -87,6 +88,15 @@
     <div class="scroll panel" style="padding:0;margin-top:8px"><table id="mktTable"></table></div>
   </section>
 
+  <section class="tab" id="alerts">
+    <div class="small" id="alertsMeta"></div>
+    <h2>Active now</h2>
+    <div class="panel" id="alertsNow"></div>
+    <h2>Recent, newest first</h2>
+    <div class="scroll panel" style="padding:0"><table id="alertsLog"></table></div>
+    <p class="small">Thresholds live in <code>data/alerts_config.json</code>: recipe alerts need the conservative profit, ROI, cleared count and listing minimums there; the watch list fires on an ask under a buy line or a vanished ask over a sell line. The hourly bake re-evaluates, comments new alerts on the repo's "Market alerts" issue, and posts to Discord if a webhook secret is set.</p>
+  </section>
+
   <details class="method">
     <summary>Methodology</summary>
     <p>Recipes and icons come from the gamers4.life crafting graph. Prices are the cheapest current listing on aion2.exchange for the chosen server, refreshed hourly by a GitHub Action. 28-day sales statistics exist only where the game publishes them (materials, consumables, skins), so for gear and accessories the "cleared band" is inferred from listings that disappeared between 10-minute snapshots: the low end is the cheapest ask that vanished, the high end the next ask left standing. Disappearances include cancels and relists.</p>
@@ -99,6 +109,6 @@ break-even Splendent     = (cost ÷ (success × (1−tax−fee)) − (1−combo)
     <p>Success rate is set by how far your mastery sits above the recipe, since mastery above the recipe level raises the rate; Korean testing found ~95% on low recipes well below the crafter's mastery and ~65% on Dragon-King-tier recipes at matching mastery. A failed craft loses all materials. Bound NPC consumables use the Alchemy and Handicrafting shop prices where known (catalyst and glass bottle 400, professional ink and bottle 1,200, dragon scale hardeners 4,650 to 6,550, exceptional ink 10,000), otherwise the NPC price input. Inputs bought from the market are priced at the higher of the cheapest ask and the cheapest ask that vanished in the window, so a lone low listing does not set the cost.</p>
   </details>
 </div>
-<script type="module" src="app.js?v=8"></script>
+<script type="module" src="app.js?v=9"></script>
 </body>
 </html>

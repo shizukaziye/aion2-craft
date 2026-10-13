@@ -1,0 +1,8 @@
+{
+  "name": "aion2-craft",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "alerts": "node tools/alerts.mjs"
+  }
+}

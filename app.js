@@ -1,4 +1,4 @@
-import { DEFAULTS, evaluate, tree, itemName, maxTrade, isCapped } from './model/craft.js?v=8';
+import { DEFAULTS, evaluate, tree, itemName, maxTrade, isCapped } from './model/craft.js?v=9';
 
 const $ = id => document.getElementById(id);
 let GRAPH = null, SERVERS = null, META = null, PRICES = {}, HISTORY = {}, P = { ...DEFAULTS }, RESULT = null, SELECTED = null;
@@ -11,7 +11,7 @@ const icon = k => { const it = GRAPH.items[k]; return it && it.icon ? `<img clas
 const nm = k => itemName(GRAPH, PRICES, k);
 
 window.toggleInputs = () => { const d = $('inputs'); const open = d.style.display === 'none'; d.style.display = open ? '' : 'none'; $('togArrow').textContent = open ? '▾' : '▸'; };
-window.setTab = t => { for (const s of document.querySelectorAll('.tab')) s.classList.toggle('on', s.id === t); for (const b of document.querySelectorAll('.tabs .mbtn')) b.classList.toggle('on', b.id === 'tab-' + t); };
+window.setTab = t => { if (t === 'alerts') renderAlerts(); for (const s of document.querySelectorAll('.tab')) s.classList.toggle('on', s.id === t); for (const b of document.querySelectorAll('.tabs .mbtn')) b.classList.toggle('on', b.id === 'tab-' + t); };
 
 function setDefaultsToInputs() {
   for (const k of Object.keys(DEFAULTS)) { const el = $(k); if (el) el.value = DEFAULTS[k]; }
@@ -144,6 +144,18 @@ window.renderMarket = () => {
     rows.slice(0, 600).map(([k, v]) => { const h = HISTORY[k]; return `<tr><td><span class="name">${icon(k)}${v.name}</span></td><td class="dim">${v.cat}</td><td class="num">${fmt(v.p)}</td><td class="num dim">${v.n}</td><td class="num ${cls(v.chg)}">${v.chg == null ? '–' : v.chg.toFixed(0) + '%'}</td><td class="num">${v.sold ? v.sold.toLocaleString() : '<span class="dim">–</span>'}</td><td class="num">${fmt(v.avg)}</td><td>${h && h.lo ? `${fmt(h.lo)}–${fmt(h.hi)} <span class="dim">(${h.gone}/${h.hours}h)</span>` : h ? `<span class="dim">${h.gone} gone/${h.hours}h</span>` : ''}</td><td>${craftable.has(k) ? `<button class="mbtn" onclick="pick('${RESULT.ctx.byOut.get(k) || RESULT.ctx.byCombo.get(k)}')">recipe</button>` : ''}</td></tr>`; }).join('');
 };
 
+async function renderAlerts() {
+  let a = null, log = [];
+  try { a = await (await fetch('data/alerts.json', { cache: 'no-cache' })).json(); } catch (e) {}
+  try { log = await (await fetch('data/alerts_log.json', { cache: 'no-cache' })).json(); } catch (e) {}
+  if (!a) { $('alertsMeta').textContent = 'no alert data baked yet'; return; }
+  $('alertsMeta').textContent = `${a.serverName} · evaluated ${a.at.replace('T', ' ').slice(0, 16)} UTC on data from ${(a.baked_at || '').replace('T', ' ').slice(0, 16)} UTC · ${a.current.length} active`;
+  const pill = t => `<span class="pill ${t === 'sell' ? 'good' : t === 'buy' ? 'accent' : ''}">${t}</span>`;
+  $('alertsNow').innerHTML = a.current.length ? '<ul style="margin:0;padding-left:18px">' + a.current.map(x => `<li>${pill(x.type)} ${x.text}</li>`).join('') + '</ul>' : '<span class="dim">nothing over the thresholds right now</span>';
+  $('alertsLog').innerHTML = '<tr><th>when (UTC)</th><th>type</th><th>alert</th></tr>' + log.slice().reverse().slice(0, 200).map(x => `<tr><td class="dim">${x.at.replace('T', ' ').slice(0, 16)}</td><td>${pill(x.type)}</td><td style="white-space:normal">${x.text}</td></tr>`).join('');
+}
+window.renderAlerts = renderAlerts;
+
 async function init() {
   [GRAPH, SERVERS, META] = await Promise.all([
     fetch('data/graph.json').then(r => r.json()),
@@ -162,5 +174,6 @@ async function init() {
   for (const v of Object.values(PRICES)) secs.add(v.sec);
   $('mktSection').innerHTML = '<option value="">all sections</option>' + [...secs].sort().map(s => `<option value="${s}">${s}</option>`).join('');
   await recalc();
+  if (location.hash === '#alerts') setTab('alerts');
 }
 init();
