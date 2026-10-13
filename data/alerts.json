@@ -1,122 +1,52 @@
 {
- "at": "2026-10-13T16:05:16.538Z",
+ "at": "2026-10-13T21:21:35.578Z",
  "server": 11102,
  "serverName": "Nezekan",
- "baked_at": "2026-10-13T16:03:04Z",
+ "baked_at": "2026-10-13T21:18:50Z",
  "current": [
-  {
-   "key": "recipe:111024001",
-   "type": "recipe",
-   "title": "Artisan's Orichalcum Greatsword",
-   "value": 1637597.9166666665,
-   "text": "Artisan's Orichalcum Greatsword (blacksmithing 30): +1.64M per craft, 46% ROI, cost 3.54M, 6 cleared in 4.2h, Splendent 24.00M (13 listed), break-even 15.25M"
-  },
   {
    "key": "recipe:111014001",
    "type": "recipe",
    "title": "Artisan's Orichalcum Longsword",
-   "value": 1329597.9166666665,
-   "text": "Artisan's Orichalcum Longsword (blacksmithing 30): +1.33M per craft, 37% ROI, cost 3.59M, 5 cleared in 4.2h, Splendent 25.00M (2 listed), break-even 16.70M"
+   "value": 1119808.862933333,
+   "text": "Artisan's Orichalcum Longsword (blacksmithing 30): +1.12M per craft, 28% ROI, cost 4.05M, 5 cleared in 4.2h, Splendent 25.00M (2 listed), break-even 17.70M"
+  },
+  {
+   "key": "recipe:111024001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Greatsword",
+   "value": 1009813.333333333,
+   "text": "Artisan's Orichalcum Greatsword (blacksmithing 30): +1.01M per craft, 24% ROI, cost 4.16M, 7 cleared in 4.2h, Splendent 24.00M (11 listed), break-even 18.22M"
   },
   {
    "key": "recipe:111025001",
    "type": "recipe",
    "title": "Expert's Orichalcum Greatsword",
-   "value": 271715.5,
-   "text": "Expert's Orichalcum Greatsword (blacksmithing 15): +271.7k per craft, 72% ROI, cost 375.6k, 11 cleared in 4.2h, Splendent 2.78M (17 listed), break-even 1.40M"
-  },
-  {
-   "key": "recipe:111084001",
-   "type": "recipe",
-   "title": "Artisan's Orichalcum Guard",
-   "value": 760987.2830666672,
-   "text": "Artisan's Orichalcum Guard (blacksmithing 35): +761.0k per craft, 20% ROI, cost 3.77M, 7 cleared in 4.2h, Splendent 22.00M (10 listed), break-even 17.40M"
-  },
-  {
-   "key": "recipe:111015001",
-   "type": "recipe",
-   "title": "Expert's Orichalcum Longsword",
-   "value": 155133.09999999998,
-   "text": "Expert's Orichalcum Longsword (blacksmithing 15): +155.1k per craft, 42% ROI, cost 370.3k, 8 cleared in 4.2h, Splendent 2.20M (21 listed), break-even 1.47M"
-  },
-  {
-   "key": "below:610530008",
-   "type": "buy",
-   "title": "Artisan's Refining Stone",
-   "value": -439990,
-   "text": "Artisan's Refining Stone ask 440.0k (268 listed), under your 450.0k line. Cleared 434.9k–570.0k, 216 gone in 4.2h. 5 per Artisan's craft"
-  },
-  {
-   "key": "below:610530001",
-   "type": "buy",
-   "title": "Refining Stone",
-   "value": -1499,
-   "text": "Refining Stone ask 1,499 (120 listed), under your 2,200 line. Cleared 2,700–3,500, 105 gone in 4.2h."
+   "value": 128930,
+   "text": "Expert's Orichalcum Greatsword (blacksmithing 15): +128.9k per craft, 28% ROI, cost 462.4k, 13 cleared in 4.2h, Splendent 2.50M (21 listed), break-even 1.89M"
   },
   {
    "key": "below:610530014",
    "type": "buy",
    "title": "Spiritstone",
-   "value": -2997,
-   "text": "Spiritstone ask 2,997 (48 listed), under your 3,000 line. Cleared 2,299–3,498, 104 gone in 4.2h."
+   "value": -2396,
+   "text": "Spiritstone ask 2,396 (51 listed), under your 3,000 line. Cleared 2,200–3,480, 113 gone in 4.2h."
+  },
+  {
+   "key": "below:110550014",
+   "type": "buy",
+   "title": "Splendent Truth Spellbook",
+   "value": -89950,
+   "text": "Splendent Truth Spellbook ask 90.0k (35 listed), under your 150.0k line. Cleared –––, 5 gone in 4.2h. Expert's spellbook input, own cost ~186k"
   }
  ],
  "fresh": [
   {
-   "key": "recipe:111024001",
-   "type": "recipe",
-   "title": "Artisan's Orichalcum Greatsword",
-   "value": 1637597.9166666665,
-   "text": "Artisan's Orichalcum Greatsword (blacksmithing 30): +1.64M per craft, 46% ROI, cost 3.54M, 6 cleared in 4.2h, Splendent 24.00M (13 listed), break-even 15.25M"
-  },
-  {
-   "key": "recipe:111014001",
-   "type": "recipe",
-   "title": "Artisan's Orichalcum Longsword",
-   "value": 1329597.9166666665,
-   "text": "Artisan's Orichalcum Longsword (blacksmithing 30): +1.33M per craft, 37% ROI, cost 3.59M, 5 cleared in 4.2h, Splendent 25.00M (2 listed), break-even 16.70M"
-  },
-  {
-   "key": "recipe:111025001",
-   "type": "recipe",
-   "title": "Expert's Orichalcum Greatsword",
-   "value": 271715.5,
-   "text": "Expert's Orichalcum Greatsword (blacksmithing 15): +271.7k per craft, 72% ROI, cost 375.6k, 11 cleared in 4.2h, Splendent 2.78M (17 listed), break-even 1.40M"
-  },
-  {
-   "key": "recipe:111084001",
-   "type": "recipe",
-   "title": "Artisan's Orichalcum Guard",
-   "value": 760987.2830666672,
-   "text": "Artisan's Orichalcum Guard (blacksmithing 35): +761.0k per craft, 20% ROI, cost 3.77M, 7 cleared in 4.2h, Splendent 22.00M (10 listed), break-even 17.40M"
-  },
-  {
-   "key": "recipe:111015001",
-   "type": "recipe",
-   "title": "Expert's Orichalcum Longsword",
-   "value": 155133.09999999998,
-   "text": "Expert's Orichalcum Longsword (blacksmithing 15): +155.1k per craft, 42% ROI, cost 370.3k, 8 cleared in 4.2h, Splendent 2.20M (21 listed), break-even 1.47M"
-  },
-  {
-   "key": "below:610530008",
+   "key": "below:110550014",
    "type": "buy",
-   "title": "Artisan's Refining Stone",
-   "value": -439990,
-   "text": "Artisan's Refining Stone ask 440.0k (268 listed), under your 450.0k line. Cleared 434.9k–570.0k, 216 gone in 4.2h. 5 per Artisan's craft"
-  },
-  {
-   "key": "below:610530001",
-   "type": "buy",
-   "title": "Refining Stone",
-   "value": -1499,
-   "text": "Refining Stone ask 1,499 (120 listed), under your 2,200 line. Cleared 2,700–3,500, 105 gone in 4.2h."
-  },
-  {
-   "key": "below:610530014",
-   "type": "buy",
-   "title": "Spiritstone",
-   "value": -2997,
-   "text": "Spiritstone ask 2,997 (48 listed), under your 3,000 line. Cleared 2,299–3,498, 104 gone in 4.2h."
+   "title": "Splendent Truth Spellbook",
+   "value": -89950,
+   "text": "Splendent Truth Spellbook ask 90.0k (35 listed), under your 150.0k line. Cleared –––, 5 gone in 4.2h. Expert's spellbook input, own cost ~186k"
   }
  ]
 }
