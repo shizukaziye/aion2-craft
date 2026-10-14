@@ -1,52 +1,52 @@
 {
- "at": "2026-10-14T06:16:14.748Z",
+ "at": "2026-10-14T12:05:27.103Z",
  "server": 11102,
  "serverName": "Nezekan",
- "baked_at": "2026-10-14T06:13:58Z",
+ "baked_at": "2026-10-14T12:03:04Z",
  "current": [
   {
-   "key": "recipe:111014001",
-   "type": "recipe",
-   "title": "Artisan's Orichalcum Longsword",
-   "value": 925361.3362666657,
-   "text": "Artisan's Orichalcum Longsword (blacksmithing 30): +925.4k per craft, 22% ROI, cost 4.24M, 5 cleared in 4h, Splendent 30.00M (3 listed), break-even 18.62M"
+   "key": "below:610530001",
+   "type": "buy",
+   "title": "Refining Stone",
+   "value": -2000,
+   "text": "Refining Stone ask 2,000 (94 listed), under your 2,200 line. Cleared 1,499–4,500, 112 gone in 4.2h."
   },
   {
    "key": "below:610530014",
    "type": "buy",
    "title": "Spiritstone",
-   "value": -2749,
-   "text": "Spiritstone ask 2,749 (56 listed), under your 3,000 line. Cleared 2,000–3,480, 71 gone in 4.2h."
+   "value": -2744,
+   "text": "Spiritstone ask 2,744 (64 listed), under your 3,000 line. Cleared 2,000–2,997, 48 gone in 4.2h."
   },
   {
    "key": "below:110550014",
    "type": "buy",
    "title": "Splendent Truth Spellbook",
-   "value": -128887,
-   "text": "Splendent Truth Spellbook ask 128.9k (32 listed), under your 150.0k line. Cleared 89.0k–150.0k, 19 gone in 4.2h. Expert's spellbook input, own cost ~186k"
+   "value": -145000,
+   "text": "Splendent Truth Spellbook ask 145.0k (28 listed), under your 150.0k line. Cleared 89.0k–150.0k, 18 gone in 4.2h. Expert's spellbook input, own cost ~186k"
+  },
+  {
+   "key": "below:110450014",
+   "type": "buy",
+   "title": "Splendent Yggdrasil Bow",
+   "value": -89999,
+   "text": "Splendent Yggdrasil Bow ask 90.0k (54 listed), under your 120.0k line. Cleared –––, 20 gone in 4.2h. Expert's bow input"
   }
  ],
  "fresh": [
   {
-   "key": "recipe:111014001",
-   "type": "recipe",
-   "title": "Artisan's Orichalcum Longsword",
-   "value": 925361.3362666657,
-   "text": "Artisan's Orichalcum Longsword (blacksmithing 30): +925.4k per craft, 22% ROI, cost 4.24M, 5 cleared in 4h, Splendent 30.00M (3 listed), break-even 18.62M"
+   "key": "below:610530001",
+   "type": "buy",
+   "title": "Refining Stone",
+   "value": -2000,
+   "text": "Refining Stone ask 2,000 (94 listed), under your 2,200 line. Cleared 1,499–4,500, 112 gone in 4.2h."
   },
   {
-   "key": "below:610530014",
+   "key": "below:110450014",
    "type": "buy",
-   "title": "Spiritstone",
-   "value": -2749,
-   "text": "Spiritstone ask 2,749 (56 listed), under your 3,000 line. Cleared 2,000–3,480, 71 gone in 4.2h."
-  },
-  {
-   "key": "below:110550014",
-   "type": "buy",
-   "title": "Splendent Truth Spellbook",
-   "value": -128887,
-   "text": "Splendent Truth Spellbook ask 128.9k (32 listed), under your 150.0k line. Cleared 89.0k–150.0k, 19 gone in 4.2h. Expert's spellbook input, own cost ~186k"
+   "title": "Splendent Yggdrasil Bow",
+   "value": -89999,
+   "text": "Splendent Yggdrasil Bow ask 90.0k (54 listed), under your 120.0k line. Cleared –––, 20 gone in 4.2h. Expert's bow input"
   }
  ]
 }
