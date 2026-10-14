@@ -1,6 +1,5 @@
-**Nezekan** · data 2026-10-14T12:03:04Z · 4 active, 2 new
+**Nezekan** · data 2026-10-14T17:15:47Z · 2 active, 1 new
 
-- **BUY** Refining Stone ask 2,000 (94 listed), under your 2,200 line. Cleared 1,499–4,500, 112 gone in 4.2h.
-- **BUY** Splendent Yggdrasil Bow ask 90.0k (54 listed), under your 120.0k line. Cleared –––, 20 gone in 4.2h. Expert's bow input
+- **BUY** Spiritstone ask 2,590 (34 listed), under your 3,000 line. Cleared 2,000–2,900, 85 gone in 4h.
 
 https://shizukaziye.github.io/aion2-craft/#alerts
