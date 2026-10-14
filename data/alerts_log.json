@@ -174,5 +174,29 @@
   "title": "Spiritstone",
   "value": -1894,
   "text": "Spiritstone ask 1,894 (56 listed), under your 3,000 line. Cleared 2,000–3,480, 111 gone in 4.2h."
+ },
+ {
+  "at": "2026-10-14T06:16:14.748Z",
+  "key": "recipe:111014001",
+  "type": "recipe",
+  "title": "Artisan's Orichalcum Longsword",
+  "value": 925361.3362666657,
+  "text": "Artisan's Orichalcum Longsword (blacksmithing 30): +925.4k per craft, 22% ROI, cost 4.24M, 5 cleared in 4h, Splendent 30.00M (3 listed), break-even 18.62M"
+ },
+ {
+  "at": "2026-10-14T06:16:14.748Z",
+  "key": "below:610530014",
+  "type": "buy",
+  "title": "Spiritstone",
+  "value": -2749,
+  "text": "Spiritstone ask 2,749 (56 listed), under your 3,000 line. Cleared 2,000–3,480, 71 gone in 4.2h."
+ },
+ {
+  "at": "2026-10-14T06:16:14.748Z",
+  "key": "below:110550014",
+  "type": "buy",
+  "title": "Splendent Truth Spellbook",
+  "value": -128887,
+  "text": "Splendent Truth Spellbook ask 128.9k (32 listed), under your 150.0k line. Cleared 89.0k–150.0k, 19 gone in 4.2h. Expert's spellbook input, own cost ~186k"
  }
 ]
