@@ -1,24 +1,31 @@
 {
- "at": "2026-10-15T04:48:53.879Z",
+ "at": "2026-10-15T10:01:50.036Z",
  "server": 11102,
  "serverName": "Nezekan",
- "baked_at": "2026-10-15T04:46:05Z",
+ "baked_at": "2026-10-15T09:59:22Z",
  "current": [
   {
    "key": "below:610530008",
    "type": "buy",
    "title": "Artisan's Refining Stone",
-   "value": -449900,
-   "text": "Artisan's Refining Stone ask 449.9k (156 listed), under your 450.0k line. Cleared 400.0k–510.0k, 192 gone in 4h. 5 per Artisan's craft"
+   "value": -449999,
+   "text": "Artisan's Refining Stone ask 450.0k (152 listed), under your 450.0k line. Cleared 400.0k–510.0k, 201 gone in 4h. 5 per Artisan's craft"
+  },
+  {
+   "key": "below:610530001",
+   "type": "buy",
+   "title": "Refining Stone",
+   "value": -2000,
+   "text": "Refining Stone ask 2,000 (202 listed), under your 2,200 line. Cleared 1,488–3,232, 99 gone in 4h."
   }
  ],
  "fresh": [
   {
-   "key": "below:610530008",
+   "key": "below:610530001",
    "type": "buy",
-   "title": "Artisan's Refining Stone",
-   "value": -449900,
-   "text": "Artisan's Refining Stone ask 449.9k (156 listed), under your 450.0k line. Cleared 400.0k–510.0k, 192 gone in 4h. 5 per Artisan's craft"
+   "title": "Refining Stone",
+   "value": -2000,
+   "text": "Refining Stone ask 2,000 (202 listed), under your 2,200 line. Cleared 1,488–3,232, 99 gone in 4h."
   }
  ]
 }

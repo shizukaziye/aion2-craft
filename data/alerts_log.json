@@ -254,5 +254,13 @@
   "title": "Artisan's Refining Stone",
   "value": -449900,
   "text": "Artisan's Refining Stone ask 449.9k (156 listed), under your 450.0k line. Cleared 400.0k–510.0k, 192 gone in 4h. 5 per Artisan's craft"
+ },
+ {
+  "at": "2026-10-15T10:01:50.036Z",
+  "key": "below:610530001",
+  "type": "buy",
+  "title": "Refining Stone",
+  "value": -2000,
+  "text": "Refining Stone ask 2,000 (202 listed), under your 2,200 line. Cleared 1,488–3,232, 99 gone in 4h."
  }
 ]
