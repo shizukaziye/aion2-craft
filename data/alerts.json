@@ -1,52 +1,23 @@
 {
- "at": "2026-10-15T19:15:15.156Z",
+ "at": "2026-10-15T22:26:30.831Z",
  "server": 11102,
  "serverName": "Nezekan",
- "baked_at": "2026-10-15T19:12:11Z",
+ "baked_at": "2026-10-15T22:23:30Z",
  "current": [
   {
-   "key": "below:610530008",
-   "type": "buy",
-   "title": "Artisan's Refining Stone",
-   "value": -399999,
-   "text": "Artisan's Refining Stone ask 400.0k (147 listed), under your 450.0k line. Cleared 400.0k–525.0k, 201 gone in 4h. 5 per Artisan's craft"
-  },
-  {
    "key": "below:610530001",
    "type": "buy",
    "title": "Refining Stone",
-   "value": -1600,
-   "text": "Refining Stone ask 1,600 (229 listed), under your 2,200 line. Cleared –––, 44 gone in 4h."
+   "value": -1480,
+   "text": "Refining Stone ask 1,480 (195 listed), under your 2,200 line. Cleared –––, 80 gone in 4h."
   },
   {
    "key": "below:110550014",
    "type": "buy",
    "title": "Splendent Truth Spellbook",
-   "value": -111989,
-   "text": "Splendent Truth Spellbook ask 112.0k (34 listed), under your 150.0k line. Cleared 180.0k–200.0k, 15 gone in 4h. Expert's spellbook input, own cost ~186k"
+   "value": -120000,
+   "text": "Splendent Truth Spellbook ask 120.0k (29 listed), under your 150.0k line. Cleared 112.0k–200.0k, 21 gone in 4h. Expert's spellbook input, own cost ~186k"
   }
  ],
- "fresh": [
-  {
-   "key": "below:610530008",
-   "type": "buy",
-   "title": "Artisan's Refining Stone",
-   "value": -399999,
-   "text": "Artisan's Refining Stone ask 400.0k (147 listed), under your 450.0k line. Cleared 400.0k–525.0k, 201 gone in 4h. 5 per Artisan's craft"
-  },
-  {
-   "key": "below:610530001",
-   "type": "buy",
-   "title": "Refining Stone",
-   "value": -1600,
-   "text": "Refining Stone ask 1,600 (229 listed), under your 2,200 line. Cleared –––, 44 gone in 4h."
-  },
-  {
-   "key": "below:110550014",
-   "type": "buy",
-   "title": "Splendent Truth Spellbook",
-   "value": -111989,
-   "text": "Splendent Truth Spellbook ask 112.0k (34 listed), under your 150.0k line. Cleared 180.0k–200.0k, 15 gone in 4h. Expert's spellbook input, own cost ~186k"
-  }
- ]
+ "fresh": []
 }
