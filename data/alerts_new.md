@@ -1,6 +1,6 @@
-**Nezekan** · data 2026-10-16T07:14:32Z · 5 active, 2 new
+**Nezekan** · data 2026-10-16T12:31:03Z · 4 active, 2 new
 
-- **RECIPE** Expert's Orichalcum Longsword (blacksmithing 15): +194.7k per craft, 43% ROI, cost 454.8k, 5 cleared in 3.7h, Splendent 3.00M (8 listed), break-even 2.08M
-- **BUY** Refining Stone ask 1,398 (144 listed), under your 2,200 line. Cleared 978–1,799, 124 gone in 4h.
+- **BUY** Spiritstone ask 2,666 (78 listed), under your 3,000 line. Cleared 2,250–2,988, 96 gone in 4h.
+- **BUY** Splendent Truth Spellbook ask 120.0k (25 listed), under your 150.0k line. Cleared 110.0k–120.0k, 29 gone in 4h. Expert's spellbook input, own cost ~186k
 
 https://shizukaziye.github.io/aion2-craft/#alerts
