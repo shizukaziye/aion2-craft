@@ -318,5 +318,21 @@
   "title": "Splendent Truth Spellbook",
   "value": -119995,
   "text": "Splendent Truth Spellbook ask 120.0k (38 listed), under your 150.0k line. Cleared 112.0k–120.0k, 13 gone in 4h. Expert's spellbook input, own cost ~186k"
+ },
+ {
+  "at": "2026-10-16T07:18:03.445Z",
+  "key": "recipe:111015001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Longsword",
+  "value": 194658,
+  "text": "Expert's Orichalcum Longsword (blacksmithing 15): +194.7k per craft, 43% ROI, cost 454.8k, 5 cleared in 3.7h, Splendent 3.00M (8 listed), break-even 2.08M"
+ },
+ {
+  "at": "2026-10-16T07:18:03.445Z",
+  "key": "below:610530001",
+  "type": "buy",
+  "title": "Refining Stone",
+  "value": -1398,
+  "text": "Refining Stone ask 1,398 (144 listed), under your 2,200 line. Cleared 978–1,799, 124 gone in 4h."
  }
 ]
