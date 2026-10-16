@@ -350,5 +350,53 @@
   "title": "Splendent Truth Spellbook",
   "value": -119999,
   "text": "Splendent Truth Spellbook ask 120.0k (25 listed), under your 150.0k line. Cleared 110.0k–120.0k, 29 gone in 4h. Expert's spellbook input, own cost ~186k"
+ },
+ {
+  "at": "2026-10-16T17:32:46.510Z",
+  "key": "recipe:412015001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Breastplate",
+  "value": 319754.1551999999,
+  "text": "Expert's Orichalcum Breastplate (tailoring 15): +319.8k per craft, 73% ROI, cost 440.6k, 7 cleared in 4h, Splendent 2.50M (1 listed), break-even 586.0k"
+ },
+ {
+  "at": "2026-10-16T17:32:46.510Z",
+  "key": "recipe:111015001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Longsword",
+  "value": 144394.16666666663,
+  "text": "Expert's Orichalcum Longsword (blacksmithing 15): +144.4k per craft, 29% ROI, cost 505.0k, 5 cleared in 4h, Splendent 3.00M (9 listed), break-even 2.32M"
+ },
+ {
+  "at": "2026-10-16T17:32:46.510Z",
+  "key": "recipe:412035001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Helm",
+  "value": 349509.85426666675,
+  "text": "Expert's Orichalcum Helm (tailoring 15): +349.5k per craft, 158% ROI, cost 220.7k, 6 cleared in 4h, Splendent 3.00M (7 listed), break-even 1.05M"
+ },
+ {
+  "at": "2026-10-16T17:32:46.510Z",
+  "key": "below:610530008",
+  "type": "buy",
+  "title": "Artisan's Refining Stone",
+  "value": -422222,
+  "text": "Artisan's Refining Stone ask 422.2k (218 listed), under your 450.0k line. Cleared 400.0k–600.0k, 170 gone in 4h. 5 per Artisan's craft"
+ },
+ {
+  "at": "2026-10-16T17:32:46.510Z",
+  "key": "below:610530001",
+  "type": "buy",
+  "title": "Refining Stone",
+  "value": -1666,
+  "text": "Refining Stone ask 1,666 (112 listed), under your 2,200 line. Cleared 978–1,799, 160 gone in 4h."
+ },
+ {
+  "at": "2026-10-16T17:32:46.510Z",
+  "key": "below:110550014",
+  "type": "buy",
+  "title": "Splendent Truth Spellbook",
+  "value": -149999,
+  "text": "Splendent Truth Spellbook ask 150.0k (18 listed), under your 150.0k line. Cleared 110.0k–150.0k, 33 gone in 4h. Expert's spellbook input, own cost ~186k"
  }
 ]
