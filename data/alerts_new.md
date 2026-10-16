@@ -1,5 +1,8 @@
-**Nezekan** · data 2026-10-16T21:14:37Z · 6 active, 1 new
+**Nezekan** · data 2026-10-16T23:40:10Z · 5 active, 4 new
 
-- **BUY** Spiritstone ask 2,980 (33 listed), under your 3,000 line. Cleared 2,250–2,988, 106 gone in 4h.
+- **RECIPE** Expert's Orichalcum Breastplate (tailoring 15): +322.5k per craft, 74% ROI, cost 437.8k, 7 cleared in 4h, Splendent 2.50M (3 listed), break-even 572.8k
+- **RECIPE** Expert's Orichalcum Longsword (blacksmithing 15): +161.8k per craft, 33% ROI, cost 487.6k, 6 cleared in 4h, Splendent 3.35M (10 listed), break-even 2.23M
+- **RECIPE** Expert's Orichalcum Helm (tailoring 15): +312.5k per craft, 149% ROI, cost 209.2k, 6 cleared in 4h, Splendent 1.90M (10 listed), break-even 420.4k
+- **BUY** Refining Stone ask 1,195 (90 listed), under your 2,200 line. Cleared 978–1,830, 153 gone in 4h.
 
 https://shizukaziye.github.io/aion2-craft/#alerts
