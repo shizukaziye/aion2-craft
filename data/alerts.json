@@ -1,52 +1,59 @@
 {
- "at": "2026-10-17T04:38:38.254Z",
+ "at": "2026-10-17T09:29:38.440Z",
  "server": 11102,
  "serverName": "Nezekan",
- "baked_at": "2026-10-17T04:33:07Z",
+ "baked_at": "2026-10-17T09:25:54Z",
  "current": [
-  {
-   "key": "recipe:412015001",
-   "type": "recipe",
-   "title": "Expert's Orichalcum Breastplate",
-   "value": 344027.7888,
-   "text": "Expert's Orichalcum Breastplate (tailoring 15): +344.0k per craft, 83% ROI, cost 416.3k, 7 cleared in 4h, Splendent 2.50M (2 listed), break-even 471.1k"
-  },
   {
    "key": "recipe:111015001",
    "type": "recipe",
    "title": "Expert's Orichalcum Longsword",
-   "value": 187610.66666666663,
-   "text": "Expert's Orichalcum Longsword (blacksmithing 15): +187.6k per craft, 41% ROI, cost 461.8k, 5 cleared in 4h, Splendent 3.00M (16 listed), break-even 2.11M"
+   "value": 190961.5488,
+   "text": "Expert's Orichalcum Longsword (blacksmithing 15): +191.0k per craft, 42% ROI, cost 457.8k, 6 cleared in 4h, Splendent 3.00M (16 listed), break-even 2.10M"
+  },
+  {
+   "key": "recipe:412035001",
+   "type": "recipe",
+   "title": "Expert's Orichalcum Helm",
+   "value": 115159.0157333333,
+   "text": "Expert's Orichalcum Helm (tailoring 15): +115.2k per craft, 40% ROI, cost 286.9k, 6 cleared in 4h, Splendent 1.89M (11 listed), break-even 1.34M"
   },
   {
    "key": "below:610530001",
    "type": "buy",
    "title": "Refining Stone",
-   "value": -1179,
-   "text": "Refining Stone ask 1,179 (125 listed), under your 2,200 line. Cleared 996–1,830, 129 gone in 4h."
+   "value": -1070,
+   "text": "Refining Stone ask 1,070 (97 listed), under your 2,200 line. Cleared 996–1,830, 184 gone in 4h."
   },
   {
    "key": "below:610530014",
    "type": "buy",
    "title": "Spiritstone",
-   "value": -2500,
-   "text": "Spiritstone ask 2,500 (30 listed), under your 3,000 line. Cleared 2,250–3,045, 97 gone in 4h."
+   "value": -2995,
+   "text": "Spiritstone ask 2,995 (37 listed), under your 3,000 line. Cleared 2,400–3,045, 99 gone in 4h."
   }
  ],
  "fresh": [
   {
-   "key": "recipe:111015001",
+   "key": "recipe:412035001",
    "type": "recipe",
-   "title": "Expert's Orichalcum Longsword",
-   "value": 187610.66666666663,
-   "text": "Expert's Orichalcum Longsword (blacksmithing 15): +187.6k per craft, 41% ROI, cost 461.8k, 5 cleared in 4h, Splendent 3.00M (16 listed), break-even 2.11M"
+   "title": "Expert's Orichalcum Helm",
+   "value": 115159.0157333333,
+   "text": "Expert's Orichalcum Helm (tailoring 15): +115.2k per craft, 40% ROI, cost 286.9k, 6 cleared in 4h, Splendent 1.89M (11 listed), break-even 1.34M"
+  },
+  {
+   "key": "below:610530001",
+   "type": "buy",
+   "title": "Refining Stone",
+   "value": -1070,
+   "text": "Refining Stone ask 1,070 (97 listed), under your 2,200 line. Cleared 996–1,830, 184 gone in 4h."
   },
   {
    "key": "below:610530014",
    "type": "buy",
    "title": "Spiritstone",
-   "value": -2500,
-   "text": "Spiritstone ask 2,500 (30 listed), under your 3,000 line. Cleared 2,250–3,045, 97 gone in 4h."
+   "value": -2995,
+   "text": "Spiritstone ask 2,995 (37 listed), under your 3,000 line. Cleared 2,400–3,045, 99 gone in 4h."
   }
  ]
 }
