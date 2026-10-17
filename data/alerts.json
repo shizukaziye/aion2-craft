@@ -1,59 +1,38 @@
 {
- "at": "2026-10-17T17:20:35.009Z",
+ "at": "2026-10-17T19:32:03.627Z",
  "server": 11102,
  "serverName": "Nezekan",
- "baked_at": "2026-10-17T17:15:08Z",
+ "baked_at": "2026-10-17T19:28:37Z",
  "current": [
-  {
-   "key": "recipe:111015001",
-   "type": "recipe",
-   "title": "Expert's Orichalcum Longsword",
-   "value": 225863.45973333344,
-   "text": "Expert's Orichalcum Longsword (blacksmithing 15): +225.9k per craft, 54% ROI, cost 421.9k, 7 cleared in 4h, Splendent 3.00M (18 listed), break-even 1.93M"
-  },
   {
    "key": "recipe:412024001",
    "type": "recipe",
    "title": "Artisan's Orichalcum Greaves",
-   "value": 2275844.720566667,
-   "text": "Artisan's Orichalcum Greaves (tailoring 30): +2.28M per craft, 91% ROI, cost 2.50M, 5 cleared in 4h, Splendent 23.00M (3 listed), break-even 11.22M"
+   "value": 1956900.7900111116,
+   "text": "Artisan's Orichalcum Greaves (tailoring 30): +1.96M per craft, 74% ROI, cost 2.66M, 5 cleared in 4h, Splendent 21.25M (4 listed), break-even 11.98M"
   },
   {
    "key": "below:610530001",
    "type": "buy",
    "title": "Refining Stone",
-   "value": -1146,
-   "text": "Refining Stone ask 1,146 (90 listed), under your 2,200 line. Cleared 1,069–1,830, 184 gone in 4h."
+   "value": -1488,
+   "text": "Refining Stone ask 1,488 (92 listed), under your 2,200 line. Cleared 1,069–1,830, 162 gone in 4h."
   },
   {
    "key": "below:610530014",
    "type": "buy",
    "title": "Spiritstone",
-   "value": -2666,
-   "text": "Spiritstone ask 2,666 (39 listed), under your 3,000 line. Cleared 2,400–3,200, 84 gone in 4h."
+   "value": -2660,
+   "text": "Spiritstone ask 2,660 (31 listed), under your 3,000 line. Cleared 2,400–3,200, 78 gone in 4h."
   }
  ],
  "fresh": [
   {
-   "key": "recipe:412024001",
-   "type": "recipe",
-   "title": "Artisan's Orichalcum Greaves",
-   "value": 2275844.720566667,
-   "text": "Artisan's Orichalcum Greaves (tailoring 30): +2.28M per craft, 91% ROI, cost 2.50M, 5 cleared in 4h, Splendent 23.00M (3 listed), break-even 11.22M"
-  },
-  {
    "key": "below:610530001",
    "type": "buy",
    "title": "Refining Stone",
-   "value": -1146,
-   "text": "Refining Stone ask 1,146 (90 listed), under your 2,200 line. Cleared 1,069–1,830, 184 gone in 4h."
-  },
-  {
-   "key": "below:610530014",
-   "type": "buy",
-   "title": "Spiritstone",
-   "value": -2666,
-   "text": "Spiritstone ask 2,666 (39 listed), under your 3,000 line. Cleared 2,400–3,200, 84 gone in 4h."
+   "value": -1488,
+   "text": "Refining Stone ask 1,488 (92 listed), under your 2,200 line. Cleared 1,069–1,830, 162 gone in 4h."
   }
  ]
 }
