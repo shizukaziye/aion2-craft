@@ -1,6 +1,7 @@
-**Nezekan** · data 2026-10-17T13:45:46Z · 3 active, 2 new
+**Nezekan** · data 2026-10-17T17:15:08Z · 4 active, 3 new
 
-- **RECIPE** Expert's Orichalcum Longsword (blacksmithing 15): +226.7k per craft, 54% ROI, cost 422.1k, 6 cleared in 4h, Splendent 3.00M (18 listed), break-even 1.93M
-- **BUY** Artisan's Refining Stone ask 450.0k (133 listed), under your 450.0k line. Cleared 390.0k–666.0k, 230 gone in 4h. 5 per Artisan's craft
+- **RECIPE** Artisan's Orichalcum Greaves (tailoring 30): +2.28M per craft, 91% ROI, cost 2.50M, 5 cleared in 4h, Splendent 23.00M (3 listed), break-even 11.22M
+- **BUY** Refining Stone ask 1,146 (90 listed), under your 2,200 line. Cleared 1,069–1,830, 184 gone in 4h.
+- **BUY** Spiritstone ask 2,666 (39 listed), under your 3,000 line. Cleared 2,400–3,200, 84 gone in 4h.
 
 https://shizukaziye.github.io/aion2-craft/#alerts
