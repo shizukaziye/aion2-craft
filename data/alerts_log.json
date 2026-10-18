@@ -670,5 +670,13 @@
   "title": "Splendent Truth Spellbook",
   "value": -88000,
   "text": "Splendent Truth Spellbook ask 88.0k (76 listed), under your 150.0k line. Cleared 100.0k–150.0k, 22 gone in 4h. Expert's spellbook input, own cost ~186k"
+ },
+ {
+  "at": "2026-10-18T23:24:15.072Z",
+  "key": "recipe:412074001",
+  "type": "recipe",
+  "title": "Artisan's Orichalcum Cloak",
+  "value": 1148102.5,
+  "text": "Artisan's Orichalcum Cloak (tailoring 40): +1.15M per craft, 41% ROI, cost 2.83M, 6 cleared in 4h, Splendent 17.50M (4 listed), break-even 12.06M"
  }
 ]
