@@ -1,52 +1,73 @@
 {
- "at": "2026-10-17T22:28:31.573Z",
+ "at": "2026-10-18T01:10:26.527Z",
  "server": 11102,
  "serverName": "Nezekan",
- "baked_at": "2026-10-17T22:23:03Z",
+ "baked_at": "2026-10-18T01:06:51Z",
  "current": [
+  {
+   "key": "recipe:211105001",
+   "type": "recipe",
+   "title": "Expert's Yggdrasil Staff",
+   "value": 157016,
+   "text": "Expert's Yggdrasil Staff (jewelcrafting 15): +157.0k per craft, 35% ROI, cost 444.9k, 6 cleared in 3.5h, Splendent 2.50M (7 listed), break-even 1.75M"
+  },
   {
    "key": "recipe:412024001",
    "type": "recipe",
    "title": "Artisan's Orichalcum Greaves",
-   "value": 1780160.9011222227,
-   "text": "Artisan's Orichalcum Greaves (tailoring 30): +1.78M per craft, 69% ROI, cost 2.57M, 5 cleared in 4h, Splendent 20.00M (4 listed), break-even 11.57M"
+   "value": 2014218.1997333337,
+   "text": "Artisan's Orichalcum Greaves (tailoring 30): +2.01M per craft, 86% ROI, cost 2.34M, 5 cleared in 4h, Splendent 20.00M (4 listed), break-even 10.46M"
   },
   {
    "key": "recipe:412035001",
    "type": "recipe",
    "title": "Expert's Orichalcum Helm",
-   "value": 196752.02806666662,
-   "text": "Expert's Orichalcum Helm (tailoring 15): +196.8k per craft, 96% ROI, cost 205.3k, 10 cleared in 4h, Splendent 2.00M (3 listed), break-even 954.0k"
+   "value": 245813.15306666662,
+   "text": "Expert's Orichalcum Helm (tailoring 15): +245.8k per craft, 157% ROI, cost 156.2k, 10 cleared in 4h, Splendent 2.00M (3 listed), break-even 721.7k"
   },
   {
    "key": "below:610530001",
    "type": "buy",
    "title": "Refining Stone",
-   "value": -1800,
-   "text": "Refining Stone ask 1,800 (63 listed), under your 2,200 line. Cleared 1,069–1,800, 159 gone in 4h."
+   "value": -1700,
+   "text": "Refining Stone ask 1,700 (89 listed), under your 2,200 line. Cleared 1,069–1,800, 151 gone in 4h."
   },
   {
    "key": "below:610530014",
    "type": "buy",
    "title": "Spiritstone",
-   "value": -2350,
-   "text": "Spiritstone ask 2,350 (22 listed), under your 3,000 line. Cleared 2,400–3,200, 80 gone in 4h."
+   "value": -2250,
+   "text": "Spiritstone ask 2,250 (18 listed), under your 3,000 line. Cleared 2,400–3,200, 80 gone in 4.2h."
   }
  ],
  "fresh": [
   {
+   "key": "recipe:211105001",
+   "type": "recipe",
+   "title": "Expert's Yggdrasil Staff",
+   "value": 157016,
+   "text": "Expert's Yggdrasil Staff (jewelcrafting 15): +157.0k per craft, 35% ROI, cost 444.9k, 6 cleared in 3.5h, Splendent 2.50M (7 listed), break-even 1.75M"
+  },
+  {
+   "key": "recipe:412024001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Greaves",
+   "value": 2014218.1997333337,
+   "text": "Artisan's Orichalcum Greaves (tailoring 30): +2.01M per craft, 86% ROI, cost 2.34M, 5 cleared in 4h, Splendent 20.00M (4 listed), break-even 10.46M"
+  },
+  {
    "key": "recipe:412035001",
    "type": "recipe",
    "title": "Expert's Orichalcum Helm",
-   "value": 196752.02806666662,
-   "text": "Expert's Orichalcum Helm (tailoring 15): +196.8k per craft, 96% ROI, cost 205.3k, 10 cleared in 4h, Splendent 2.00M (3 listed), break-even 954.0k"
+   "value": 245813.15306666662,
+   "text": "Expert's Orichalcum Helm (tailoring 15): +245.8k per craft, 157% ROI, cost 156.2k, 10 cleared in 4h, Splendent 2.00M (3 listed), break-even 721.7k"
   },
   {
-   "key": "below:610530001",
+   "key": "below:610530014",
    "type": "buy",
-   "title": "Refining Stone",
-   "value": -1800,
-   "text": "Refining Stone ask 1,800 (63 listed), under your 2,200 line. Cleared 1,069–1,800, 159 gone in 4h."
+   "title": "Spiritstone",
+   "value": -2250,
+   "text": "Spiritstone ask 2,250 (18 listed), under your 3,000 line. Cleared 2,400–3,200, 80 gone in 4.2h."
   }
  ]
 }
