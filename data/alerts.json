@@ -1,52 +1,8 @@
 {
- "at": "2026-10-18T14:45:53.216Z",
+ "at": "2026-10-18T18:10:12.902Z",
  "server": 11102,
  "serverName": "Nezekan",
- "baked_at": "2026-10-18T14:38:37Z",
- "current": [
-  {
-   "key": "recipe:412035001",
-   "type": "recipe",
-   "title": "Expert's Orichalcum Helm",
-   "value": 271372.5062666666,
-   "text": "Expert's Orichalcum Helm (tailoring 15): +271.4k per craft, 138% ROI, cost 197.3k, 7 cleared in 4h, Splendent 2.00M (3 listed), break-even 600.6k"
-  },
-  {
-   "key": "below:610530001",
-   "type": "buy",
-   "title": "Refining Stone",
-   "value": -1273,
-   "text": "Refining Stone ask 1,273 (97 listed), under your 2,200 line. Cleared 1,150–1,800, 117 gone in 4h."
-  },
-  {
-   "key": "below:610530014",
-   "type": "buy",
-   "title": "Spiritstone",
-   "value": -2780,
-   "text": "Spiritstone ask 2,780 (57 listed), under your 3,000 line. Cleared –––, 46 gone in 4h."
-  },
-  {
-   "key": "below:110550014",
-   "type": "buy",
-   "title": "Splendent Truth Spellbook",
-   "value": -149966,
-   "text": "Splendent Truth Spellbook ask 150.0k (59 listed), under your 150.0k line. Cleared 100.0k–150.0k, 25 gone in 4h. Expert's spellbook input, own cost ~186k"
-  }
- ],
- "fresh": [
-  {
-   "key": "below:610530001",
-   "type": "buy",
-   "title": "Refining Stone",
-   "value": -1273,
-   "text": "Refining Stone ask 1,273 (97 listed), under your 2,200 line. Cleared 1,150–1,800, 117 gone in 4h."
-  },
-  {
-   "key": "below:610530014",
-   "type": "buy",
-   "title": "Spiritstone",
-   "value": -2780,
-   "text": "Spiritstone ask 2,780 (57 listed), under your 3,000 line. Cleared –––, 46 gone in 4h."
-  }
- ]
+ "baked_at": "2026-10-18T18:09:35Z",
+ "current": [],
+ "fresh": []
 }
