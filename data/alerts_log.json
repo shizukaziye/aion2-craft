@@ -598,5 +598,21 @@
   "title": "Splendent Truth Spellbook",
   "value": -100000,
   "text": "Splendent Truth Spellbook ask 100.0k (45 listed), under your 150.0k line. Cleared 150.0k–186.7k, 17 gone in 4h. Expert's spellbook input, own cost ~186k"
+ },
+ {
+  "at": "2026-10-18T11:20:21.516Z",
+  "key": "recipe:412035001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Helm",
+  "value": 297197.6729333333,
+  "text": "Expert's Orichalcum Helm (tailoring 15): +297.2k per craft, 173% ROI, cost 171.4k, 8 cleared in 4h, Splendent 2.00M (3 listed), break-even 478.4k"
+ },
+ {
+  "at": "2026-10-18T11:20:21.516Z",
+  "key": "below:110550014",
+  "type": "buy",
+  "title": "Splendent Truth Spellbook",
+  "value": -149967,
+  "text": "Splendent Truth Spellbook ask 150.0k (57 listed), under your 150.0k line. Cleared 100.0k–150.0k, 21 gone in 4h. Expert's spellbook input, own cost ~186k"
  }
 ]

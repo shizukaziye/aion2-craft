@@ -1,59 +1,52 @@
 {
- "at": "2026-10-18T06:02:21.584Z",
+ "at": "2026-10-18T11:20:21.516Z",
  "server": 11102,
  "serverName": "Nezekan",
- "baked_at": "2026-10-18T05:57:59Z",
+ "baked_at": "2026-10-18T11:13:11Z",
  "current": [
   {
    "key": "recipe:412035001",
    "type": "recipe",
    "title": "Expert's Orichalcum Helm",
-   "value": 198802.00139999995,
-   "text": "Expert's Orichalcum Helm (tailoring 15): +198.8k per craft, 98% ROI, cost 203.2k, 8 cleared in 4h, Splendent 2.00M (3 listed), break-even 944.3k"
+   "value": 297197.6729333333,
+   "text": "Expert's Orichalcum Helm (tailoring 15): +297.2k per craft, 173% ROI, cost 171.4k, 8 cleared in 4h, Splendent 2.00M (3 listed), break-even 478.4k"
   },
   {
    "key": "below:610530001",
    "type": "buy",
    "title": "Refining Stone",
-   "value": -1450,
-   "text": "Refining Stone ask 1,450 (75 listed), under your 2,200 line. Cleared 1,069–1,800, 150 gone in 4h."
+   "value": -1280,
+   "text": "Refining Stone ask 1,280 (65 listed), under your 2,200 line. Cleared 1,150–1,800, 140 gone in 4h."
   },
   {
    "key": "below:610530014",
    "type": "buy",
    "title": "Spiritstone",
-   "value": -2881,
-   "text": "Spiritstone ask 2,881 (24 listed), under your 3,000 line. Cleared 2,400–3,200, 79 gone in 4h."
+   "value": -2869,
+   "text": "Spiritstone ask 2,869 (33 listed), under your 3,000 line. Cleared 3,000–3,200, 63 gone in 4h."
   },
   {
    "key": "below:110550014",
    "type": "buy",
    "title": "Splendent Truth Spellbook",
-   "value": -100000,
-   "text": "Splendent Truth Spellbook ask 100.0k (45 listed), under your 150.0k line. Cleared 150.0k–186.7k, 17 gone in 4h. Expert's spellbook input, own cost ~186k"
+   "value": -149967,
+   "text": "Splendent Truth Spellbook ask 150.0k (57 listed), under your 150.0k line. Cleared 100.0k–150.0k, 21 gone in 4h. Expert's spellbook input, own cost ~186k"
   }
  ],
  "fresh": [
   {
-   "key": "below:610530001",
-   "type": "buy",
-   "title": "Refining Stone",
-   "value": -1450,
-   "text": "Refining Stone ask 1,450 (75 listed), under your 2,200 line. Cleared 1,069–1,800, 150 gone in 4h."
-  },
-  {
-   "key": "below:610530014",
-   "type": "buy",
-   "title": "Spiritstone",
-   "value": -2881,
-   "text": "Spiritstone ask 2,881 (24 listed), under your 3,000 line. Cleared 2,400–3,200, 79 gone in 4h."
+   "key": "recipe:412035001",
+   "type": "recipe",
+   "title": "Expert's Orichalcum Helm",
+   "value": 297197.6729333333,
+   "text": "Expert's Orichalcum Helm (tailoring 15): +297.2k per craft, 173% ROI, cost 171.4k, 8 cleared in 4h, Splendent 2.00M (3 listed), break-even 478.4k"
   },
   {
    "key": "below:110550014",
    "type": "buy",
    "title": "Splendent Truth Spellbook",
-   "value": -100000,
-   "text": "Splendent Truth Spellbook ask 100.0k (45 listed), under your 150.0k line. Cleared 150.0k–186.7k, 17 gone in 4h. Expert's spellbook input, own cost ~186k"
+   "value": -149967,
+   "text": "Splendent Truth Spellbook ask 150.0k (57 listed), under your 150.0k line. Cleared 100.0k–150.0k, 21 gone in 4h. Expert's spellbook input, own cost ~186k"
   }
  ]
 }
