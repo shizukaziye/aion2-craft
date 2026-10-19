@@ -758,5 +758,61 @@
   "title": "Splendent Truth Spellbook",
   "value": -80000,
   "text": "Splendent Truth Spellbook ask 80.0k (73 listed), under your 150.0k line. Cleared 88.0k–90.0k, 22 gone in 4h. Expert's spellbook input, own cost ~186k"
+ },
+ {
+  "at": "2026-10-19T15:49:59.842Z",
+  "key": "recipe:412024001",
+  "type": "recipe",
+  "title": "Artisan's Orichalcum Greaves",
+  "value": 1320990.333333333,
+  "text": "Artisan's Orichalcum Greaves (tailoring 30): +1.32M per craft, 44% ROI, cost 3.00M, 5 cleared in 4h, Splendent 25.00M (1 listed), break-even 12.70M"
+ },
+ {
+  "at": "2026-10-19T15:49:59.842Z",
+  "key": "recipe:412074001",
+  "type": "recipe",
+  "title": "Artisan's Orichalcum Cloak",
+  "value": 1204832,
+  "text": "Artisan's Orichalcum Cloak (tailoring 40): +1.20M per craft, 50% ROI, cost 2.43M, 8 cleared in 4h, Splendent 16.00M (5 listed), break-even 10.30M"
+ },
+ {
+  "at": "2026-10-19T15:49:59.842Z",
+  "key": "recipe:211105001",
+  "type": "recipe",
+  "title": "Expert's Yggdrasil Staff",
+  "value": 181763.66666666663,
+  "text": "Expert's Yggdrasil Staff (jewelcrafting 15): +181.8k per craft, 35% ROI, cost 515.2k, 6 cleared in 4h, Splendent 3.00M (10 listed), break-even 1.84M"
+ },
+ {
+  "at": "2026-10-19T15:49:59.842Z",
+  "key": "below:610530008",
+  "type": "buy",
+  "title": "Artisan's Refining Stone",
+  "value": -436998,
+  "text": "Artisan's Refining Stone ask 437.0k (220 listed), under your 450.0k line. Cleared 450.0k–568.0k, 134 gone in 4h. 5 per Artisan's craft"
+ },
+ {
+  "at": "2026-10-19T15:49:59.842Z",
+  "key": "below:610530001",
+  "type": "buy",
+  "title": "Refining Stone",
+  "value": -1500,
+  "text": "Refining Stone ask 1,500 (119 listed), under your 2,200 line. Cleared 1,200–2,249, 102 gone in 4h."
+ },
+ {
+  "at": "2026-10-19T15:49:59.842Z",
+  "key": "below:610530014",
+  "type": "buy",
+  "title": "Spiritstone",
+  "value": -1900,
+  "text": "Spiritstone ask 1,900 (58 listed), under your 3,000 line. Cleared 1,750–2,777, 84 gone in 4h."
+ },
+ {
+  "at": "2026-10-19T15:49:59.842Z",
+  "key": "below:110550014",
+  "type": "buy",
+  "title": "Splendent Truth Spellbook",
+  "value": -80000,
+  "text": "Splendent Truth Spellbook ask 80.0k (80 listed), under your 150.0k line. Cleared 88.0k–90.0k, 23 gone in 4h. Expert's spellbook input, own cost ~186k"
  }
 ]

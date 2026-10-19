@@ -1,12 +1,11 @@
-**Nezekan** · data 2026-10-19T07:51:17Z · 8 active, 8 new
+**Nezekan** · data 2026-10-19T15:40:37Z · 7 active, 7 new
 
-- **RECIPE** Artisan's Orichalcum Gloves (tailoring 35): +1.48M per craft, 70% ROI, cost 2.11M, 5 cleared in 4h, Splendent 17.50M (6 listed), break-even 9.98M
-- **RECIPE** Expert's Yggdrasil Staff (jewelcrafting 15): +137.7k per craft, 25% ROI, cost 559.2k, 8 cleared in 4h, Splendent 3.00M (7 listed), break-even 2.05M
-- **RECIPE** Artisan's Orichalcum Cloak (tailoring 40): +1.55M per craft, 64% ROI, cost 2.40M, 8 cleared in 4h, Splendent 17.50M (5 listed), break-even 10.17M
-- **RECIPE** Artisan's Orichalcum Boots (tailoring 40): +1.90M per craft, 95% ROI, cost 2.01M, 7 cleared in 3.8h, Splendent 23.00M (1 listed), break-even 8.01M
-- **RECIPE** Expert's Orichalcum Breastplate (tailoring 15): +363.3k per craft, 127% ROI, cost 285.1k, 5 cleared in 3.8h, Splendent 2.70M (2 listed), break-even 980.0k
-- **BUY** Refining Stone ask 1,985 (97 listed), under your 2,200 line. Cleared 1,200–2,249, 99 gone in 4h.
-- **BUY** Spiritstone ask 2,765 (34 listed), under your 3,000 line. Cleared 2,495–2,777, 77 gone in 4h.
-- **BUY** Splendent Truth Spellbook ask 80.0k (73 listed), under your 150.0k line. Cleared 88.0k–90.0k, 22 gone in 4h. Expert's spellbook input, own cost ~186k
+- **RECIPE** Artisan's Orichalcum Greaves (tailoring 30): +1.32M per craft, 44% ROI, cost 3.00M, 5 cleared in 4h, Splendent 25.00M (1 listed), break-even 12.70M
+- **RECIPE** Artisan's Orichalcum Cloak (tailoring 40): +1.20M per craft, 50% ROI, cost 2.43M, 8 cleared in 4h, Splendent 16.00M (5 listed), break-even 10.30M
+- **RECIPE** Expert's Yggdrasil Staff (jewelcrafting 15): +181.8k per craft, 35% ROI, cost 515.2k, 6 cleared in 4h, Splendent 3.00M (10 listed), break-even 1.84M
+- **BUY** Artisan's Refining Stone ask 437.0k (220 listed), under your 450.0k line. Cleared 450.0k–568.0k, 134 gone in 4h. 5 per Artisan's craft
+- **BUY** Refining Stone ask 1,500 (119 listed), under your 2,200 line. Cleared 1,200–2,249, 102 gone in 4h.
+- **BUY** Spiritstone ask 1,900 (58 listed), under your 3,000 line. Cleared 1,750–2,777, 84 gone in 4h.
+- **BUY** Splendent Truth Spellbook ask 80.0k (80 listed), under your 150.0k line. Cleared 88.0k–90.0k, 23 gone in 4h. Expert's spellbook input, own cost ~186k
 
 https://shizukaziye.github.io/aion2-craft/#alerts
