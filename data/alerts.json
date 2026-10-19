@@ -1,36 +1,43 @@
 {
- "at": "2026-10-18T23:24:15.072Z",
+ "at": "2026-10-19T01:27:48.053Z",
  "server": 11102,
  "serverName": "Nezekan",
- "baked_at": "2026-10-18T23:16:56Z",
+ "baked_at": "2026-10-19T01:23:20Z",
  "current": [
   {
    "key": "recipe:412074001",
    "type": "recipe",
    "title": "Artisan's Orichalcum Cloak",
-   "value": 1148102.5,
-   "text": "Artisan's Orichalcum Cloak (tailoring 40): +1.15M per craft, 41% ROI, cost 2.83M, 6 cleared in 4h, Splendent 17.50M (4 listed), break-even 12.06M"
+   "value": 1738547.9647259256,
+   "text": "Artisan's Orichalcum Cloak (tailoring 40): +1.74M per craft, 78% ROI, cost 2.24M, 6 cleared in 4h, Splendent 17.50M (5 listed), break-even 9.27M"
+  },
+  {
+   "key": "recipe:412064001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Boots",
+   "value": 1218647.0416666665,
+   "text": "Artisan's Orichalcum Boots (tailoring 40): +1.22M per craft, 51% ROI, cost 2.37M, 5 cleared in 4h, Splendent 19.85M (3 listed), break-even 11.23M"
   },
   {
    "key": "below:610530001",
    "type": "buy",
    "title": "Refining Stone",
-   "value": -1500,
-   "text": "Refining Stone ask 1,500 (48 listed), under your 2,200 line. Cleared 1,200–1,970, 137 gone in 4h."
+   "value": -1400,
+   "text": "Refining Stone ask 1,400 (67 listed), under your 2,200 line. Cleared 1,200–1,970, 127 gone in 4h."
   },
   {
    "key": "below:610530014",
    "type": "buy",
    "title": "Spiritstone",
-   "value": -2749,
-   "text": "Spiritstone ask 2,749 (19 listed), under your 3,000 line. Cleared –––, 71 gone in 4h."
+   "value": -2500,
+   "text": "Spiritstone ask 2,500 (30 listed), under your 3,000 line. Cleared –––, 71 gone in 4h."
   },
   {
    "key": "below:110550014",
    "type": "buy",
    "title": "Splendent Truth Spellbook",
-   "value": -90000,
-   "text": "Splendent Truth Spellbook ask 90.0k (68 listed), under your 150.0k line. Cleared 88.0k–150.0k, 30 gone in 4h. Expert's spellbook input, own cost ~186k"
+   "value": -85000,
+   "text": "Splendent Truth Spellbook ask 85.0k (66 listed), under your 150.0k line. Cleared 88.0k–150.0k, 34 gone in 4h. Expert's spellbook input, own cost ~186k"
   }
  ],
  "fresh": [
@@ -38,8 +45,15 @@
    "key": "recipe:412074001",
    "type": "recipe",
    "title": "Artisan's Orichalcum Cloak",
-   "value": 1148102.5,
-   "text": "Artisan's Orichalcum Cloak (tailoring 40): +1.15M per craft, 41% ROI, cost 2.83M, 6 cleared in 4h, Splendent 17.50M (4 listed), break-even 12.06M"
+   "value": 1738547.9647259256,
+   "text": "Artisan's Orichalcum Cloak (tailoring 40): +1.74M per craft, 78% ROI, cost 2.24M, 6 cleared in 4h, Splendent 17.50M (5 listed), break-even 9.27M"
+  },
+  {
+   "key": "recipe:412064001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Boots",
+   "value": 1218647.0416666665,
+   "text": "Artisan's Orichalcum Boots (tailoring 40): +1.22M per craft, 51% ROI, cost 2.37M, 5 cleared in 4h, Splendent 19.85M (3 listed), break-even 11.23M"
   }
  ]
 }

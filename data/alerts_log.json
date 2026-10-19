@@ -678,5 +678,21 @@
   "title": "Artisan's Orichalcum Cloak",
   "value": 1148102.5,
   "text": "Artisan's Orichalcum Cloak (tailoring 40): +1.15M per craft, 41% ROI, cost 2.83M, 6 cleared in 4h, Splendent 17.50M (4 listed), break-even 12.06M"
+ },
+ {
+  "at": "2026-10-19T01:27:48.053Z",
+  "key": "recipe:412074001",
+  "type": "recipe",
+  "title": "Artisan's Orichalcum Cloak",
+  "value": 1738547.9647259256,
+  "text": "Artisan's Orichalcum Cloak (tailoring 40): +1.74M per craft, 78% ROI, cost 2.24M, 6 cleared in 4h, Splendent 17.50M (5 listed), break-even 9.27M"
+ },
+ {
+  "at": "2026-10-19T01:27:48.053Z",
+  "key": "recipe:412064001",
+  "type": "recipe",
+  "title": "Artisan's Orichalcum Boots",
+  "value": 1218647.0416666665,
+  "text": "Artisan's Orichalcum Boots (tailoring 40): +1.22M per craft, 51% ROI, cost 2.37M, 5 cleared in 4h, Splendent 19.85M (3 listed), break-even 11.23M"
  }
 ]

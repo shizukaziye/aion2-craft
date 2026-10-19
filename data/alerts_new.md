@@ -1,5 +1,6 @@
-**Nezekan** · data 2026-10-18T23:16:56Z · 4 active, 1 new
+**Nezekan** · data 2026-10-19T01:23:20Z · 5 active, 2 new
 
-- **RECIPE** Artisan's Orichalcum Cloak (tailoring 40): +1.15M per craft, 41% ROI, cost 2.83M, 6 cleared in 4h, Splendent 17.50M (4 listed), break-even 12.06M
+- **RECIPE** Artisan's Orichalcum Cloak (tailoring 40): +1.74M per craft, 78% ROI, cost 2.24M, 6 cleared in 4h, Splendent 17.50M (5 listed), break-even 9.27M
+- **RECIPE** Artisan's Orichalcum Boots (tailoring 40): +1.22M per craft, 51% ROI, cost 2.37M, 5 cleared in 4h, Splendent 19.85M (3 listed), break-even 11.23M
 
 https://shizukaziye.github.io/aion2-craft/#alerts
