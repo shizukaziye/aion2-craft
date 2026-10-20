@@ -934,5 +934,21 @@
   "title": "Spiritstone",
   "value": -2094,
   "text": "Spiritstone ask 2,094 (28 listed), under your 3,000 line. Cleared 1,993–2,665, 108 gone in 4h."
+ },
+ {
+  "at": "2026-10-20T20:43:41.498Z",
+  "key": "recipe:412055001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Gloves",
+  "value": 131448.34124444445,
+  "text": "Expert's Orichalcum Gloves (tailoring 20): +131.4k per craft, 58% ROI, cost 227.6k, 6 cleared in 4h, Splendent 1.70M (12 listed), break-even 1.08M"
+ },
+ {
+  "at": "2026-10-20T20:43:41.498Z",
+  "key": "below:610530001",
+  "type": "buy",
+  "title": "Refining Stone",
+  "value": -1785,
+  "text": "Refining Stone ask 1,785 (84 listed), under your 2,200 line. Cleared 1,299–1,785, 92 gone in 4h."
  }
 ]
