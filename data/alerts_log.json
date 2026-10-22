@@ -1182,5 +1182,53 @@
   "title": "Splendent Truth Spellbook",
   "value": -150000,
   "text": "Splendent Truth Spellbook ask 150.0k (35 listed), under your 150.0k line. Cleared 130.0k–150.0k, 11 gone in 4h. Expert's spellbook input, own cost ~186k"
+ },
+ {
+  "at": "2026-10-22T20:28:46.453Z",
+  "key": "recipe:111085001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Guard",
+  "value": 107618.43679999997,
+  "text": "Expert's Orichalcum Guard (blacksmithing 20): +107.6k per craft, 29% ROI, cost 370.0k, 17 cleared in 3.2h, Splendent 2.49M (8 listed), break-even 1.49M"
+ },
+ {
+  "at": "2026-10-22T20:28:46.453Z",
+  "key": "below:610530008",
+  "type": "buy",
+  "title": "Artisan's Refining Stone",
+  "value": -445000,
+  "text": "Artisan's Refining Stone ask 445.0k (226 listed), under your 450.0k line. Cleared 399.0k–500.0k, 169 gone in 4h. 5 per Artisan's craft"
+ },
+ {
+  "at": "2026-10-22T20:28:46.453Z",
+  "key": "below:610530001",
+  "type": "buy",
+  "title": "Refining Stone",
+  "value": -797,
+  "text": "Refining Stone ask 797 (158 listed), under your 2,200 line. Cleared 846–1,280, 70 gone in 4h."
+ },
+ {
+  "at": "2026-10-22T20:28:46.453Z",
+  "key": "below:610530014",
+  "type": "buy",
+  "title": "Spiritstone",
+  "value": -1963,
+  "text": "Spiritstone ask 1,963 (17 listed), under your 3,000 line. Cleared 1,500–2,000, 87 gone in 4h."
+ },
+ {
+  "at": "2026-10-22T20:28:46.453Z",
+  "key": "below:110550014",
+  "type": "buy",
+  "title": "Splendent Truth Spellbook",
+  "value": -140000,
+  "text": "Splendent Truth Spellbook ask 140.0k (35 listed), under your 150.0k line. Cleared 116.0k–150.0k, 18 gone in 4h. Expert's spellbook input, own cost ~186k"
+ },
+ {
+  "at": "2026-10-22T20:28:46.453Z",
+  "key": "above:110540012",
+  "type": "sell",
+  "title": "Expert's Splendent Truth Spellbook",
+  "value": 3799999,
+  "text": "Expert's Splendent Truth Spellbook cleared at 3.80M in the last 3.8h (ask now 3.45M, 8 listed), over your 3.40M line. sell"
  }
 ]
