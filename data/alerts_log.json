@@ -1310,5 +1310,53 @@
   "title": "Expert's Yggdrasil Bow",
   "value": 173395.11,
   "text": "Expert's Yggdrasil Bow (jewelcrafting 15): +173.4k per craft, 34% ROI, cost 517.2k, 7 cleared in 3.2h, Splendent 3.50M (12 listed), break-even 2.18M"
+ },
+ {
+  "at": "2026-10-23T20:03:07.438Z",
+  "key": "recipe:412025001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Greaves",
+  "value": 183439.78879999998,
+  "text": "Expert's Orichalcum Greaves (tailoring 15): +183.4k per craft, 41% ROI, cost 450.2k, 5 cleared in 4h, Splendent 3.00M (4 listed), break-even 2.13M"
+ },
+ {
+  "at": "2026-10-23T20:03:07.438Z",
+  "key": "recipe:412064001",
+  "type": "recipe",
+  "title": "Artisan's Orichalcum Boots",
+  "value": 1971631.441111111,
+  "text": "Artisan's Orichalcum Boots (tailoring 40): +1.97M per craft, 94% ROI, cost 2.10M, 6 cleared in 4h, Splendent 16.50M (2 listed), break-even 7.13M"
+ },
+ {
+  "at": "2026-10-23T20:03:07.438Z",
+  "key": "recipe:412054001",
+  "type": "recipe",
+  "title": "Artisan's Orichalcum Gloves",
+  "value": 1280939.0467999997,
+  "text": "Artisan's Orichalcum Gloves (tailoring 35): +1.28M per craft, 58% ROI, cost 2.22M, 6 cleared in 4h, Splendent 16.00M (3 listed), break-even 8.93M"
+ },
+ {
+  "at": "2026-10-23T20:03:07.438Z",
+  "key": "below:610530001",
+  "type": "buy",
+  "title": "Refining Stone",
+  "value": -1090,
+  "text": "Refining Stone ask 1,090 (114 listed), under your 2,200 line. Cleared 797–1,279, 167 gone in 4h."
+ },
+ {
+  "at": "2026-10-23T20:03:07.438Z",
+  "key": "below:610530014",
+  "type": "buy",
+  "title": "Spiritstone",
+  "value": -1399,
+  "text": "Spiritstone ask 1,399 (18 listed), under your 3,000 line. Cleared 1,450–1,880, 76 gone in 4h."
+ },
+ {
+  "at": "2026-10-23T20:03:07.438Z",
+  "key": "below:110550014",
+  "type": "buy",
+  "title": "Splendent Truth Spellbook",
+  "value": -149000,
+  "text": "Splendent Truth Spellbook ask 149.0k (20 listed), under your 150.0k line. Cleared 140.0k–150.0k, 35 gone in 4h. Expert's spellbook input, own cost ~186k"
  }
 ]
