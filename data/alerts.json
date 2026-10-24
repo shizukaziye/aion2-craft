@@ -1,24 +1,94 @@
 {
- "at": "2026-10-24T12:53:19.347Z",
+ "at": "2026-10-24T16:51:00.274Z",
  "server": 11102,
  "serverName": "Nezekan",
- "baked_at": "2026-10-24T12:43:10Z",
+ "baked_at": "2026-10-24T16:39:02Z",
  "current": [
   {
-   "key": "below:610530005",
+   "key": "recipe:412034001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Helm",
+   "value": 1007954.4554666663,
+   "text": "Artisan's Orichalcum Helm (tailoring 30): +1.01M per craft, 44% ROI, cost 2.27M, 7 cleared in 3.8h, Splendent 17.50M (1 listed), break-even 9.23M"
+  },
+  {
+   "key": "recipe:412024001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Greaves",
+   "value": 1961669.5893555554,
+   "text": "Artisan's Orichalcum Greaves (tailoring 30): +1.96M per craft, 115% ROI, cost 1.70M, 5 cleared in 4h, Splendent 16.32M (3 listed), break-even 6.71M"
+  },
+  {
+   "key": "recipe:412054001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Gloves",
+   "value": 1391207.9961777776,
+   "text": "Artisan's Orichalcum Gloves (tailoring 35): +1.39M per craft, 65% ROI, cost 2.14M, 5 cleared in 4h, Splendent 15.43M (3 listed), break-even 8.81M"
+  },
+  {
+   "key": "below:610530001",
    "type": "buy",
-   "title": "Expert's Refining Stone",
-   "value": -55000,
-   "text": "Expert's Refining Stone ask 55.0k (286 listed), under your 55.0k line. Cleared –––, 0 gone in 0h. 5 per Expert's bow or spellbook"
+   "title": "Refining Stone",
+   "value": -749,
+   "text": "Refining Stone ask 749 (165 listed), under your 2,200 line. Cleared 750–1,199, 89 gone in 4h."
+  },
+  {
+   "key": "below:610530014",
+   "type": "buy",
+   "title": "Spiritstone",
+   "value": -1899,
+   "text": "Spiritstone ask 1,899 (32 listed), under your 3,000 line. Cleared 1,399–2,400, 66 gone in 4h."
+  },
+  {
+   "key": "below:110550014",
+   "type": "buy",
+   "title": "Splendent Truth Spellbook",
+   "value": -109999,
+   "text": "Splendent Truth Spellbook ask 110.0k (18 listed), under your 150.0k line. Cleared 122.2k–149.0k, 27 gone in 4h. Expert's spellbook input, own cost ~186k"
   }
  ],
  "fresh": [
   {
-   "key": "below:610530005",
+   "key": "recipe:412034001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Helm",
+   "value": 1007954.4554666663,
+   "text": "Artisan's Orichalcum Helm (tailoring 30): +1.01M per craft, 44% ROI, cost 2.27M, 7 cleared in 3.8h, Splendent 17.50M (1 listed), break-even 9.23M"
+  },
+  {
+   "key": "recipe:412024001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Greaves",
+   "value": 1961669.5893555554,
+   "text": "Artisan's Orichalcum Greaves (tailoring 30): +1.96M per craft, 115% ROI, cost 1.70M, 5 cleared in 4h, Splendent 16.32M (3 listed), break-even 6.71M"
+  },
+  {
+   "key": "recipe:412054001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Gloves",
+   "value": 1391207.9961777776,
+   "text": "Artisan's Orichalcum Gloves (tailoring 35): +1.39M per craft, 65% ROI, cost 2.14M, 5 cleared in 4h, Splendent 15.43M (3 listed), break-even 8.81M"
+  },
+  {
+   "key": "below:610530001",
    "type": "buy",
-   "title": "Expert's Refining Stone",
-   "value": -55000,
-   "text": "Expert's Refining Stone ask 55.0k (286 listed), under your 55.0k line. Cleared –––, 0 gone in 0h. 5 per Expert's bow or spellbook"
+   "title": "Refining Stone",
+   "value": -749,
+   "text": "Refining Stone ask 749 (165 listed), under your 2,200 line. Cleared 750–1,199, 89 gone in 4h."
+  },
+  {
+   "key": "below:610530014",
+   "type": "buy",
+   "title": "Spiritstone",
+   "value": -1899,
+   "text": "Spiritstone ask 1,899 (32 listed), under your 3,000 line. Cleared 1,399–2,400, 66 gone in 4h."
+  },
+  {
+   "key": "below:110550014",
+   "type": "buy",
+   "title": "Splendent Truth Spellbook",
+   "value": -109999,
+   "text": "Splendent Truth Spellbook ask 110.0k (18 listed), under your 150.0k line. Cleared 122.2k–149.0k, 27 gone in 4h. Expert's spellbook input, own cost ~186k"
   }
  ]
 }
