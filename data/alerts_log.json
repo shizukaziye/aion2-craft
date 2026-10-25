@@ -1606,5 +1606,21 @@
   "title": "Spiritstone",
   "value": -2293,
   "text": "Spiritstone ask 2,293 (4 listed), under your 3,000 line. Cleared 1,590–2,293, 78 gone in 4.2h."
+ },
+ {
+  "at": "2026-10-25T22:41:39.007Z",
+  "key": "below:610530001",
+  "type": "buy",
+  "title": "Refining Stone",
+  "value": -500,
+  "text": "Refining Stone ask 500 (45 listed), under your 2,200 line. Cleared 598–998, 131 gone in 4.2h."
+ },
+ {
+  "at": "2026-10-25T22:41:39.007Z",
+  "key": "below:110550014",
+  "type": "buy",
+  "title": "Splendent Truth Spellbook",
+  "value": -75000,
+  "text": "Splendent Truth Spellbook ask 75.0k (27 listed), under your 150.0k line. Cleared –––, 13 gone in 4.2h. Expert's spellbook input, own cost ~186k"
  }
 ]

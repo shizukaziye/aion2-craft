@@ -1,87 +1,45 @@
 {
- "at": "2026-10-25T19:46:01.093Z",
+ "at": "2026-10-25T22:41:39.007Z",
  "server": 11102,
  "serverName": "Nezekan",
- "baked_at": "2026-10-25T19:41:07Z",
+ "baked_at": "2026-10-25T22:36:10Z",
  "current": [
-  {
-   "key": "recipe:111015001",
-   "type": "recipe",
-   "title": "Expert's Orichalcum Longsword",
-   "value": 125183.08000000002,
-   "text": "Expert's Orichalcum Longsword (blacksmithing 15): +125.2k per craft, 32% ROI, cost 394.4k, 5 cleared in 4.2h, Splendent 2.50M (22 listed), break-even 1.81M"
-  },
-  {
-   "key": "recipe:311095001",
-   "type": "recipe",
-   "title": "Expert's Truth Orb",
-   "value": 103750.08639999997,
-   "text": "Expert's Truth Orb (alchemy 15): +103.8k per craft, 32% ROI, cost 319.9k, 6 cleared in 4.2h, Splendent 2.33M (9 listed), break-even 1.36M"
-  },
   {
    "key": "recipe:412075001",
    "type": "recipe",
    "title": "Expert's Orichalcum Cloak",
-   "value": 270041.7332444445,
-   "text": "Expert's Orichalcum Cloak (tailoring 25): +270.0k per craft, 118% ROI, cost 228.4k, 6 cleared in 4.2h, Splendent 1.70M (7 listed), break-even 421.4k"
-  },
-  {
-   "key": "below:610530008",
-   "type": "buy",
-   "title": "Artisan's Refining Stone",
-   "value": -449999,
-   "text": "Artisan's Refining Stone ask 450.0k (150 listed), under your 450.0k line. Cleared 410.0k–687.8k, 144 gone in 4.2h. 5 per Artisan's craft"
+   "value": 246507.09435555557,
+   "text": "Expert's Orichalcum Cloak (tailoring 25): +246.5k per craft, 98% ROI, cost 251.9k, 7 cleared in 4.2h, Splendent 1.70M (6 listed), break-even 532.8k"
   },
   {
    "key": "below:610530001",
    "type": "buy",
    "title": "Refining Stone",
-   "value": -698,
-   "text": "Refining Stone ask 698 (67 listed), under your 2,200 line. Cleared 598–998, 142 gone in 4.2h."
-  },
-  {
-   "key": "below:610530014",
-   "type": "buy",
-   "title": "Spiritstone",
-   "value": -2293,
-   "text": "Spiritstone ask 2,293 (4 listed), under your 3,000 line. Cleared 1,590–2,293, 78 gone in 4.2h."
+   "value": -500,
+   "text": "Refining Stone ask 500 (45 listed), under your 2,200 line. Cleared 598–998, 131 gone in 4.2h."
   },
   {
    "key": "below:110550014",
    "type": "buy",
    "title": "Splendent Truth Spellbook",
-   "value": -76548,
-   "text": "Splendent Truth Spellbook ask 76.5k (32 listed), under your 150.0k line. Cleared 110.0k–124.0k, 17 gone in 4.2h. Expert's spellbook input, own cost ~186k"
+   "value": -75000,
+   "text": "Splendent Truth Spellbook ask 75.0k (27 listed), under your 150.0k line. Cleared –––, 13 gone in 4.2h. Expert's spellbook input, own cost ~186k"
   }
  ],
  "fresh": [
   {
-   "key": "recipe:111015001",
-   "type": "recipe",
-   "title": "Expert's Orichalcum Longsword",
-   "value": 125183.08000000002,
-   "text": "Expert's Orichalcum Longsword (blacksmithing 15): +125.2k per craft, 32% ROI, cost 394.4k, 5 cleared in 4.2h, Splendent 2.50M (22 listed), break-even 1.81M"
-  },
-  {
-   "key": "recipe:412075001",
-   "type": "recipe",
-   "title": "Expert's Orichalcum Cloak",
-   "value": 270041.7332444445,
-   "text": "Expert's Orichalcum Cloak (tailoring 25): +270.0k per craft, 118% ROI, cost 228.4k, 6 cleared in 4.2h, Splendent 1.70M (7 listed), break-even 421.4k"
-  },
-  {
-   "key": "below:610530008",
+   "key": "below:610530001",
    "type": "buy",
-   "title": "Artisan's Refining Stone",
-   "value": -449999,
-   "text": "Artisan's Refining Stone ask 450.0k (150 listed), under your 450.0k line. Cleared 410.0k–687.8k, 144 gone in 4.2h. 5 per Artisan's craft"
+   "title": "Refining Stone",
+   "value": -500,
+   "text": "Refining Stone ask 500 (45 listed), under your 2,200 line. Cleared 598–998, 131 gone in 4.2h."
   },
   {
-   "key": "below:610530014",
+   "key": "below:110550014",
    "type": "buy",
-   "title": "Spiritstone",
-   "value": -2293,
-   "text": "Spiritstone ask 2,293 (4 listed), under your 3,000 line. Cleared 1,590–2,293, 78 gone in 4.2h."
+   "title": "Splendent Truth Spellbook",
+   "value": -75000,
+   "text": "Splendent Truth Spellbook ask 75.0k (27 listed), under your 150.0k line. Cleared –––, 13 gone in 4.2h. Expert's spellbook input, own cost ~186k"
   }
  ]
 }
