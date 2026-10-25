@@ -1574,5 +1574,37 @@
   "title": "Splendent Truth Spellbook",
   "value": -79982,
   "text": "Splendent Truth Spellbook ask 80.0k (24 listed), under your 150.0k line. Cleared 110.0k–124.0k, 19 gone in 4.2h. Expert's spellbook input, own cost ~186k"
+ },
+ {
+  "at": "2026-10-25T19:46:01.093Z",
+  "key": "recipe:111015001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Longsword",
+  "value": 125183.08000000002,
+  "text": "Expert's Orichalcum Longsword (blacksmithing 15): +125.2k per craft, 32% ROI, cost 394.4k, 5 cleared in 4.2h, Splendent 2.50M (22 listed), break-even 1.81M"
+ },
+ {
+  "at": "2026-10-25T19:46:01.093Z",
+  "key": "recipe:412075001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Cloak",
+  "value": 270041.7332444445,
+  "text": "Expert's Orichalcum Cloak (tailoring 25): +270.0k per craft, 118% ROI, cost 228.4k, 6 cleared in 4.2h, Splendent 1.70M (7 listed), break-even 421.4k"
+ },
+ {
+  "at": "2026-10-25T19:46:01.093Z",
+  "key": "below:610530008",
+  "type": "buy",
+  "title": "Artisan's Refining Stone",
+  "value": -449999,
+  "text": "Artisan's Refining Stone ask 450.0k (150 listed), under your 450.0k line. Cleared 410.0k–687.8k, 144 gone in 4.2h. 5 per Artisan's craft"
+ },
+ {
+  "at": "2026-10-25T19:46:01.093Z",
+  "key": "below:610530014",
+  "type": "buy",
+  "title": "Spiritstone",
+  "value": -2293,
+  "text": "Spiritstone ask 2,293 (4 listed), under your 3,000 line. Cleared 1,590–2,293, 78 gone in 4.2h."
  }
 ]
