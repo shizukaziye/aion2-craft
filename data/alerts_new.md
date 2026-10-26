@@ -1,6 +1,5 @@
-**Nezekan** · data 2026-10-25T22:36:10Z · 3 active, 2 new
+**Nezekan** · data 2026-10-26T01:14:39Z · 4 active, 1 new
 
-- **BUY** Refining Stone ask 500 (45 listed), under your 2,200 line. Cleared 598–998, 131 gone in 4.2h.
-- **BUY** Splendent Truth Spellbook ask 75.0k (27 listed), under your 150.0k line. Cleared –––, 13 gone in 4.2h. Expert's spellbook input, own cost ~186k
+- **BUY** Refining Stone ask 1,458 (35 listed), under your 2,200 line. Cleared 500–1,277, 100 gone in 4.2h.
 
 https://shizukaziye.github.io/aion2-craft/#alerts
