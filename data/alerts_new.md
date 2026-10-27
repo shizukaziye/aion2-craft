@@ -1,8 +1,6 @@
-**Nezekan** · data 2026-10-26T20:32:01Z · 4 active, 4 new
+**Nezekan** · data 2026-10-27T00:29:16Z · 6 active, 2 new
 
-- **RECIPE** Artisan's Orichalcum Pauldrons (tailoring 35): +1.48M per craft, 85% ROI, cost 1.74M, 6 cleared in 4.2h, Splendent 14.80M (3 listed), break-even 7.48M
-- **BUY** Refining Stone ask 1,042 (105 listed), under your 2,200 line. Cleared 497–1,277, 97 gone in 4.2h.
-- **BUY** Spiritstone ask 1,555 (49 listed), under your 3,000 line. Cleared 1,499–1,850, 58 gone in 4.2h.
-- **BUY** Splendent Truth Spellbook ask 100.0k (23 listed), under your 150.0k line. Cleared 69.7k–123.2k, 41 gone in 4.2h. Expert's spellbook input, own cost ~186k
+- **RECIPE** Expert's Orichalcum Mace (blacksmithing 15): +108.3k per craft, 27% ROI, cost 394.5k, 5 cleared in 4.2h, Splendent 2.40M (10 listed), break-even 1.79M
+- **RECIPE** Expert's Orichalcum Greaves (tailoring 15): +157.5k per craft, 92% ROI, cost 171.1k, 5 cleared in 4.2h, Splendent 1.60M (7 listed), break-even 809.9k
 
 https://shizukaziye.github.io/aion2-craft/#alerts

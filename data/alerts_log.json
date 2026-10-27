@@ -1718,5 +1718,21 @@
   "title": "Splendent Truth Spellbook",
   "value": -99999,
   "text": "Splendent Truth Spellbook ask 100.0k (23 listed), under your 150.0k line. Cleared 69.7k–123.2k, 41 gone in 4.2h. Expert's spellbook input, own cost ~186k"
+ },
+ {
+  "at": "2026-10-27T00:35:39.512Z",
+  "key": "recipe:111065001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Mace",
+  "value": 108339.42213333334,
+  "text": "Expert's Orichalcum Mace (blacksmithing 15): +108.3k per craft, 27% ROI, cost 394.5k, 5 cleared in 4.2h, Splendent 2.40M (10 listed), break-even 1.79M"
+ },
+ {
+  "at": "2026-10-27T00:35:39.512Z",
+  "key": "recipe:412025001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Greaves",
+  "value": 157472.04933333333,
+  "text": "Expert's Orichalcum Greaves (tailoring 15): +157.5k per craft, 92% ROI, cost 171.1k, 5 cleared in 4.2h, Splendent 1.60M (7 listed), break-even 809.9k"
  }
 ]
