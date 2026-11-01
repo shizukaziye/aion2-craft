@@ -3574,5 +3574,53 @@
   "title": "Spiritstone",
   "value": -898,
   "text": "Spiritstone ask 898 (64 listed), under your 3,000 line. Cleared 749–1,065, 81 gone in 4.2h."
+ },
+ {
+  "at": "2026-11-01T19:52:37.978Z",
+  "key": "recipe:111065001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Mace",
+  "value": 387980.86,
+  "text": "Expert's Orichalcum Mace (blacksmithing 15): +388.0k per craft, 164% ROI, cost 237.2k, 6 cleared in 2.8h, Splendent 2.80M (7 listed), break-even 913.0k"
+ },
+ {
+  "at": "2026-11-01T19:52:37.978Z",
+  "key": "recipe:213024001",
+  "type": "recipe",
+  "title": "Artisan's Diamond Earrings",
+  "value": 806587.2552888887,
+  "text": "Artisan's Diamond Earrings (jewelcrafting 35): +806.6k per craft, 41% ROI, cost 1.98M, 9 cleared in 3.8h, Splendent 15.00M (4 listed), break-even 9.18M"
+ },
+ {
+  "at": "2026-11-01T19:52:37.978Z",
+  "key": "recipe:213014001",
+  "type": "recipe",
+  "title": "Artisan's Ruby Necklace",
+  "value": 667160.4733444443,
+  "text": "Artisan's Ruby Necklace (jewelcrafting 40): +667.2k per craft, 25% ROI, cost 2.71M, 10 cleared in 4.2h, Splendent 16.00M (15 listed), break-even 12.44M"
+ },
+ {
+  "at": "2026-11-01T19:52:37.978Z",
+  "key": "recipe:213035001",
+  "type": "recipe",
+  "title": "Expert's Sapphire Ring",
+  "value": 142810.1238888889,
+  "text": "Expert's Sapphire Ring (jewelcrafting 15): +142.8k per craft, 103% ROI, cost 139.1k, 35 cleared in 4.2h, Splendent 1.30M (2 listed), break-even 508.8k"
+ },
+ {
+  "at": "2026-11-01T19:52:37.978Z",
+  "key": "recipe:412055001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Gloves",
+  "value": 126720.29982222218,
+  "text": "Expert's Orichalcum Gloves (tailoring 20): +126.7k per craft, 83% ROI, cost 152.1k, 6 cleared in 4.2h, Splendent 1000.0k (8 listed), break-even 350.0k"
+ },
+ {
+  "at": "2026-11-01T19:52:37.978Z",
+  "key": "below:610530001",
+  "type": "buy",
+  "title": "Refining Stone",
+  "value": -597,
+  "text": "Refining Stone ask 597 (53 listed), under your 2,200 line. Cleared 290–1,198, 122 gone in 4.2h."
  }
 ]
