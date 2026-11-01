@@ -3622,5 +3622,109 @@
   "title": "Refining Stone",
   "value": -597,
   "text": "Refining Stone ask 597 (53 listed), under your 2,200 line. Cleared 290–1,198, 122 gone in 4.2h."
+ },
+ {
+  "at": "2026-11-01T23:43:59.081Z",
+  "key": "recipe:315016009",
+  "type": "recipe",
+  "title": "Diamond Powder",
+  "value": 124506.62399999998,
+  "text": "Diamond Powder (alchemy 45): +124.5k per craft, 236% ROI, cost 52.8k, 13 cleared in 4.2h, Splendent – (0 listed), break-even –"
+ },
+ {
+  "at": "2026-11-01T23:43:59.081Z",
+  "key": "recipe:111064001",
+  "type": "recipe",
+  "title": "Artisan's Orichalcum Mace",
+  "value": 1332157.7701333323,
+  "text": "Artisan's Orichalcum Mace (blacksmithing 30): +1.33M per craft, 35% ROI, cost 3.77M, 5 cleared in 4.2h, Splendent 26.00M (4 listed), break-even 16.69M"
+ },
+ {
+  "at": "2026-11-01T23:43:59.081Z",
+  "key": "recipe:111014001",
+  "type": "recipe",
+  "title": "Artisan's Orichalcum Longsword",
+  "value": 1185109.6997333327,
+  "text": "Artisan's Orichalcum Longsword (blacksmithing 30): +1.19M per craft, 31% ROI, cost 3.79M, 7 cleared in 4.2h, Splendent 22.00M (8 listed), break-even 16.39M"
+ },
+ {
+  "at": "2026-11-01T23:43:59.081Z",
+  "key": "recipe:311055001",
+  "type": "recipe",
+  "title": "Expert's Truth Spellbook",
+  "value": 220823.90959999996,
+  "text": "Expert's Truth Spellbook (alchemy 15): +220.8k per craft, 77% ROI, cost 287.9k, 13 cleared in 4.2h, Splendent 1.60M (24 listed), break-even 496.5k"
+ },
+ {
+  "at": "2026-11-01T23:43:59.081Z",
+  "key": "recipe:311094001",
+  "type": "recipe",
+  "title": "Artisan's Truth Orb",
+  "value": 736759.5673333332,
+  "text": "Artisan's Truth Orb (alchemy 30): +736.8k per craft, 21% ROI, cost 3.57M, 5 cleared in 4.2h, Splendent 19.50M (3 listed), break-even 16.01M"
+ },
+ {
+  "at": "2026-11-01T23:43:59.081Z",
+  "key": "recipe:311095001",
+  "type": "recipe",
+  "title": "Expert's Truth Orb",
+  "value": 130146.45679999996,
+  "text": "Expert's Truth Orb (alchemy 15): +130.1k per craft, 53% ROI, cost 245.1k, 13 cleared in 4.2h, Splendent 1.22M (13 listed), break-even 383.8k"
+ },
+ {
+  "at": "2026-11-01T23:43:59.081Z",
+  "key": "recipe:213014001",
+  "type": "recipe",
+  "title": "Artisan's Ruby Necklace",
+  "value": 843279.1837444445,
+  "text": "Artisan's Ruby Necklace (jewelcrafting 40): +843.3k per craft, 32% ROI, cost 2.60M, 9 cleared in 4.2h, Splendent 16.00M (17 listed), break-even 12.01M"
+ },
+ {
+  "at": "2026-11-01T23:43:59.081Z",
+  "key": "recipe:211105001",
+  "type": "recipe",
+  "title": "Expert's Yggdrasil Staff",
+  "value": 106591.83200000005,
+  "text": "Expert's Yggdrasil Staff (jewelcrafting 15): +106.6k per craft, 22% ROI, cost 490.0k, 11 cleared in 4.2h, Splendent 2.70M (5 listed), break-even 2.17M"
+ },
+ {
+  "at": "2026-11-01T23:43:59.081Z",
+  "key": "recipe:412055001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Gloves",
+  "value": 172930.54982222218,
+  "text": "Expert's Orichalcum Gloves (tailoring 20): +172.9k per craft, 163% ROI, cost 105.9k, 11 cleared in 4.2h, Splendent 1.60M (2 listed), break-even 131.2k"
+ },
+ {
+  "at": "2026-11-01T23:43:59.081Z",
+  "key": "below:610530005",
+  "type": "buy",
+  "title": "Expert's Refining Stone",
+  "value": -37999,
+  "text": "Expert's Refining Stone ask 38.0k (109 listed), under your 55.0k line. Cleared 24.4k–38.0k, 252 gone in 4.2h. 5 per Expert's bow or spellbook"
+ },
+ {
+  "at": "2026-11-01T23:43:59.081Z",
+  "key": "below:610530008",
+  "type": "buy",
+  "title": "Artisan's Refining Stone",
+  "value": -289999,
+  "text": "Artisan's Refining Stone ask 290.0k (185 listed), under your 450.0k line. Cleared 265.0k–375.0k, 194 gone in 4.2h. 5 per Artisan's craft"
+ },
+ {
+  "at": "2026-11-01T23:43:59.081Z",
+  "key": "below:610530014",
+  "type": "buy",
+  "title": "Spiritstone",
+  "value": -666,
+  "text": "Spiritstone ask 666 (50 listed), under your 3,000 line. Cleared 680–796, 82 gone in 4.2h."
+ },
+ {
+  "at": "2026-11-01T23:43:59.081Z",
+  "key": "below:110550014",
+  "type": "buy",
+  "title": "Splendent Truth Spellbook",
+  "value": -100000,
+  "text": "Splendent Truth Spellbook ask 100.0k (21 listed), under your 150.0k line. Cleared 200.0k–220.0k, 20 gone in 4.2h. Expert's spellbook input, own cost ~186k"
  }
 ]
