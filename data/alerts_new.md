@@ -1,20 +1,22 @@
-**Nezekan** · data 2026-11-05T15:31:44Z · 16 active, 16 new
+**Nezekan** · data 2026-11-05T22:02:09Z · 18 active, 18 new
 
-- **RECIPE** Expert's Orichalcum Gloves (tailoring 20): +145.6k per craft, 62% ROI, cost 234.6k, 7 cleared in 4.2h, Splendent 1.05M (8 listed), break-even 360.7k
-- **RECIPE** Expert's Orichalcum Greatsword (blacksmithing 15): +215.6k per craft, 99% ROI, cost 217.4k, 5 cleared in 4.2h, Splendent 1.75M (31 listed), break-even 729.3k
-- **RECIPE** Expert's Truth Orb (alchemy 15): +198.0k per craft, 107% ROI, cost 184.3k, 15 cleared in 4.2h, Splendent 1.30M (4 listed), break-even 362.7k
-- **RECIPE** Artisan's Orichalcum Mace (blacksmithing 30): +797.3k per craft, 22% ROI, cost 3.57M, 7 cleared in 4h, Splendent 23.00M (4 listed), break-even 15.78M
-- **RECIPE** Expert's Orichalcum Mace (blacksmithing 15): +151.7k per craft, 85% ROI, cost 177.8k, 17 cleared in 4.2h, Splendent 1.60M (38 listed), break-even 781.8k
-- **RECIPE** Expert's Orichalcum Guard (blacksmithing 20): +150.9k per craft, 62% ROI, cost 244.1k, 15 cleared in 3.7h, Splendent 1.80M (16 listed), break-even 735.7k
-- **RECIPE** Expert's Sapphire Ring (jewelcrafting 15): +109.9k per craft, 107% ROI, cost 102.3k, 75 cleared in 4.2h, Splendent 1.46M (5 listed), break-even 454.6k
-- **RECIPE** Artisan's Sapphire Ring (jewelcrafting 30): +274.3k per craft, 21% ROI, cost 1.33M, 31 cleared in 4.2h, Splendent 7.25M (12 listed), break-even 5.95M
-- **RECIPE** Artisan's Yggdrasil Bow (jewelcrafting 30): +882.5k per craft, 21% ROI, cost 4.16M, 9 cleared in 4.2h, Splendent 23.46M (9 listed), break-even 19.28M
-- **RECIPE** Expert's Orichalcum Breastplate (tailoring 15): +191.6k per craft, 89% ROI, cost 215.4k, 10 cleared in 4.2h, Splendent 1.60M (17 listed), break-even 692.9k
-- **RECIPE** Expert's Yggdrasil Bow (jewelcrafting 15): +113.8k per craft, 28% ROI, cost 403.6k, 14 cleared in 4.2h, Splendent 2.42M (16 listed), break-even 1.46M
-- **BUY** Expert's Refining Stone ask 16.0k (264 listed), under your 55.0k line. Cleared 20.0k–30.0k, 138 gone in 4.2h. 5 per Expert's bow or spellbook
-- **BUY** Artisan's Refining Stone ask 170.0k (349 listed), under your 450.0k line. Cleared 185.0k–240.0k, 190 gone in 4.2h. 5 per Artisan's craft
-- **BUY** Refining Stone ask 199 (66 listed), under your 2,200 line. Cleared 100–1,200, 122 gone in 4.2h.
-- **BUY** Spiritstone ask 442 (168 listed), under your 3,000 line. Cleared 698–777, 54 gone in 4.2h.
-- **BUY** Splendent Truth Spellbook ask 125.0k (25 listed), under your 150.0k line. Cleared 88.9k–138.0k, 10 gone in 4.2h. Expert's spellbook input, own cost ~186k
+- **RECIPE** Expert's Orichalcum Breastplate (tailoring 15): +194.7k per craft, 100% ROI, cost 193.9k, 16 cleared in 4h, Splendent 1.60M (11 listed), break-even 678.0k
+- **RECIPE** Expert's Diamond Earrings (jewelcrafting 20): +138.4k per craft, 108% ROI, cost 127.7k, 14 cleared in 3.8h, Splendent 1.35M (17 listed), break-even 544.8k
+- **RECIPE** Expert's Yggdrasil Bow (jewelcrafting 15): +284.6k per craft, 88% ROI, cost 322.6k, 16 cleared in 4h, Splendent 2.50M (14 listed), break-even 1.08M
+- **RECIPE** Expert's Orichalcum Greatsword (blacksmithing 15): +257.8k per craft, 129% ROI, cost 200.5k, 9 cleared in 4h, Splendent 1.80M (28 listed), break-even 379.3k
+- **RECIPE** Artisan's Yggdrasil Bow (jewelcrafting 30): +997.6k per craft, 25% ROI, cost 4.05M, 12 cleared in 4h, Splendent 24.50M (5 listed), break-even 18.73M
+- **RECIPE** Artisan's Orichalcum Helm (tailoring 30): +1.22M per craft, 86% ROI, cost 1.42M, 5 cleared in 4h, Splendent 11.20M (7 listed), break-even 5.24M
+- **RECIPE** Expert's Orichalcum Mace (blacksmithing 15): +226.7k per craft, 115% ROI, cost 197.8k, 19 cleared in 4h, Splendent 1.50M (38 listed), break-even 426.8k
+- **RECIPE** Expert's Truth Orb (alchemy 15): +209.7k per craft, 122% ROI, cost 172.6k, 14 cleared in 4h, Splendent 1.30M (5 listed), break-even 307.1k
+- **RECIPE** Artisan's Orichalcum Greatsword (blacksmithing 30): +850.8k per craft, 29% ROI, cost 2.91M, 5 cleared in 3.5h, Splendent 20.00M (3 listed), break-even 12.97M
+- **RECIPE** Artisan's Orichalcum Greaves (tailoring 30): +1.11M per craft, 59% ROI, cost 1.90M, 5 cleared in 4h, Splendent 13.80M (2 listed), break-even 8.15M
+- **RECIPE** Artisan's Orichalcum Guard (blacksmithing 35): +724.1k per craft, 23% ROI, cost 3.16M, 10 cleared in 3.8h, Splendent 22.00M (10 listed), break-even 14.35M
+- **RECIPE** Expert's Orichalcum Guard (blacksmithing 20): +167.8k per craft, 74% ROI, cost 227.2k, 9 cleared in 3.5h, Splendent 1.75M (17 listed), break-even 655.7k
+- **RECIPE** Expert's Orichalcum Dagger (blacksmithing 15): +104.8k per craft, 40% ROI, cost 263.8k, 9 cleared in 4h, Splendent 1.15M (7 listed), break-even 649.3k
+- **BUY** Expert's Refining Stone ask 12.5k (133 listed), under your 55.0k line. Cleared 14.9k–29.9k, 173 gone in 4h. 5 per Expert's bow or spellbook
+- **BUY** Artisan's Refining Stone ask 209.0k (243 listed), under your 450.0k line. Cleared 160.0k–230.0k, 197 gone in 4h. 5 per Artisan's craft
+- **BUY** Refining Stone ask 828 (57 listed), under your 2,200 line. Cleared 100–1,200, 94 gone in 4h.
+- **BUY** Spiritstone ask 343 (126 listed), under your 3,000 line. Cleared 345–777, 60 gone in 4h.
+- **BUY** Splendent Truth Spellbook ask 100.0k (27 listed), under your 150.0k line. Cleared 90.0k–138.0k, 11 gone in 4h. Expert's spellbook input, own cost ~186k
 
 https://shizukaziye.github.io/aion2-craft/#alerts
