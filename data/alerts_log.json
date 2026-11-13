@@ -1,133 +1,5 @@
 [
  {
-  "at": "2026-11-03T21:12:58.173Z",
-  "key": "recipe:213034001",
-  "type": "recipe",
-  "title": "Artisan's Sapphire Ring",
-  "value": 350213.03786666645,
-  "text": "Artisan's Sapphire Ring (jewelcrafting 30): +350.2k per craft, 29% ROI, cost 1.20M, 34 cleared in 4h, Splendent 8.93M (23 listed), break-even 5.56M"
- },
- {
-  "at": "2026-11-03T21:12:58.173Z",
-  "key": "recipe:412025001",
-  "type": "recipe",
-  "title": "Expert's Orichalcum Greaves",
-  "value": 176138.39946666665,
-  "text": "Expert's Orichalcum Greaves (tailoring 15): +176.1k per craft, 179% ROI, cost 98.4k, 6 cleared in 4h, Splendent 1.30M (16 listed), break-even 466.0k"
- },
- {
-  "at": "2026-11-03T21:12:58.173Z",
-  "key": "below:610530005",
-  "type": "buy",
-  "title": "Expert's Refining Stone",
-  "value": -23331,
-  "text": "Expert's Refining Stone ask 23.3k (216 listed), under your 55.0k line. Cleared 11.0k–29.0k, 180 gone in 4h. 5 per Expert's bow or spellbook"
- },
- {
-  "at": "2026-11-03T21:12:58.173Z",
-  "key": "below:610530014",
-  "type": "buy",
-  "title": "Spiritstone",
-  "value": -885,
-  "text": "Spiritstone ask 885 (25 listed), under your 3,000 line. Cleared 438–934, 66 gone in 4.2h."
- },
- {
-  "at": "2026-11-04T01:32:39.991Z",
-  "key": "recipe:412025001",
-  "type": "recipe",
-  "title": "Expert's Orichalcum Greaves",
-  "value": 241280,
-  "text": "Expert's Orichalcum Greaves (tailoring 15): +241.3k per craft, 113% ROI, cost 212.8k, 7 cleared in 4.2h, Splendent 1.25M (18 listed), break-even 107.6k"
- },
- {
-  "at": "2026-11-04T01:32:39.991Z",
-  "key": "recipe:412035001",
-  "type": "recipe",
-  "title": "Expert's Orichalcum Helm",
-  "value": 217678.66666666666,
-  "text": "Expert's Orichalcum Helm (tailoring 15): +217.7k per craft, 121% ROI, cost 180.4k, 6 cleared in 4.2h, Splendent 1.60M (7 listed), break-even 569.3k"
- },
- {
-  "at": "2026-11-04T01:32:39.991Z",
-  "key": "recipe:111015001",
-  "type": "recipe",
-  "title": "Expert's Orichalcum Longsword",
-  "value": 139356.16666666663,
-  "text": "Expert's Orichalcum Longsword (blacksmithing 15): +139.4k per craft, 51% ROI, cost 274.6k, 6 cleared in 4.2h, Splendent 1.85M (18 listed), break-even 1.09M"
- },
- {
-  "at": "2026-11-04T01:32:39.991Z",
-  "key": "recipe:213025001",
-  "type": "recipe",
-  "title": "Expert's Diamond Earrings",
-  "value": 108351.40519999998,
-  "text": "Expert's Diamond Earrings (jewelcrafting 20): +108.4k per craft, 59% ROI, cost 185.2k, 38 cleared in 4.2h, Splendent 1.40M (5 listed), break-even 787.0k"
- },
- {
-  "at": "2026-11-04T01:32:39.991Z",
-  "key": "below:610530005",
-  "type": "buy",
-  "title": "Expert's Refining Stone",
-  "value": -32000,
-  "text": "Expert's Refining Stone ask 32.0k (133 listed), under your 55.0k line. Cleared 11.0k–29.0k, 238 gone in 4.2h. 5 per Expert's bow or spellbook"
- },
- {
-  "at": "2026-11-04T01:32:39.991Z",
-  "key": "below:610530008",
-  "type": "buy",
-  "title": "Artisan's Refining Stone",
-  "value": -287777,
-  "text": "Artisan's Refining Stone ask 287.8k (167 listed), under your 450.0k line. Cleared 195.0k–287.8k, 253 gone in 4.2h. 5 per Artisan's craft"
- },
- {
-  "at": "2026-11-04T01:32:39.991Z",
-  "key": "below:610530001",
-  "type": "buy",
-  "title": "Refining Stone",
-  "value": -671,
-  "text": "Refining Stone ask 671 (70 listed), under your 2,200 line. Cleared 300–983, 71 gone in 4.2h."
- },
- {
-  "at": "2026-11-04T01:32:39.991Z",
-  "key": "above:110440012",
-  "type": "sell",
-  "title": "Expert's Splendent Yggdrasil Bow",
-  "value": 3400000,
-  "text": "Expert's Splendent Yggdrasil Bow cleared at 3.40M in the last 4.2h (ask now 2.75M, 26 listed), over your 3.30M line. sell"
- },
- {
-  "at": "2026-11-04T09:27:17.476Z",
-  "key": "recipe:412054001",
-  "type": "recipe",
-  "title": "Artisan's Orichalcum Gloves",
-  "value": 804680.4722666666,
-  "text": "Artisan's Orichalcum Gloves (tailoring 35): +804.7k per craft, 48% ROI, cost 1.67M, 5 cleared in 4.2h, Splendent 13.00M (3 listed), break-even 6.63M"
- },
- {
-  "at": "2026-11-04T09:27:17.476Z",
-  "key": "recipe:111064001",
-  "type": "recipe",
-  "title": "Artisan's Orichalcum Mace",
-  "value": 1391496.3331555552,
-  "text": "Artisan's Orichalcum Mace (blacksmithing 30): +1.39M per craft, 48% ROI, cost 2.91M, 5 cleared in 4.2h, Splendent 19.00M (7 listed), break-even 12.41M"
- },
- {
-  "at": "2026-11-04T09:27:17.476Z",
-  "key": "recipe:412015001",
-  "type": "recipe",
-  "title": "Expert's Orichalcum Breastplate",
-  "value": 221702.4096,
-  "text": "Expert's Orichalcum Breastplate (tailoring 15): +221.7k per craft, 95% ROI, cost 232.4k, 5 cleared in 4.2h, Splendent 1.70M (12 listed), break-even 650.3k"
- },
- {
-  "at": "2026-11-04T09:27:17.476Z",
-  "key": "recipe:412025001",
-  "type": "recipe",
-  "title": "Expert's Orichalcum Greaves",
-  "value": 198854.8333333333,
-  "text": "Expert's Orichalcum Greaves (tailoring 15): +198.9k per craft, 305% ROI, cost 65.1k, 8 cleared in 4.2h, Splendent 1.25M (18 listed), break-even 308.5k"
- },
- {
   "at": "2026-11-04T09:27:17.476Z",
   "key": "recipe:311095001",
   "type": "recipe",
@@ -3998,5 +3870,133 @@
   "title": "Spiritstone",
   "value": -898,
   "text": "Spiritstone ask 898 (88 listed), under your 3,000 line. Cleared 200–4,999, 65 gone in 4.2h."
+ },
+ {
+  "at": "2026-11-13T23:56:32.528Z",
+  "key": "recipe:412025001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Greaves",
+  "value": 136251.85919999995,
+  "text": "Expert's Orichalcum Greaves (tailoring 15): +136.3k per craft, 44% ROI, cost 310.8k, 6 cleared in 4.2h, Splendent 1.95M (1 listed), break-even 804.9k"
+ },
+ {
+  "at": "2026-11-13T23:56:32.528Z",
+  "key": "recipe:211045001",
+  "type": "recipe",
+  "title": "Expert's Yggdrasil Bow",
+  "value": 204466.66666666663,
+  "text": "Expert's Yggdrasil Bow (jewelcrafting 15): +204.5k per craft, 60% ROI, cost 340.4k, 5 cleared in 2.8h, Splendent 2.89M (5 listed), break-even 1.22M"
+ },
+ {
+  "at": "2026-11-13T23:56:32.528Z",
+  "key": "recipe:311095001",
+  "type": "recipe",
+  "title": "Expert's Truth Orb",
+  "value": 197806.63066666666,
+  "text": "Expert's Truth Orb (alchemy 15): +197.8k per craft, 115% ROI, cost 171.8k, 11 cleared in 4.2h, Splendent 1.70M (20 listed), break-even 663.4k"
+ },
+ {
+  "at": "2026-11-13T23:56:32.528Z",
+  "key": "recipe:412036001",
+  "type": "recipe",
+  "title": "Orichalcum Helm",
+  "value": 147448.8888,
+  "text": "Orichalcum Helm (tailoring 3): +147.4k per craft, 636% ROI, cost 23.2k, 8 cleared in 4.2h, Splendent 677.1k (2 listed), break-even -97.1k"
+ },
+ {
+  "at": "2026-11-13T23:56:32.528Z",
+  "key": "recipe:111035001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Dagger",
+  "value": 172522.76666666666,
+  "text": "Expert's Orichalcum Dagger (blacksmithing 15): +172.5k per craft, 79% ROI, cost 218.0k, 6 cleared in 4.2h, Splendent 1.50M (8 listed), break-even 582.1k"
+ },
+ {
+  "at": "2026-11-13T23:56:32.528Z",
+  "key": "recipe:111085001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Guard",
+  "value": 171859.50266666664,
+  "text": "Expert's Orichalcum Guard (blacksmithing 20): +171.9k per craft, 64% ROI, cost 268.1k, 16 cleared in 4.2h, Splendent 1.85M (30 listed), break-even 1.04M"
+ },
+ {
+  "at": "2026-11-13T23:56:32.528Z",
+  "key": "recipe:111025001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Greatsword",
+  "value": 153263.96666666667,
+  "text": "Expert's Orichalcum Greatsword (blacksmithing 15): +153.3k per craft, 58% ROI, cost 264.9k, 7 cleared in 3.5h, Splendent 1.50M (5 listed), break-even 774.3k"
+ },
+ {
+  "at": "2026-11-13T23:56:32.528Z",
+  "key": "recipe:111015001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Longsword",
+  "value": 147923.24666666664,
+  "text": "Expert's Orichalcum Longsword (blacksmithing 15): +147.9k per craft, 60% ROI, cost 247.0k, 10 cleared in 4.2h, Splendent 1.99M (16 listed), break-even 1.05M"
+ },
+ {
+  "at": "2026-11-13T23:56:32.528Z",
+  "key": "recipe:311055001",
+  "type": "recipe",
+  "title": "Expert's Truth Spellbook",
+  "value": 147191.9554666667,
+  "text": "Expert's Truth Spellbook (alchemy 15): +147.2k per craft, 65% ROI, cost 227.7k, 17 cleared in 4.2h, Splendent 1.70M (23 listed), break-even 1.00M"
+ },
+ {
+  "at": "2026-11-13T23:56:32.528Z",
+  "key": "recipe:412075001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Cloak",
+  "value": 324186.5,
+  "text": "Expert's Orichalcum Cloak (tailoring 25): +324.2k per craft, 231% ROI, cost 140.5k, 6 cleared in 4.2h, Splendent 2.00M (2 listed), break-even 65.0k"
+ },
+ {
+  "at": "2026-11-13T23:56:32.528Z",
+  "key": "recipe:211105001",
+  "type": "recipe",
+  "title": "Expert's Yggdrasil Staff",
+  "value": 113650.45546666667,
+  "text": "Expert's Yggdrasil Staff (jewelcrafting 15): +113.7k per craft, 33% ROI, cost 340.4k, 18 cleared in 4h, Splendent 3.30M (1 listed), break-even 1.46M"
+ },
+ {
+  "at": "2026-11-13T23:56:32.528Z",
+  "key": "recipe:412074001",
+  "type": "recipe",
+  "title": "Artisan's Orichalcum Cloak",
+  "value": 1076395.2385333332,
+  "text": "Artisan's Orichalcum Cloak (tailoring 40): +1.08M per craft, 79% ROI, cost 1.37M, 7 cleared in 4.2h, Splendent 11.00M (11 listed), break-even 5.90M"
+ },
+ {
+  "at": "2026-11-13T23:56:32.528Z",
+  "key": "below:610530005",
+  "type": "buy",
+  "title": "Expert's Refining Stone",
+  "value": -19996,
+  "text": "Expert's Refining Stone ask 20.0k (70 listed), under your 55.0k line. Cleared 9,996–17.5k, 173 gone in 4.2h. 5 per Expert's bow or spellbook"
+ },
+ {
+  "at": "2026-11-13T23:56:32.528Z",
+  "key": "below:610530008",
+  "type": "buy",
+  "title": "Artisan's Refining Stone",
+  "value": -198888,
+  "text": "Artisan's Refining Stone ask 198.9k (24 listed), under your 450.0k line. Cleared 122.2k–249.9k, 220 gone in 4.2h. 5 per Artisan's craft"
+ },
+ {
+  "at": "2026-11-13T23:56:32.528Z",
+  "key": "below:610530001",
+  "type": "buy",
+  "title": "Refining Stone",
+  "value": -439,
+  "text": "Refining Stone ask 439 (51 listed), under your 2,200 line. Cleared 298–500, 71 gone in 4.2h."
+ },
+ {
+  "at": "2026-11-13T23:56:32.528Z",
+  "key": "below:610530014",
+  "type": "buy",
+  "title": "Spiritstone",
+  "value": -799,
+  "text": "Spiritstone ask 799 (64 listed), under your 3,000 line. Cleared 200–4,999, 78 gone in 4.2h."
  }
 ]
