@@ -1,220 +1,332 @@
 {
- "at": "2026-11-15T02:51:44.257Z",
+ "at": "2026-11-15T11:16:14.461Z",
  "server": 11102,
  "serverName": "Nezekan",
- "baked_at": "2026-11-15T02:43:54Z",
+ "baked_at": "2026-11-15T11:01:10Z",
  "current": [
+  {
+   "key": "recipe:412025001",
+   "type": "recipe",
+   "title": "Expert's Orichalcum Greaves",
+   "value": 292246.0912,
+   "text": "Expert's Orichalcum Greaves (tailoring 15): +292.2k per craft, 124% ROI, cost 235.7k, 6 cleared in 4h, Splendent 1.93M (2 listed), break-even 516.3k"
+  },
+  {
+   "key": "recipe:412044001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Pauldrons",
+   "value": 997735.1351999999,
+   "text": "Artisan's Orichalcum Pauldrons (tailoring 35): +997.7k per craft, 73% ROI, cost 1.37M, 6 cleared in 4h, Splendent 10.00M (4 listed), break-even 5.28M"
+  },
+  {
+   "key": "recipe:412014001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Breastplate",
+   "value": 1798839.0330666667,
+   "text": "Artisan's Orichalcum Breastplate (tailoring 30): +1.80M per craft, 88% ROI, cost 2.03M, 5 cleared in 4h, Splendent 15.80M (5 listed), break-even 7.23M"
+  },
   {
    "key": "recipe:412075001",
    "type": "recipe",
    "title": "Expert's Orichalcum Cloak",
-   "value": 320286.9109333333,
-   "text": "Expert's Orichalcum Cloak (tailoring 25): +320.3k per craft, 284% ROI, cost 112.7k, 5 cleared in 4.2h, Splendent 1.60M (6 listed), break-even 83.5k"
+   "value": 313786.07759999996,
+   "text": "Expert's Orichalcum Cloak (tailoring 25): +313.8k per craft, 263% ROI, cost 119.2k, 7 cleared in 4h, Splendent 1.60M (4 listed), break-even 114.3k"
   },
   {
    "key": "recipe:111014001",
    "type": "recipe",
    "title": "Artisan's Orichalcum Longsword",
-   "value": 1371077.8132444448,
-   "text": "Artisan's Orichalcum Longsword (blacksmithing 30): +1.37M per craft, 47% ROI, cost 2.93M, 7 cleared in 4.2h, Splendent 19.86M (8 listed), break-even 13.29M"
-  },
-  {
-   "key": "recipe:111015001",
-   "type": "recipe",
-   "title": "Expert's Orichalcum Longsword",
-   "value": 294604.89226666663,
-   "text": "Expert's Orichalcum Longsword (blacksmithing 15): +294.6k per craft, 156% ROI, cost 188.8k, 17 cleared in 3.7h, Splendent 2.35M (14 listed), break-even 594.0k"
-  },
-  {
-   "key": "recipe:211045001",
-   "type": "recipe",
-   "title": "Expert's Yggdrasil Bow",
-   "value": 270127.6154666667,
-   "text": "Expert's Yggdrasil Bow (jewelcrafting 15): +270.1k per craft, 94% ROI, cost 286.2k, 7 cleared in 4.2h, Splendent 2.50M (11 listed), break-even 1.22M"
+   "value": 1324703.8965777783,
+   "text": "Artisan's Orichalcum Longsword (blacksmithing 30): +1.32M per craft, 46% ROI, cost 2.91M, 6 cleared in 4h, Splendent 19.48M (11 listed), break-even 13.21M"
   },
   {
    "key": "recipe:412074001",
    "type": "recipe",
    "title": "Artisan's Orichalcum Cloak",
-   "value": 1146595.5603555553,
-   "text": "Artisan's Orichalcum Cloak (tailoring 40): +1.15M per craft, 108% ROI, cost 1.06M, 8 cleared in 4.2h, Splendent 10.01M (11 listed), break-even 4.58M"
+   "value": 1144191.3276,
+   "text": "Artisan's Orichalcum Cloak (tailoring 40): +1.14M per craft, 106% ROI, cost 1.08M, 8 cleared in 4h, Splendent 9.50M (13 listed), break-even 4.08M"
   },
   {
-   "key": "recipe:111064001",
+   "key": "recipe:211045001",
    "type": "recipe",
-   "title": "Artisan's Orichalcum Mace",
-   "value": 859397.6772444444,
-   "text": "Artisan's Orichalcum Mace (blacksmithing 30): +859.4k per craft, 31% ROI, cost 2.79M, 8 cleared in 4.2h, Splendent 16.70M (9 listed), break-even 12.63M"
-  },
-  {
-   "key": "recipe:311095001",
-   "type": "recipe",
-   "title": "Expert's Truth Orb",
-   "value": 173373.62586666667,
-   "text": "Expert's Truth Orb (alchemy 15): +173.4k per craft, 155% ROI, cost 111.7k, 10 cleared in 4.2h, Splendent 1.49M (24 listed), break-even 379.1k"
+   "title": "Expert's Yggdrasil Bow",
+   "value": 242010.16906666663,
+   "text": "Expert's Yggdrasil Bow (jewelcrafting 15): +242.0k per craft, 78% ROI, cost 309.8k, 6 cleared in 4h, Splendent 2.48M (13 listed), break-even 1.33M"
   },
   {
    "key": "recipe:211044001",
    "type": "recipe",
    "title": "Artisan's Yggdrasil Bow",
-   "value": 732340.9775111116,
-   "text": "Artisan's Yggdrasil Bow (jewelcrafting 30): +732.3k per craft, 20% ROI, cost 3.60M, 9 cleared in 4.2h, Splendent 19.30M (12 listed), break-even 15.53M"
+   "value": 1048041.3108444447,
+   "text": "Artisan's Yggdrasil Bow (jewelcrafting 30): +1.05M per craft, 32% ROI, cost 3.32M, 11 cleared in 4h, Splendent 19.33M (8 listed), break-even 14.24M"
+  },
+  {
+   "key": "recipe:213015001",
+   "type": "recipe",
+   "title": "Expert's Ruby Necklace",
+   "value": 209655.9813333333,
+   "text": "Expert's Ruby Necklace (jewelcrafting 25): +209.7k per craft, 153% ROI, cost 137.1k, 8 cleared in 4h, Splendent 1.50M (25 listed), break-even 482.3k"
+  },
+  {
+   "key": "recipe:111064001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Mace",
+   "value": 823572.7605777779,
+   "text": "Artisan's Orichalcum Mace (blacksmithing 30): +823.6k per craft, 29% ROI, cost 2.83M, 5 cleared in 4h, Splendent 18.90M (13 listed), break-even 12.80M"
+  },
+  {
+   "key": "recipe:412034001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Helm",
+   "value": 811834.4974222223,
+   "text": "Artisan's Orichalcum Helm (tailoring 30): +811.8k per craft, 68% ROI, cost 1.19M, 10 cleared in 4h, Splendent 8.50M (9 listed), break-even 4.66M"
   },
   {
    "key": "recipe:111065001",
    "type": "recipe",
    "title": "Expert's Orichalcum Mace",
-   "value": 159674.38666666666,
-   "text": "Expert's Orichalcum Mace (blacksmithing 15): +159.7k per craft, 85% ROI, cost 188.8k, 15 cleared in 4.2h, Splendent 1.46M (11 listed), break-even 444.0k"
-  },
-  {
-   "key": "recipe:111025001",
-   "type": "recipe",
-   "title": "Expert's Orichalcum Greatsword",
-   "value": 133571.43946666666,
-   "text": "Expert's Orichalcum Greatsword (blacksmithing 15): +133.6k per craft, 65% ROI, cost 204.3k, 6 cleared in 3.7h, Splendent 2.00M (1 listed), break-even 667.6k"
-  },
-  {
-   "key": "recipe:111085001",
-   "type": "recipe",
-   "title": "Expert's Orichalcum Guard",
-   "value": 132979.03306666669,
-   "text": "Expert's Orichalcum Guard (blacksmithing 20): +133.0k per craft, 62% ROI, cost 215.5k, 24 cleared in 4.2h, Splendent 1.35M (26 listed), break-even 720.4k"
+   "value": 180859.9554666667,
+   "text": "Expert's Orichalcum Mace (blacksmithing 15): +180.9k per craft, 86% ROI, cost 209.9k, 13 cleared in 4h, Splendent 1.40M (11 listed), break-even 543.7k"
   },
   {
    "key": "recipe:213035001",
    "type": "recipe",
    "title": "Expert's Sapphire Ring",
-   "value": 172420.35822222222,
-   "text": "Expert's Sapphire Ring (jewelcrafting 15): +172.4k per craft, 192% ROI, cost 89.9k, 24 cleared in 4.2h, Splendent 1.30M (29 listed), break-even 383.6k"
+   "value": 168191.6,
+   "text": "Expert's Sapphire Ring (jewelcrafting 15): +168.2k per craft, 161% ROI, cost 104.3k, 30 cleared in 4h, Splendent 1.40M (26 listed), break-even 403.6k"
   },
   {
    "key": "recipe:213025001",
    "type": "recipe",
    "title": "Expert's Diamond Earrings",
-   "value": 172104.3148,
-   "text": "Expert's Diamond Earrings (jewelcrafting 20): +172.1k per craft, 161% ROI, cost 106.7k, 16 cleared in 4.2h, Splendent 1.50M (3 listed), break-even 385.1k"
-  },
-  {
-   "key": "recipe:213024001",
-   "type": "recipe",
-   "title": "Artisan's Diamond Earrings",
-   "value": 726298.3116666665,
-   "text": "Artisan's Diamond Earrings (jewelcrafting 35): +726.3k per craft, 52% ROI, cost 1.41M, 17 cleared in 4.2h, Splendent 11.25M (4 listed), break-even 6.36M"
-  },
-  {
-   "key": "recipe:213034001",
-   "type": "recipe",
-   "title": "Artisan's Sapphire Ring",
-   "value": 503475.15925925924,
-   "text": "Artisan's Sapphire Ring (jewelcrafting 30): +503.5k per craft, 42% ROI, cost 1.19M, 17 cleared in 4.2h, Splendent 7.75M (25 listed), break-even 5.37M"
-  },
-  {
-   "key": "below:610530005",
-   "type": "buy",
-   "title": "Expert's Refining Stone",
-   "value": -11994,
-   "text": "Expert's Refining Stone ask 12.0k (91 listed), under your 55.0k line. Cleared 12.0k–22.2k, 168 gone in 4.2h. 5 per Expert's bow or spellbook"
-  },
-  {
-   "key": "below:610530008",
-   "type": "buy",
-   "title": "Artisan's Refining Stone",
-   "value": -129975,
-   "text": "Artisan's Refining Stone ask 130.0k (70 listed), under your 450.0k line. Cleared 120.0k–186.7k, 166 gone in 4.2h. 5 per Artisan's craft"
-  },
-  {
-   "key": "below:610530001",
-   "type": "buy",
-   "title": "Refining Stone",
-   "value": -200,
-   "text": "Refining Stone ask 200 (53 listed), under your 2,200 line. Cleared 190–797, 77 gone in 4.2h."
-  },
-  {
-   "key": "below:610530014",
-   "type": "buy",
-   "title": "Spiritstone",
-   "value": -697,
-   "text": "Spiritstone ask 697 (54 listed), under your 3,000 line. Cleared 491–787, 133 gone in 4.2h."
-  },
-  {
-   "key": "below:110550014",
-   "type": "buy",
-   "title": "Splendent Truth Spellbook",
-   "value": -125000,
-   "text": "Splendent Truth Spellbook ask 125.0k (5 listed), under your 150.0k line. Cleared –––, 7 gone in 2.5h. Expert's spellbook input, own cost ~186k"
-  }
- ],
- "fresh": [
-  {
-   "key": "recipe:412075001",
-   "type": "recipe",
-   "title": "Expert's Orichalcum Cloak",
-   "value": 320286.9109333333,
-   "text": "Expert's Orichalcum Cloak (tailoring 25): +320.3k per craft, 284% ROI, cost 112.7k, 5 cleared in 4.2h, Splendent 1.60M (6 listed), break-even 83.5k"
-  },
-  {
-   "key": "recipe:111014001",
-   "type": "recipe",
-   "title": "Artisan's Orichalcum Longsword",
-   "value": 1371077.8132444448,
-   "text": "Artisan's Orichalcum Longsword (blacksmithing 30): +1.37M per craft, 47% ROI, cost 2.93M, 7 cleared in 4.2h, Splendent 19.86M (8 listed), break-even 13.29M"
-  },
-  {
-   "key": "recipe:111064001",
-   "type": "recipe",
-   "title": "Artisan's Orichalcum Mace",
-   "value": 859397.6772444444,
-   "text": "Artisan's Orichalcum Mace (blacksmithing 30): +859.4k per craft, 31% ROI, cost 2.79M, 8 cleared in 4.2h, Splendent 16.70M (9 listed), break-even 12.63M"
-  },
-  {
-   "key": "recipe:311095001",
-   "type": "recipe",
-   "title": "Expert's Truth Orb",
-   "value": 173373.62586666667,
-   "text": "Expert's Truth Orb (alchemy 15): +173.4k per craft, 155% ROI, cost 111.7k, 10 cleared in 4.2h, Splendent 1.49M (24 listed), break-even 379.1k"
-  },
-  {
-   "key": "recipe:211044001",
-   "type": "recipe",
-   "title": "Artisan's Yggdrasil Bow",
-   "value": 732340.9775111116,
-   "text": "Artisan's Yggdrasil Bow (jewelcrafting 30): +732.3k per craft, 20% ROI, cost 3.60M, 9 cleared in 4.2h, Splendent 19.30M (12 listed), break-even 15.53M"
-  },
-  {
-   "key": "recipe:111065001",
-   "type": "recipe",
-   "title": "Expert's Orichalcum Mace",
-   "value": 159674.38666666666,
-   "text": "Expert's Orichalcum Mace (blacksmithing 15): +159.7k per craft, 85% ROI, cost 188.8k, 15 cleared in 4.2h, Splendent 1.46M (11 listed), break-even 444.0k"
+   "value": 161774.14133333333,
+   "text": "Expert's Diamond Earrings (jewelcrafting 20): +161.8k per craft, 128% ROI, cost 126.9k, 9 cleared in 4h, Splendent 1.50M (15 listed), break-even 434.0k"
   },
   {
    "key": "recipe:111025001",
    "type": "recipe",
    "title": "Expert's Orichalcum Greatsword",
-   "value": 133571.43946666666,
-   "text": "Expert's Orichalcum Greatsword (blacksmithing 15): +133.6k per craft, 65% ROI, cost 204.3k, 6 cleared in 3.7h, Splendent 2.00M (1 listed), break-even 667.6k"
-  },
-  {
-   "key": "recipe:111085001",
-   "type": "recipe",
-   "title": "Expert's Orichalcum Guard",
-   "value": 132979.03306666669,
-   "text": "Expert's Orichalcum Guard (blacksmithing 20): +133.0k per craft, 62% ROI, cost 215.5k, 24 cleared in 4.2h, Splendent 1.35M (26 listed), break-even 720.4k"
-  },
-  {
-   "key": "recipe:213025001",
-   "type": "recipe",
-   "title": "Expert's Diamond Earrings",
-   "value": 172104.3148,
-   "text": "Expert's Diamond Earrings (jewelcrafting 20): +172.1k per craft, 161% ROI, cost 106.7k, 16 cleared in 4.2h, Splendent 1.50M (3 listed), break-even 385.1k"
+   "value": 120695.93946666666,
+   "text": "Expert's Orichalcum Greatsword (blacksmithing 15): +120.7k per craft, 56% ROI, cost 217.2k, 8 cleared in 3.5h, Splendent 1.99M (8 listed), break-even 728.5k"
   },
   {
    "key": "recipe:213024001",
    "type": "recipe",
    "title": "Artisan's Diamond Earrings",
-   "value": 726298.3116666665,
-   "text": "Artisan's Diamond Earrings (jewelcrafting 35): +726.3k per craft, 52% ROI, cost 1.41M, 17 cleared in 4.2h, Splendent 11.25M (4 listed), break-even 6.36M"
+   "value": 511196.9222222222,
+   "text": "Artisan's Diamond Earrings (jewelcrafting 35): +511.2k per craft, 32% ROI, cost 1.62M, 17 cleared in 4h, Splendent 12.30M (6 listed), break-even 7.38M"
+  },
+  {
+   "key": "recipe:213034001",
+   "type": "recipe",
+   "title": "Artisan's Sapphire Ring",
+   "value": 501669.3333333335,
+   "text": "Artisan's Sapphire Ring (jewelcrafting 30): +501.7k per craft, 42% ROI, cost 1.19M, 17 cleared in 4h, Splendent 8.69M (21 listed), break-even 5.37M"
+  },
+  {
+   "key": "recipe:311055001",
+   "type": "recipe",
+   "title": "Expert's Truth Spellbook",
+   "value": 112412.74666666667,
+   "text": "Expert's Truth Spellbook (alchemy 15): +112.4k per craft, 64% ROI, cost 176.9k, 20 cleared in 4h, Splendent 1.20M (19 listed), break-even 567.7k"
+  },
+  {
+   "key": "recipe:111085001",
+   "type": "recipe",
+   "title": "Expert's Orichalcum Guard",
+   "value": 107688.24666666667,
+   "text": "Expert's Orichalcum Guard (blacksmithing 20): +107.7k per craft, 47% ROI, cost 231.3k, 20 cleared in 4h, Splendent 1.35M (19 listed), break-even 840.1k"
+  },
+  {
+   "key": "below:610530005",
+   "type": "buy",
+   "title": "Expert's Refining Stone",
+   "value": -14894,
+   "text": "Expert's Refining Stone ask 14.9k (88 listed), under your 55.0k line. Cleared 11.8k–19.7k, 127 gone in 4h. 5 per Expert's bow or spellbook"
+  },
+  {
+   "key": "below:610530008",
+   "type": "buy",
+   "title": "Artisan's Refining Stone",
+   "value": -125994,
+   "text": "Artisan's Refining Stone ask 126.0k (93 listed), under your 450.0k line. Cleared 119.6k–160.0k, 159 gone in 4h. 5 per Artisan's craft"
+  },
+  {
+   "key": "below:610530001",
+   "type": "buy",
+   "title": "Refining Stone",
+   "value": -398,
+   "text": "Refining Stone ask 398 (62 listed), under your 2,200 line. Cleared 111–797, 85 gone in 4h."
+  },
+  {
+   "key": "below:610530014",
+   "type": "buy",
+   "title": "Spiritstone",
+   "value": -393,
+   "text": "Spiritstone ask 393 (50 listed), under your 3,000 line. Cleared 300–700, 79 gone in 4h."
+  }
+ ],
+ "fresh": [
+  {
+   "key": "recipe:412025001",
+   "type": "recipe",
+   "title": "Expert's Orichalcum Greaves",
+   "value": 292246.0912,
+   "text": "Expert's Orichalcum Greaves (tailoring 15): +292.2k per craft, 124% ROI, cost 235.7k, 6 cleared in 4h, Splendent 1.93M (2 listed), break-even 516.3k"
+  },
+  {
+   "key": "recipe:412044001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Pauldrons",
+   "value": 997735.1351999999,
+   "text": "Artisan's Orichalcum Pauldrons (tailoring 35): +997.7k per craft, 73% ROI, cost 1.37M, 6 cleared in 4h, Splendent 10.00M (4 listed), break-even 5.28M"
+  },
+  {
+   "key": "recipe:412014001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Breastplate",
+   "value": 1798839.0330666667,
+   "text": "Artisan's Orichalcum Breastplate (tailoring 30): +1.80M per craft, 88% ROI, cost 2.03M, 5 cleared in 4h, Splendent 15.80M (5 listed), break-even 7.23M"
+  },
+  {
+   "key": "recipe:412075001",
+   "type": "recipe",
+   "title": "Expert's Orichalcum Cloak",
+   "value": 313786.07759999996,
+   "text": "Expert's Orichalcum Cloak (tailoring 25): +313.8k per craft, 263% ROI, cost 119.2k, 7 cleared in 4h, Splendent 1.60M (4 listed), break-even 114.3k"
+  },
+  {
+   "key": "recipe:111014001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Longsword",
+   "value": 1324703.8965777783,
+   "text": "Artisan's Orichalcum Longsword (blacksmithing 30): +1.32M per craft, 46% ROI, cost 2.91M, 6 cleared in 4h, Splendent 19.48M (11 listed), break-even 13.21M"
+  },
+  {
+   "key": "recipe:412074001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Cloak",
+   "value": 1144191.3276,
+   "text": "Artisan's Orichalcum Cloak (tailoring 40): +1.14M per craft, 106% ROI, cost 1.08M, 8 cleared in 4h, Splendent 9.50M (13 listed), break-even 4.08M"
+  },
+  {
+   "key": "recipe:211045001",
+   "type": "recipe",
+   "title": "Expert's Yggdrasil Bow",
+   "value": 242010.16906666663,
+   "text": "Expert's Yggdrasil Bow (jewelcrafting 15): +242.0k per craft, 78% ROI, cost 309.8k, 6 cleared in 4h, Splendent 2.48M (13 listed), break-even 1.33M"
+  },
+  {
+   "key": "recipe:211044001",
+   "type": "recipe",
+   "title": "Artisan's Yggdrasil Bow",
+   "value": 1048041.3108444447,
+   "text": "Artisan's Yggdrasil Bow (jewelcrafting 30): +1.05M per craft, 32% ROI, cost 3.32M, 11 cleared in 4h, Splendent 19.33M (8 listed), break-even 14.24M"
+  },
+  {
+   "key": "recipe:213015001",
+   "type": "recipe",
+   "title": "Expert's Ruby Necklace",
+   "value": 209655.9813333333,
+   "text": "Expert's Ruby Necklace (jewelcrafting 25): +209.7k per craft, 153% ROI, cost 137.1k, 8 cleared in 4h, Splendent 1.50M (25 listed), break-even 482.3k"
+  },
+  {
+   "key": "recipe:111064001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Mace",
+   "value": 823572.7605777779,
+   "text": "Artisan's Orichalcum Mace (blacksmithing 30): +823.6k per craft, 29% ROI, cost 2.83M, 5 cleared in 4h, Splendent 18.90M (13 listed), break-even 12.80M"
+  },
+  {
+   "key": "recipe:412034001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Helm",
+   "value": 811834.4974222223,
+   "text": "Artisan's Orichalcum Helm (tailoring 30): +811.8k per craft, 68% ROI, cost 1.19M, 10 cleared in 4h, Splendent 8.50M (9 listed), break-even 4.66M"
+  },
+  {
+   "key": "recipe:111065001",
+   "type": "recipe",
+   "title": "Expert's Orichalcum Mace",
+   "value": 180859.9554666667,
+   "text": "Expert's Orichalcum Mace (blacksmithing 15): +180.9k per craft, 86% ROI, cost 209.9k, 13 cleared in 4h, Splendent 1.40M (11 listed), break-even 543.7k"
+  },
+  {
+   "key": "recipe:213035001",
+   "type": "recipe",
+   "title": "Expert's Sapphire Ring",
+   "value": 168191.6,
+   "text": "Expert's Sapphire Ring (jewelcrafting 15): +168.2k per craft, 161% ROI, cost 104.3k, 30 cleared in 4h, Splendent 1.40M (26 listed), break-even 403.6k"
+  },
+  {
+   "key": "recipe:213025001",
+   "type": "recipe",
+   "title": "Expert's Diamond Earrings",
+   "value": 161774.14133333333,
+   "text": "Expert's Diamond Earrings (jewelcrafting 20): +161.8k per craft, 128% ROI, cost 126.9k, 9 cleared in 4h, Splendent 1.50M (15 listed), break-even 434.0k"
+  },
+  {
+   "key": "recipe:111025001",
+   "type": "recipe",
+   "title": "Expert's Orichalcum Greatsword",
+   "value": 120695.93946666666,
+   "text": "Expert's Orichalcum Greatsword (blacksmithing 15): +120.7k per craft, 56% ROI, cost 217.2k, 8 cleared in 3.5h, Splendent 1.99M (8 listed), break-even 728.5k"
+  },
+  {
+   "key": "recipe:213024001",
+   "type": "recipe",
+   "title": "Artisan's Diamond Earrings",
+   "value": 511196.9222222222,
+   "text": "Artisan's Diamond Earrings (jewelcrafting 35): +511.2k per craft, 32% ROI, cost 1.62M, 17 cleared in 4h, Splendent 12.30M (6 listed), break-even 7.38M"
+  },
+  {
+   "key": "recipe:213034001",
+   "type": "recipe",
+   "title": "Artisan's Sapphire Ring",
+   "value": 501669.3333333335,
+   "text": "Artisan's Sapphire Ring (jewelcrafting 30): +501.7k per craft, 42% ROI, cost 1.19M, 17 cleared in 4h, Splendent 8.69M (21 listed), break-even 5.37M"
+  },
+  {
+   "key": "recipe:311055001",
+   "type": "recipe",
+   "title": "Expert's Truth Spellbook",
+   "value": 112412.74666666667,
+   "text": "Expert's Truth Spellbook (alchemy 15): +112.4k per craft, 64% ROI, cost 176.9k, 20 cleared in 4h, Splendent 1.20M (19 listed), break-even 567.7k"
+  },
+  {
+   "key": "recipe:111085001",
+   "type": "recipe",
+   "title": "Expert's Orichalcum Guard",
+   "value": 107688.24666666667,
+   "text": "Expert's Orichalcum Guard (blacksmithing 20): +107.7k per craft, 47% ROI, cost 231.3k, 20 cleared in 4h, Splendent 1.35M (19 listed), break-even 840.1k"
+  },
+  {
+   "key": "below:610530005",
+   "type": "buy",
+   "title": "Expert's Refining Stone",
+   "value": -14894,
+   "text": "Expert's Refining Stone ask 14.9k (88 listed), under your 55.0k line. Cleared 11.8k–19.7k, 127 gone in 4h. 5 per Expert's bow or spellbook"
+  },
+  {
+   "key": "below:610530008",
+   "type": "buy",
+   "title": "Artisan's Refining Stone",
+   "value": -125994,
+   "text": "Artisan's Refining Stone ask 126.0k (93 listed), under your 450.0k line. Cleared 119.6k–160.0k, 159 gone in 4h. 5 per Artisan's craft"
+  },
+  {
+   "key": "below:610530001",
+   "type": "buy",
+   "title": "Refining Stone",
+   "value": -398,
+   "text": "Refining Stone ask 398 (62 listed), under your 2,200 line. Cleared 111–797, 85 gone in 4h."
+  },
+  {
+   "key": "below:610530014",
+   "type": "buy",
+   "title": "Spiritstone",
+   "value": -393,
+   "text": "Spiritstone ask 393 (50 listed), under your 3,000 line. Cleared 300–700, 79 gone in 4h."
   }
  ]
 }
