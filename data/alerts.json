@@ -1,24 +1,94 @@
 {
- "at": "2026-11-18T04:38:50.917Z",
+ "at": "2026-11-18T14:42:38.375Z",
  "server": 11102,
  "serverName": "Nezekan",
- "baked_at": "2026-11-18T04:27:10Z",
+ "baked_at": "2026-11-18T14:05:40Z",
  "current": [
+  {
+   "key": "recipe:412064001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Boots",
+   "value": 590665.1916,
+   "text": "Artisan's Orichalcum Boots (tailoring 40): +590.7k per craft, 35% ROI, cost 1.67M, 5 cleared in 3.7h, Splendent 10.00M (9 listed), break-even 7.09M"
+  },
+  {
+   "key": "recipe:111015001",
+   "type": "recipe",
+   "title": "Expert's Orichalcum Longsword",
+   "value": 118239.5,
+   "text": "Expert's Orichalcum Longsword (blacksmithing 15): +118.2k per craft, 37% ROI, cost 315.8k, 16 cleared in 4.2h, Splendent 1.53M (19 listed), break-even 970.2k"
+  },
+  {
+   "key": "recipe:111025001",
+   "type": "recipe",
+   "title": "Expert's Orichalcum Greatsword",
+   "value": 108731.59279999998,
+   "text": "Expert's Orichalcum Greatsword (blacksmithing 15): +108.7k per craft, 33% ROI, cost 326.3k, 14 cleared in 4.2h, Splendent 1.50M (16 listed), break-even 945.2k"
+  },
+  {
+   "key": "below:610530005",
+   "type": "buy",
+   "title": "Expert's Refining Stone",
+   "value": -16999,
+   "text": "Expert's Refining Stone ask 17.0k (86 listed), under your 55.0k line. Cleared 7,989–20.0k, 175 gone in 4.2h. 5 per Expert's bow or spellbook"
+  },
   {
    "key": "below:610530008",
    "type": "buy",
    "title": "Artisan's Refining Stone",
-   "value": -111110,
-   "text": "Artisan's Refining Stone ask 111.1k (80 listed), under your 450.0k line. Cleared 97.8k–166.7k, 174 gone in 4.2h. 5 per Artisan's craft"
+   "value": -158877,
+   "text": "Artisan's Refining Stone ask 158.9k (85 listed), under your 450.0k line. Cleared 97.8k–190.0k, 215 gone in 4h. 5 per Artisan's craft"
+  },
+  {
+   "key": "below:610530001",
+   "type": "buy",
+   "title": "Refining Stone",
+   "value": -198,
+   "text": "Refining Stone ask 198 (22 listed), under your 2,200 line. Cleared 100–533, 67 gone in 4.2h."
   }
  ],
  "fresh": [
   {
+   "key": "recipe:412064001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Boots",
+   "value": 590665.1916,
+   "text": "Artisan's Orichalcum Boots (tailoring 40): +590.7k per craft, 35% ROI, cost 1.67M, 5 cleared in 3.7h, Splendent 10.00M (9 listed), break-even 7.09M"
+  },
+  {
+   "key": "recipe:111015001",
+   "type": "recipe",
+   "title": "Expert's Orichalcum Longsword",
+   "value": 118239.5,
+   "text": "Expert's Orichalcum Longsword (blacksmithing 15): +118.2k per craft, 37% ROI, cost 315.8k, 16 cleared in 4.2h, Splendent 1.53M (19 listed), break-even 970.2k"
+  },
+  {
+   "key": "recipe:111025001",
+   "type": "recipe",
+   "title": "Expert's Orichalcum Greatsword",
+   "value": 108731.59279999998,
+   "text": "Expert's Orichalcum Greatsword (blacksmithing 15): +108.7k per craft, 33% ROI, cost 326.3k, 14 cleared in 4.2h, Splendent 1.50M (16 listed), break-even 945.2k"
+  },
+  {
+   "key": "below:610530005",
+   "type": "buy",
+   "title": "Expert's Refining Stone",
+   "value": -16999,
+   "text": "Expert's Refining Stone ask 17.0k (86 listed), under your 55.0k line. Cleared 7,989–20.0k, 175 gone in 4.2h. 5 per Expert's bow or spellbook"
+  },
+  {
    "key": "below:610530008",
    "type": "buy",
    "title": "Artisan's Refining Stone",
-   "value": -111110,
-   "text": "Artisan's Refining Stone ask 111.1k (80 listed), under your 450.0k line. Cleared 97.8k–166.7k, 174 gone in 4.2h. 5 per Artisan's craft"
+   "value": -158877,
+   "text": "Artisan's Refining Stone ask 158.9k (85 listed), under your 450.0k line. Cleared 97.8k–190.0k, 215 gone in 4h. 5 per Artisan's craft"
+  },
+  {
+   "key": "below:610530001",
+   "type": "buy",
+   "title": "Refining Stone",
+   "value": -198,
+   "text": "Refining Stone ask 198 (22 listed), under your 2,200 line. Cleared 100–533, 67 gone in 4.2h."
   }
  ]
 }

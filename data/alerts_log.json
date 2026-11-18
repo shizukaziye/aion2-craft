@@ -1,53 +1,5 @@
 [
  {
-  "at": "2026-11-07T21:01:48.588Z",
-  "key": "below:610530014",
-  "type": "buy",
-  "title": "Spiritstone",
-  "value": -688,
-  "text": "Spiritstone ask 688 (58 listed), under your 3,000 line. Cleared 299–774, 98 gone in 4.2h."
- },
- {
-  "at": "2026-11-07T21:01:48.588Z",
-  "key": "below:110550014",
-  "type": "buy",
-  "title": "Splendent Truth Spellbook",
-  "value": -114999,
-  "text": "Splendent Truth Spellbook ask 115.0k (13 listed), under your 150.0k line. Cleared 100.0k–120.0k, 22 gone in 4.2h. Expert's spellbook input, own cost ~186k"
- },
- {
-  "at": "2026-11-08T00:47:00.252Z",
-  "key": "recipe:412054001",
-  "type": "recipe",
-  "title": "Artisan's Orichalcum Gloves",
-  "value": 778422.5,
-  "text": "Artisan's Orichalcum Gloves (tailoring 35): +778.4k per craft, 50% ROI, cost 1.54M, 7 cleared in 4h, Splendent 16.00M (1 listed), break-even 6.71M"
- },
- {
-  "at": "2026-11-08T00:47:00.252Z",
-  "key": "recipe:213024001",
-  "type": "recipe",
-  "title": "Artisan's Diamond Earrings",
-  "value": 1377415.4748888887,
-  "text": "Artisan's Diamond Earrings (jewelcrafting 35): +1.38M per craft, 61% ROI, cost 2.26M, 8 cleared in 3.5h, Splendent 16.90M (16 listed), break-even 10.38M"
- },
- {
-  "at": "2026-11-08T00:47:00.252Z",
-  "key": "recipe:111014001",
-  "type": "recipe",
-  "title": "Artisan's Orichalcum Longsword",
-  "value": 979061.4170666672,
-  "text": "Artisan's Orichalcum Longsword (blacksmithing 30): +979.1k per craft, 26% ROI, cost 3.70M, 7 cleared in 4.2h, Splendent 23.45M (5 listed), break-even 16.36M"
- },
- {
-  "at": "2026-11-08T00:47:00.252Z",
-  "key": "recipe:213035001",
-  "type": "recipe",
-  "title": "Expert's Sapphire Ring",
-  "value": 159724.13733333332,
-  "text": "Expert's Sapphire Ring (jewelcrafting 15): +159.7k per craft, 160% ROI, cost 99.7k, 10 cleared in 3.8h, Splendent 1.20M (46 listed), break-even 443.7k"
- },
- {
   "at": "2026-11-08T00:47:00.252Z",
   "key": "recipe:111025001",
   "type": "recipe",
@@ -3998,5 +3950,53 @@
   "title": "Artisan's Refining Stone",
   "value": -111110,
   "text": "Artisan's Refining Stone ask 111.1k (80 listed), under your 450.0k line. Cleared 97.8k–166.7k, 174 gone in 4.2h. 5 per Artisan's craft"
+ },
+ {
+  "at": "2026-11-18T14:42:38.375Z",
+  "key": "recipe:412064001",
+  "type": "recipe",
+  "title": "Artisan's Orichalcum Boots",
+  "value": 590665.1916,
+  "text": "Artisan's Orichalcum Boots (tailoring 40): +590.7k per craft, 35% ROI, cost 1.67M, 5 cleared in 3.7h, Splendent 10.00M (9 listed), break-even 7.09M"
+ },
+ {
+  "at": "2026-11-18T14:42:38.375Z",
+  "key": "recipe:111015001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Longsword",
+  "value": 118239.5,
+  "text": "Expert's Orichalcum Longsword (blacksmithing 15): +118.2k per craft, 37% ROI, cost 315.8k, 16 cleared in 4.2h, Splendent 1.53M (19 listed), break-even 970.2k"
+ },
+ {
+  "at": "2026-11-18T14:42:38.375Z",
+  "key": "recipe:111025001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Greatsword",
+  "value": 108731.59279999998,
+  "text": "Expert's Orichalcum Greatsword (blacksmithing 15): +108.7k per craft, 33% ROI, cost 326.3k, 14 cleared in 4.2h, Splendent 1.50M (16 listed), break-even 945.2k"
+ },
+ {
+  "at": "2026-11-18T14:42:38.375Z",
+  "key": "below:610530005",
+  "type": "buy",
+  "title": "Expert's Refining Stone",
+  "value": -16999,
+  "text": "Expert's Refining Stone ask 17.0k (86 listed), under your 55.0k line. Cleared 7,989–20.0k, 175 gone in 4.2h. 5 per Expert's bow or spellbook"
+ },
+ {
+  "at": "2026-11-18T14:42:38.375Z",
+  "key": "below:610530008",
+  "type": "buy",
+  "title": "Artisan's Refining Stone",
+  "value": -158877,
+  "text": "Artisan's Refining Stone ask 158.9k (85 listed), under your 450.0k line. Cleared 97.8k–190.0k, 215 gone in 4h. 5 per Artisan's craft"
+ },
+ {
+  "at": "2026-11-18T14:42:38.375Z",
+  "key": "below:610530001",
+  "type": "buy",
+  "title": "Refining Stone",
+  "value": -198,
+  "text": "Refining Stone ask 198 (22 listed), under your 2,200 line. Cleared 100–533, 67 gone in 4.2h."
  }
 ]
