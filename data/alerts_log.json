@@ -1,22 +1,6 @@
 [
  {
   "at": "2026-11-09T08:05:16.192Z",
-  "key": "recipe:412034001",
-  "type": "recipe",
-  "title": "Artisan's Orichalcum Helm",
-  "value": 2377176.193055555,
-  "text": "Artisan's Orichalcum Helm (tailoring 30): +2.38M per craft, 193% ROI, cost 1.23M, 5 cleared in 3.7h, Splendent 15.00M (3 listed), break-even 3.74M"
- },
- {
-  "at": "2026-11-09T08:05:16.192Z",
-  "key": "recipe:111015001",
-  "type": "recipe",
-  "title": "Expert's Orichalcum Longsword",
-  "value": 123237.45546666667,
-  "text": "Expert's Orichalcum Longsword (blacksmithing 15): +123.2k per craft, 43% ROI, cost 288.6k, 5 cleared in 4h, Splendent 1.50M (8 listed), break-even 916.5k"
- },
- {
-  "at": "2026-11-09T08:05:16.192Z",
   "key": "recipe:211044001",
   "type": "recipe",
   "title": "Artisan's Yggdrasil Bow",
@@ -3998,5 +3982,21 @@
   "title": "Splendent Truth Spellbook",
   "value": -100000,
   "text": "Splendent Truth Spellbook ask 100.0k (23 listed), under your 150.0k line. Cleared –––, 11 gone in 4.2h. Expert's spellbook input, own cost ~186k"
+ },
+ {
+  "at": "2026-11-21T02:48:23.470Z",
+  "key": "recipe:412035001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Helm",
+  "value": 224186,
+  "text": "Expert's Orichalcum Helm (tailoring 15): +224.2k per craft, 273% ROI, cost 82.1k, 8 cleared in 4h, Splendent 1.40M (5 listed), break-even -61.5k"
+ },
+ {
+  "at": "2026-11-21T02:48:23.470Z",
+  "key": "recipe:412064001",
+  "type": "recipe",
+  "title": "Artisan's Orichalcum Boots",
+  "value": 1105114.5070444443,
+  "text": "Artisan's Orichalcum Boots (tailoring 40): +1.11M per craft, 108% ROI, cost 1.02M, 6 cleared in 4.2h, Splendent 9.80M (7 listed), break-even 4.02M"
  }
 ]
