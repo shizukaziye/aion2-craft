@@ -1,54 +1,6 @@
 [
  {
   "at": "2026-11-10T18:02:59.471Z",
-  "key": "recipe:111035001",
-  "type": "recipe",
-  "title": "Expert's Orichalcum Dagger",
-  "value": 167192.85973333335,
-  "text": "Expert's Orichalcum Dagger (blacksmithing 15): +167.2k per craft, 77% ROI, cost 218.2k, 10 cleared in 4.2h, Splendent 1.70M (13 listed), break-even 808.4k"
- },
- {
-  "at": "2026-11-10T18:02:59.471Z",
-  "key": "recipe:111064001",
-  "type": "recipe",
-  "title": "Artisan's Orichalcum Mace",
-  "value": 724822.2019555555,
-  "text": "Artisan's Orichalcum Mace (blacksmithing 30): +724.8k per craft, 27% ROI, cost 2.66M, 8 cleared in 4.2h, Splendent 15.50M (10 listed), break-even 12.07M"
- },
- {
-  "at": "2026-11-10T18:02:59.471Z",
-  "key": "recipe:412055001",
-  "type": "recipe",
-  "title": "Expert's Orichalcum Gloves",
-  "value": 183899.22222222222,
-  "text": "Expert's Orichalcum Gloves (tailoring 20): +183.9k per craft, 150% ROI, cost 122.3k, 5 cleared in 3.7h, Splendent 1.40M (1 listed), break-even 129.3k"
- },
- {
-  "at": "2026-11-10T18:02:59.471Z",
-  "key": "recipe:213034001",
-  "type": "recipe",
-  "title": "Artisan's Sapphire Ring",
-  "value": 478662.79636296304,
-  "text": "Artisan's Sapphire Ring (jewelcrafting 30): +478.7k per craft, 39% ROI, cost 1.23M, 30 cleared in 4.2h, Splendent 8.70M (13 listed), break-even 5.62M"
- },
- {
-  "at": "2026-11-10T18:02:59.471Z",
-  "key": "below:610530005",
-  "type": "buy",
-  "title": "Expert's Refining Stone",
-  "value": -14000,
-  "text": "Expert's Refining Stone ask 14.0k (113 listed), under your 55.0k line. Cleared 13.1k–22.9k, 348 gone in 4.2h. 5 per Expert's bow or spellbook"
- },
- {
-  "at": "2026-11-10T18:02:59.471Z",
-  "key": "below:610530008",
-  "type": "buy",
-  "title": "Artisan's Refining Stone",
-  "value": -122222,
-  "text": "Artisan's Refining Stone ask 122.2k (147 listed), under your 450.0k line. Cleared 125.0k–164.4k, 116 gone in 4.2h. 5 per Artisan's craft"
- },
- {
-  "at": "2026-11-10T18:02:59.471Z",
   "key": "below:610530001",
   "type": "buy",
   "title": "Refining Stone",
@@ -3998,5 +3950,53 @@
   "title": "Splendent Truth Spellbook",
   "value": -109999,
   "text": "Splendent Truth Spellbook ask 110.0k (4 listed), under your 150.0k line. Cleared –––, 4 gone in 4.2h. Expert's spellbook input, own cost ~186k"
+ },
+ {
+  "at": "2026-11-23T03:04:15.019Z",
+  "key": "recipe:311054001",
+  "type": "recipe",
+  "title": "Artisan's Truth Spellbook",
+  "value": 794475.314355555,
+  "text": "Artisan's Truth Spellbook (alchemy 30): +794.5k per craft, 42% ROI, cost 1.90M, 9 cleared in 4.2h, Splendent 10.00M (8 listed), break-even 6.14M"
+ },
+ {
+  "at": "2026-11-23T03:04:15.019Z",
+  "key": "recipe:412035001",
+  "type": "recipe",
+  "title": "Expert's Orichalcum Helm",
+  "value": 300360.9083333333,
+  "text": "Expert's Orichalcum Helm (tailoring 15): +300.4k per craft, 595% ROI, cost 50.4k, 5 cleared in 4.2h, Splendent 1.29M (12 listed), break-even -325.2k"
+ },
+ {
+  "at": "2026-11-23T03:04:15.019Z",
+  "key": "recipe:213014001",
+  "type": "recipe",
+  "title": "Artisan's Ruby Necklace",
+  "value": 403949.79122222215,
+  "text": "Artisan's Ruby Necklace (jewelcrafting 40): +403.9k per craft, 29% ROI, cost 1.41M, 9 cleared in 4.2h, Splendent 8.20M (12 listed), break-even 6.09M"
+ },
+ {
+  "at": "2026-11-23T03:04:15.019Z",
+  "key": "below:610530005",
+  "type": "buy",
+  "title": "Expert's Refining Stone",
+  "value": -13000,
+  "text": "Expert's Refining Stone ask 13.0k (78 listed), under your 55.0k line. Cleared 7,776–16.5k, 133 gone in 4.2h. 5 per Expert's bow or spellbook"
+ },
+ {
+  "at": "2026-11-23T03:04:15.019Z",
+  "key": "below:610530008",
+  "type": "buy",
+  "title": "Artisan's Refining Stone",
+  "value": -104000,
+  "text": "Artisan's Refining Stone ask 104.0k (76 listed), under your 450.0k line. Cleared 66.1k–119.0k, 82 gone in 4.2h. 5 per Artisan's craft"
+ },
+ {
+  "at": "2026-11-23T03:04:15.019Z",
+  "key": "below:610530001",
+  "type": "buy",
+  "title": "Refining Stone",
+  "value": -2000,
+  "text": "Refining Stone ask 2,000 (6 listed), under your 2,200 line. Cleared 115–719, 60 gone in 4.2h."
  }
 ]
