@@ -1,8 +1,108 @@
 {
- "at": "2026-11-24T21:18:35.424Z",
+ "at": "2026-11-25T04:58:41.694Z",
  "server": 11102,
  "serverName": "Nezekan",
- "baked_at": "2026-11-24T21:16:59Z",
- "current": [],
- "fresh": []
+ "baked_at": "2026-11-25T04:20:36Z",
+ "current": [
+  {
+   "key": "recipe:412044001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Pauldrons",
+   "value": 641992.0666666667,
+   "text": "Artisan's Orichalcum Pauldrons (tailoring 35): +642.0k per craft, 61% ROI, cost 1.05M, 9 cleared in 4.2h, Splendent 7.50M (9 listed), break-even 4.36M"
+  },
+  {
+   "key": "recipe:311054001",
+   "type": "recipe",
+   "title": "Artisan's Truth Spellbook",
+   "value": 578519.1004444442,
+   "text": "Artisan's Truth Spellbook (alchemy 30): +578.5k per craft, 29% ROI, cost 1.98M, 8 cleared in 4.2h, Splendent 9.11M (15 listed), break-even 6.37M"
+  },
+  {
+   "key": "recipe:213034001",
+   "type": "recipe",
+   "title": "Artisan's Sapphire Ring",
+   "value": 218770.78306666657,
+   "text": "Artisan's Sapphire Ring (jewelcrafting 30): +218.8k per craft, 23% ROI, cost 963.9k, 22 cleared in 4.2h, Splendent 5.30M (25 listed), break-even 4.26M"
+  },
+  {
+   "key": "below:610530005",
+   "type": "buy",
+   "title": "Expert's Refining Stone",
+   "value": -9000,
+   "text": "Expert's Refining Stone ask 9,000 (55 listed), under your 55.0k line. Cleared 12.2k–14.7k, 75 gone in 4.2h. 5 per Expert's bow or spellbook"
+  },
+  {
+   "key": "below:610530008",
+   "type": "buy",
+   "title": "Artisan's Refining Stone",
+   "value": -94980,
+   "text": "Artisan's Refining Stone ask 95.0k (40 listed), under your 450.0k line. Cleared 77.8k–111.0k, 134 gone in 4.2h. 5 per Artisan's craft"
+  },
+  {
+   "key": "below:610530001",
+   "type": "buy",
+   "title": "Refining Stone",
+   "value": -248,
+   "text": "Refining Stone ask 248 (28 listed), under your 2,200 line. Cleared 100–2,000, 70 gone in 4.2h."
+  },
+  {
+   "key": "below:610530014",
+   "type": "buy",
+   "title": "Spiritstone",
+   "value": -277,
+   "text": "Spiritstone ask 277 (24 listed), under your 3,000 line. Cleared –––, 0 gone in 0h."
+  }
+ ],
+ "fresh": [
+  {
+   "key": "recipe:412044001",
+   "type": "recipe",
+   "title": "Artisan's Orichalcum Pauldrons",
+   "value": 641992.0666666667,
+   "text": "Artisan's Orichalcum Pauldrons (tailoring 35): +642.0k per craft, 61% ROI, cost 1.05M, 9 cleared in 4.2h, Splendent 7.50M (9 listed), break-even 4.36M"
+  },
+  {
+   "key": "recipe:311054001",
+   "type": "recipe",
+   "title": "Artisan's Truth Spellbook",
+   "value": 578519.1004444442,
+   "text": "Artisan's Truth Spellbook (alchemy 30): +578.5k per craft, 29% ROI, cost 1.98M, 8 cleared in 4.2h, Splendent 9.11M (15 listed), break-even 6.37M"
+  },
+  {
+   "key": "recipe:213034001",
+   "type": "recipe",
+   "title": "Artisan's Sapphire Ring",
+   "value": 218770.78306666657,
+   "text": "Artisan's Sapphire Ring (jewelcrafting 30): +218.8k per craft, 23% ROI, cost 963.9k, 22 cleared in 4.2h, Splendent 5.30M (25 listed), break-even 4.26M"
+  },
+  {
+   "key": "below:610530005",
+   "type": "buy",
+   "title": "Expert's Refining Stone",
+   "value": -9000,
+   "text": "Expert's Refining Stone ask 9,000 (55 listed), under your 55.0k line. Cleared 12.2k–14.7k, 75 gone in 4.2h. 5 per Expert's bow or spellbook"
+  },
+  {
+   "key": "below:610530008",
+   "type": "buy",
+   "title": "Artisan's Refining Stone",
+   "value": -94980,
+   "text": "Artisan's Refining Stone ask 95.0k (40 listed), under your 450.0k line. Cleared 77.8k–111.0k, 134 gone in 4.2h. 5 per Artisan's craft"
+  },
+  {
+   "key": "below:610530001",
+   "type": "buy",
+   "title": "Refining Stone",
+   "value": -248,
+   "text": "Refining Stone ask 248 (28 listed), under your 2,200 line. Cleared 100–2,000, 70 gone in 4.2h."
+  },
+  {
+   "key": "below:610530014",
+   "type": "buy",
+   "title": "Spiritstone",
+   "value": -277,
+   "text": "Spiritstone ask 277 (24 listed), under your 3,000 line. Cleared –––, 0 gone in 0h."
+  }
+ ]
 }
