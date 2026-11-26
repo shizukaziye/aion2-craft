@@ -1,0 +1,316 @@
+{
+ "baked_at": "2026-11-26T23:17:39Z",
+ "source": "https://kisk.app/gathering",
+ "materials": {
+  "Odyle": {
+   "tiers": [
+    [
+     "Odyle",
+     0.75
+    ],
+    [
+     "Fine Odyle",
+     0.19
+    ],
+    [
+     "Pure Odyle",
+     0.03
+    ],
+    [
+     "Radiant Odyle",
+     0.0059
+    ]
+   ],
+   "gathers": 1165099,
+   "items": 1450067
+  },
+  "Orichalcum Ore": {
+   "tiers": [
+    [
+     "Orichalcum Ore",
+     0.75
+    ],
+    [
+     "Fine Orichalcum Ore",
+     0.17
+    ],
+    [
+     "Pure Orichalcum Ore",
+     0.023
+    ],
+    [
+     "Radiant Orichalcum Ore",
+     0.0058
+    ]
+   ],
+   "gathers": 521720,
+   "items": 616169
+  },
+  "Yggdrasil Log": {
+   "tiers": [
+    [
+     "Yggdrasil Log",
+     0.75
+    ],
+    [
+     "Fine Yggdrasil Log",
+     0.17
+    ],
+    [
+     "Pure Yggdrasil Log",
+     0.023
+    ],
+    [
+     "Radiant Yggdrasil Log",
+     0.0058
+    ]
+   ],
+   "gathers": 48424,
+   "items": 58482
+  },
+  "Asvata Log": {
+   "tiers": [
+    [
+     "Asvata Log",
+     0.75
+    ],
+    [
+     "Fine Asvata Log",
+     0.17
+    ],
+    [
+     "Pure Asvata Log",
+     0.023
+    ],
+    [
+     "Radiant Asvata Log",
+     0.0055
+    ]
+   ],
+   "gathers": 49722,
+   "items": 58533
+  },
+  "Sapphire Gemstone": {
+   "tiers": [
+    [
+     "Sapphire Gemstone",
+     0.68
+    ],
+    [
+     "Fine Sapphire Gemstone",
+     0.16
+    ],
+    [
+     "Pure Sapphire Gemstone",
+     0.022
+    ],
+    [
+     "Radiant Sapphire Gemstone",
+     0.0056
+    ]
+   ],
+   "gathers": 193628,
+   "items": 209864
+  },
+  "Diamond Gemstone": {
+   "tiers": [
+    [
+     "Diamond Gemstone",
+     0.68
+    ],
+    [
+     "Fine Diamond Gemstone",
+     0.15
+    ],
+    [
+     "Pure Diamond Gemstone",
+     0.021
+    ],
+    [
+     "Radiant Diamond Gemstone",
+     0.0048
+    ]
+   ],
+   "gathers": 80874,
+   "items": 85998
+  },
+  "Ruby Gemstone": {
+   "tiers": [
+    [
+     "Ruby Gemstone",
+     0.67
+    ],
+    [
+     "Fine Ruby Gemstone",
+     0.15
+    ],
+    [
+     "Pure Ruby Gemstone",
+     0.021
+    ],
+    [
+     "Radiant Ruby Gemstone",
+     0.0049
+    ]
+   ],
+   "gathers": 115438,
+   "items": 122124
+  },
+  "Aria": {
+   "tiers": [
+    [
+     "Aria",
+     0.75
+    ],
+    [
+     "Fresh Aria",
+     0.22
+    ]
+   ],
+   "gathers": 32332,
+   "items": 36976
+  },
+  "Targena": {
+   "tiers": [
+    [
+     "Targena",
+     0.76
+    ],
+    [
+     "Fresh Targena",
+     0.22
+    ]
+   ],
+   "gathers": 18682,
+   "items": 21308
+  },
+  "Azpha": {
+   "tiers": [
+    [
+     "Azpha",
+     0.76
+    ],
+    [
+     "Fresh Azpha",
+     0.22
+    ]
+   ],
+   "gathers": 54620,
+   "items": 65123
+  },
+  "Calendula": {
+   "tiers": [
+    [
+     "Calendula",
+     0.77
+    ],
+    [
+     "Fresh Calendula",
+     0.21
+    ]
+   ],
+   "gathers": 24415,
+   "items": 27926
+  },
+  "Coriolus": {
+   "tiers": [
+    [
+     "Coriolus",
+     0.97
+    ]
+   ],
+   "gathers": 4098,
+   "items": 6134
+  },
+  "Kukuru": {
+   "tiers": [
+    [
+     "Kukuru",
+     0.98
+    ]
+   ],
+   "gathers": 12041,
+   "items": 20338
+  },
+  "Mela": {
+   "tiers": [
+    [
+     "Mela",
+     0.97
+    ]
+   ],
+   "gathers": 5063,
+   "items": 7508
+  },
+  "Inina": {
+   "tiers": [
+    [
+     "Inina",
+     0.98
+    ]
+   ],
+   "gathers": 16883,
+   "items": 28122
+  },
+  "Cypri": {
+   "tiers": [
+    [
+     "Cypri",
+     0.98
+    ]
+   ],
+   "gathers": 17442,
+   "items": 29859
+  },
+  "Morfa": {
+   "tiers": [
+    [
+     "Morfa",
+     0.98
+    ]
+   ],
+   "gathers": 3840,
+   "items": 5873
+  },
+  "Ohkra": {
+   "tiers": [
+    [
+     "Ohkra",
+     0.98
+    ]
+   ],
+   "gathers": 16543,
+   "items": 27748
+  },
+  "Raydam": {
+   "tiers": [
+    [
+     "Raydam",
+     0.97
+    ]
+   ],
+   "gathers": 7826,
+   "items": 11510
+  },
+  "Conide": {
+   "tiers": [
+    [
+     "Conide",
+     0.98
+    ]
+   ],
+   "gathers": 35207,
+   "items": 62184
+  },
+  "Pujery": {
+   "tiers": [
+    [
+     "Pujery",
+     0.98
+    ]
+   ],
+   "gathers": 22732,
+   "items": 38150
+  }
+ }
+}

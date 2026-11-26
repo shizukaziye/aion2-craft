@@ -11,7 +11,7 @@
   <header>
     <h1>Aion 2 Craft Market</h1>
     <span class="meta" id="meta">loading…</span>
-    <span class="meta">recipes: <a href="https://gamers4.life/aion-2/database/en/crafting-calculator/" target="_blank" rel="noopener">gamers4.life</a> · prices: <a href="https://aion2.exchange/" target="_blank" rel="noopener">aion2.exchange</a></span>
+    <span class="meta">recipes: <a href="https://gamers4.life/aion-2/database/en/crafting-calculator/" target="_blank" rel="noopener">gamers4.life</a> · prices: <a href="https://aion2.exchange/" target="_blank" rel="noopener">aion2.exchange</a> · gathering: <a href="https://kisk.app/gathering" target="_blank" rel="noopener">kisk.app</a></span>
   </header>
 
   <div class="panel sticky">
@@ -57,6 +57,7 @@
     <button class="mbtn on" id="tab-opps" onclick="setTab('opps')">Opportunities</button>
     <button class="mbtn" id="tab-recipe" onclick="setTab('recipe')">Recipe</button>
     <button class="mbtn" id="tab-market" onclick="setTab('market')">Market</button>
+    <button class="mbtn" id="tab-gather" onclick="setTab('gather')">Gathering</button>
     <button class="mbtn" id="tab-alerts" onclick="setTab('alerts')">Alerts</button>
   </div>
 
@@ -88,6 +89,11 @@
     <div class="scroll panel" style="padding:0;margin-top:8px"><table id="mktTable"></table></div>
   </section>
 
+  <section class="tab" id="gather">
+    <div class="scroll panel" style="padding:0"><table id="gatherTable"></table></div>
+    <p class="small" id="gatherNote"></p>
+  </section>
+
   <section class="tab" id="alerts">
     <div class="small" id="alertsMeta"></div>
     <h2>Active now</h2>
@@ -107,8 +113,10 @@ Splendent via own crafting = (attempt cost − success × (1−combo) × plain v
 break-even Splendent     = (cost ÷ (success × (1−tax−fee)) − (1−combo) × plain) ÷ combo</div>
     <p><b>Ask cap.</b> The cheapest ask is only used as a sale price when it sits within the cap (default 20%) of the highest known trade. The highest known trade is the 28-day maximum sale where the game publishes one, otherwise the highest ask that has ever vanished from the book, carried forward across bakes. Above the cap the item is valued at that trade instead, and the row is marked <span class="pill bad">capped</span>.</p>
     <p>Success rate is set by how far your mastery sits above the recipe, since mastery above the recipe level raises the rate; Korean testing found ~95% on low recipes well below the crafter's mastery and ~65% on Dragon-King-tier recipes at matching mastery. A failed craft loses all materials. Bound NPC consumables use the Alchemy and Handicrafting shop prices where known (catalyst and glass bottle 400, professional ink and bottle 1,200, dragon scale hardeners 4,650 to 6,550, exceptional ink 10,000), otherwise the NPC price input. Inputs bought from the market are priced at the higher of the cheapest ask and the cheapest ask that vanished in the window, so a lone low listing does not set the cost.</p>
+    <p><b>Gathering.</b> kisk.app logs what its users' gathers gave over the last 30 days. For each material the page takes the share of gathers that gave each tier (fails give nothing), the cheapest ask for that tier, and the items a successful gather hands over (items ÷ gathers ÷ success rate), taken as the same in every tier. The 7-day column swaps the cheapest ask for the median of a week of hourly cheapest asks, so one thin day does not set the price; it is baked only for servers with history.</p>
+    <div class="formula">kina/gather = Σ tiers ( drop rate × price ) × items per successful gather × (1 − tax − listing fee)</div>
   </details>
 </div>
-<script type="module" src="app.js?v=9"></script>
+<script type="module" src="app.js?v=10"></script>
 </body>
 </html>

@@ -1,8 +1,9 @@
 import { DEFAULTS, evaluate, tree, itemName, maxTrade, isCapped } from './model/craft.js?v=9';
+import { gatherRows } from './model/gather.js?v=1';
 
 const $ = id => document.getElementById(id);
-let GRAPH = null, SERVERS = null, META = null, PRICES = {}, HISTORY = {}, P = { ...DEFAULTS }, RESULT = null, SELECTED = null;
-let sortKey = 'ppm', sortDir = -1;
+let GRAPH = null, SERVERS = null, META = null, GATHER = null, PRICES = {}, HISTORY = {}, P = { ...DEFAULTS }, RESULT = null, SELECTED = null;
+let sortKey = 'ppm', sortDir = -1, gSortKey = 'now', gSortDir = -1;
 
 const fmt = n => n == null || isNaN(n) ? '–' : Math.abs(n) >= 1e6 ? (n / 1e6).toFixed(2) + 'M' : Math.abs(n) >= 1e4 ? (n / 1e3).toFixed(1) + 'k' : Math.round(n).toLocaleString();
 const pct = n => n == null || isNaN(n) ? '–' : (n * 100).toFixed(0) + '%';
@@ -54,7 +55,7 @@ window.recalc = async () => {
   const prev = P.server; readParams();
   if (P.server !== prev || !Object.keys(PRICES).length) await loadServerData(P.server);
   RESULT = evaluate(GRAPH, PRICES, HISTORY, P);
-  renderOpps(); renderMarket(); if (SELECTED) renderRecipe(SELECTED);
+  renderOpps(); renderMarket(); renderGather(); if (SELECTED) renderRecipe(SELECTED);
 };
 
 const COLS = [
@@ -144,6 +145,22 @@ window.renderMarket = () => {
     rows.slice(0, 600).map(([k, v]) => { const h = HISTORY[k]; return `<tr><td><span class="name">${icon(k)}${v.name}</span></td><td class="dim">${v.cat}</td><td class="num">${fmt(v.p)}</td><td class="num dim">${v.n}</td><td class="num ${cls(v.chg)}">${v.chg == null ? '–' : v.chg.toFixed(0) + '%'}</td><td class="num">${v.sold ? v.sold.toLocaleString() : '<span class="dim">–</span>'}</td><td class="num">${fmt(v.avg)}</td><td>${h && h.lo ? `${fmt(h.lo)}–${fmt(h.hi)} <span class="dim">(${h.gone}/${h.hours}h)</span>` : h ? `<span class="dim">${h.gone} gone/${h.hours}h</span>` : ''}</td><td>${craftable.has(k) ? `<button class="mbtn" onclick="pick('${RESULT.ctx.byOut.get(k) || RESULT.ctx.byCombo.get(k)}')">recipe</button>` : ''}</td></tr>`; }).join('');
 };
 
+window.gSortBy = k => { if (gSortKey === k) gSortDir = -gSortDir; else { gSortKey = k; gSortDir = k === 'name' ? 1 : -1; } renderGather(); };
+
+function renderGather() {
+  if (!GATHER) { $('gatherNote').textContent = 'no gathering data baked yet'; return; }
+  const srv = (SERVERS.servers || []).find(s => s.server_id === P.server) || {};
+  const keep = 1 - P.tax - P.listFee;
+  const rows = gatherRows(GATHER, PRICES, srv.faction, keep);
+  rows.sort((a, b) => { const x = a[gSortKey], y = b[gSortKey]; if (x == null) return 1; if (y == null) return -1; return (x > y ? 1 : x < y ? -1 : 0) * gSortDir; });
+  const cols = [['name', 'Material', false], ['now', 'kina/gather now', true], ['med', 'at 7-day median', true], ['ipg', 'items/gather', true]];
+  const head = '<tr>' + cols.map(([k, l, n]) => `<th class="${n ? 'num' : ''}" onclick="gSortBy('${k}')">${l}${gSortKey === k ? (gSortDir < 0 ? ' ▾' : ' ▴') : ''}</th>`).join('') +
+    ['Plain', 'Fine / Fresh', 'Pure', 'Radiant'].map(l => `<th class="num">${l}</th>`).join('') + '</tr>';
+  const tier = t => !t ? '<td></td>' : `<td class="num">${fmt(t.now)} <span class="dim" title="${t.item}: ${t.n} listings${t.stale ? ', none now, last ask seen' : ''}${t.med7 == null ? '' : `, 7-day median ${fmt(t.med7)}`}">${+(t.share * 100).toFixed(2)}% × ${fmt(t.price)}${t.stale ? '*' : ''}</span></td>`;
+  $('gatherTable').innerHTML = head + rows.map(r => `<tr><td>${r.name}</td><td class="num good">${fmt(r.now)}</td><td class="num">${fmt(r.med)}</td><td class="num dim">${r.ipg.toFixed(2)}</td>${[0, 1, 2, 3].map(i => tier(r.tiers[i])).join('')}</tr>`).join('');
+  $('gatherNote').innerHTML = `Each tier cell shows what that tier adds to one gather: its kina, then drop rate × cheapest ask. Values are after ${pct(P.tax)} tax and ${pct(P.listFee)} listing fee, and assume every material takes the same time to gather. Materials only the other faction can gather are left out. * nothing listed now, so the last ask seen stands in. Drop rates: <a href="${GATHER.source}" target="_blank" rel="noopener">kisk.app</a> 30-day log, all servers, read ${GATHER.baked_at.slice(0, 10)}.`;
+}
+
 async function renderAlerts() {
   let a = null, log = [];
   try { a = await (await fetch('data/alerts.json', { cache: 'no-cache' })).json(); } catch (e) {}
@@ -157,10 +174,11 @@ async function renderAlerts() {
 window.renderAlerts = renderAlerts;
 
 async function init() {
-  [GRAPH, SERVERS, META] = await Promise.all([
+  [GRAPH, SERVERS, META, GATHER] = await Promise.all([
     fetch('data/graph.json').then(r => r.json()),
     fetch('data/servers.json').then(r => r.json()).catch(() => ({ servers: [] })),
     fetch('data/meta.json', { cache: 'no-cache' }).then(r => r.json()).catch(() => ({ servers: {} })),
+    fetch('data/gathering.json', { cache: 'no-cache' }).then(r => r.json()).catch(() => null),
   ]);
   const baked = new Set(Object.keys(META.servers || {}));
   const opts = (SERVERS.servers || []).filter(s => baked.has(String(s.server_id)))
