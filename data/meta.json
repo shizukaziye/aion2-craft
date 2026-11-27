@@ -1,9 +1,9 @@
 {
- "baked_at": "2026-11-27T02:53:09Z",
+ "baked_at": "2026-11-27T12:30:54Z",
  "servers": {
   "11102": {
-   "items": 991,
-   "history": 255,
+   "items": 600,
+   "history": 252,
    "has_sales": false
   },
   "11304": {

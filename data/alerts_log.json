@@ -1,22 +1,6 @@
 [
  {
   "at": "2026-11-12T21:00:16.949Z",
-  "key": "recipe:412075001",
-  "type": "recipe",
-  "title": "Expert's Orichalcum Cloak",
-  "value": 350329.82186666667,
-  "text": "Expert's Orichalcum Cloak (tailoring 25): +350.3k per craft, 486% ROI, cost 72.1k, 6 cleared in 3.3h, Splendent 1.50M (7 listed), break-even -258.8k"
- },
- {
-  "at": "2026-11-12T21:00:16.949Z",
-  "key": "recipe:111024001",
-  "type": "recipe",
-  "title": "Artisan's Orichalcum Greatsword",
-  "value": 1294570.8933333335,
-  "text": "Artisan's Orichalcum Greatsword (blacksmithing 30): +1.29M per craft, 44% ROI, cost 2.94M, 6 cleared in 3.8h, Splendent 19.89M (3 listed), break-even 13.37M"
- },
- {
-  "at": "2026-11-12T21:00:16.949Z",
   "key": "recipe:412054001",
   "type": "recipe",
   "title": "Artisan's Orichalcum Gloves",
@@ -3998,5 +3982,21 @@
   "title": "Splendent Truth Spellbook",
   "value": -123456,
   "text": "Splendent Truth Spellbook ask 123.5k (15 listed), under your 150.0k line. Cleared –––, 9 gone in 4.2h. Expert's spellbook input, own cost ~186k"
+ },
+ {
+  "at": "2026-11-27T12:46:34.445Z",
+  "key": "below:610530005",
+  "type": "buy",
+  "title": "Expert's Refining Stone",
+  "value": -19999,
+  "text": "Expert's Refining Stone ask 20.0k (98 listed), under your 55.0k line. Cleared 15.0k–23.9k, 77 gone in 4.2h. 5 per Expert's bow or spellbook"
+ },
+ {
+  "at": "2026-11-27T12:46:34.445Z",
+  "key": "below:610530008",
+  "type": "buy",
+  "title": "Artisan's Refining Stone",
+  "value": -89999,
+  "text": "Artisan's Refining Stone ask 90.0k (58 listed), under your 450.0k line. Cleared 77.5k–109.0k, 71 gone in 4.2h. 5 per Artisan's craft"
  }
 ]
