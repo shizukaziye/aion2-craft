@@ -1,5 +1,5 @@
 {
- "baked_at": "2026-11-26T23:17:39Z",
+ "baked_at": "2026-11-28T03:56:17Z",
  "source": "https://kisk.app/gathering",
  "materials": {
   "Odyle": {
@@ -18,11 +18,11 @@
     ],
     [
      "Radiant Odyle",
-     0.0059
+     0.006
     ]
    ],
-   "gathers": 1165099,
-   "items": 1450067
+   "gathers": 1249253,
+   "items": 1554323
   },
   "Orichalcum Ore": {
    "tiers": [
@@ -43,8 +43,8 @@
      0.0058
     ]
    ],
-   "gathers": 521720,
-   "items": 616169
+   "gathers": 553905,
+   "items": 653979
   },
   "Yggdrasil Log": {
    "tiers": [
@@ -62,11 +62,11 @@
     ],
     [
      "Radiant Yggdrasil Log",
-     0.0058
+     0.006
     ]
    ],
-   "gathers": 48424,
-   "items": 58482
+   "gathers": 50525,
+   "items": 60998
   },
   "Asvata Log": {
    "tiers": [
@@ -84,11 +84,11 @@
     ],
     [
      "Radiant Asvata Log",
-     0.0055
+     0.0056
     ]
    ],
-   "gathers": 49722,
-   "items": 58533
+   "gathers": 53504,
+   "items": 63173
   },
   "Sapphire Gemstone": {
    "tiers": [
@@ -109,8 +109,8 @@
      0.0056
     ]
    ],
-   "gathers": 193628,
-   "items": 209864
+   "gathers": 205093,
+   "items": 222543
   },
   "Diamond Gemstone": {
    "tiers": [
@@ -131,8 +131,8 @@
      0.0048
     ]
    ],
-   "gathers": 80874,
-   "items": 85998
+   "gathers": 85136,
+   "items": 90353
   },
   "Ruby Gemstone": {
    "tiers": [
@@ -153,22 +153,22 @@
      0.0049
     ]
    ],
-   "gathers": 115438,
-   "items": 122124
+   "gathers": 121806,
+   "items": 128922
   },
   "Aria": {
    "tiers": [
     [
      "Aria",
-     0.75
+     0.76
     ],
     [
      "Fresh Aria",
      0.22
     ]
    ],
-   "gathers": 32332,
-   "items": 36976
+   "gathers": 33867,
+   "items": 38734
   },
   "Targena": {
    "tiers": [
@@ -181,8 +181,8 @@
      0.22
     ]
    ],
-   "gathers": 18682,
-   "items": 21308
+   "gathers": 19682,
+   "items": 22365
   },
   "Azpha": {
    "tiers": [
@@ -195,8 +195,8 @@
      0.22
     ]
    ],
-   "gathers": 54620,
-   "items": 65123
+   "gathers": 56635,
+   "items": 67323
   },
   "Calendula": {
    "tiers": [
@@ -209,8 +209,8 @@
      0.21
     ]
    ],
-   "gathers": 24415,
-   "items": 27926
+   "gathers": 26332,
+   "items": 30083
   },
   "Coriolus": {
    "tiers": [
@@ -219,8 +219,8 @@
      0.97
     ]
    ],
-   "gathers": 4098,
-   "items": 6134
+   "gathers": 4278,
+   "items": 6385
   },
   "Kukuru": {
    "tiers": [
@@ -229,8 +229,8 @@
      0.98
     ]
    ],
-   "gathers": 12041,
-   "items": 20338
+   "gathers": 13519,
+   "items": 22929
   },
   "Mela": {
    "tiers": [
@@ -239,8 +239,8 @@
      0.97
     ]
    ],
-   "gathers": 5063,
-   "items": 7508
+   "gathers": 5160,
+   "items": 7653
   },
   "Inina": {
    "tiers": [
@@ -249,8 +249,8 @@
      0.98
     ]
    ],
-   "gathers": 16883,
-   "items": 28122
+   "gathers": 18630,
+   "items": 30990
   },
   "Cypri": {
    "tiers": [
@@ -259,8 +259,8 @@
      0.98
     ]
    ],
-   "gathers": 17442,
-   "items": 29859
+   "gathers": 18765,
+   "items": 32047
   },
   "Morfa": {
    "tiers": [
@@ -269,8 +269,8 @@
      0.98
     ]
    ],
-   "gathers": 3840,
-   "items": 5873
+   "gathers": 3971,
+   "items": 6099
   },
   "Ohkra": {
    "tiers": [
@@ -279,8 +279,8 @@
      0.98
     ]
    ],
-   "gathers": 16543,
-   "items": 27748
+   "gathers": 17545,
+   "items": 29179
   },
   "Raydam": {
    "tiers": [
@@ -289,8 +289,8 @@
      0.97
     ]
    ],
-   "gathers": 7826,
-   "items": 11510
+   "gathers": 8314,
+   "items": 12226
   },
   "Conide": {
    "tiers": [
@@ -299,8 +299,8 @@
      0.98
     ]
    ],
-   "gathers": 35207,
-   "items": 62184
+   "gathers": 36946,
+   "items": 65008
   },
   "Pujery": {
    "tiers": [
@@ -309,8 +309,8 @@
      0.98
     ]
    ],
-   "gathers": 22732,
-   "items": 38150
+   "gathers": 23743,
+   "items": 39669
   }
  }
 }
